@@ -1,11 +1,7 @@
-﻿using RandomizerCore;
-using RandomizerCore.Logic;
-using RandomizerCore.LogicItems;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using RandomizerCore;
+using RandomizerCore.Logic;
 
 namespace TheRealTransitionRando {
     public record LogicRealTransition: LogicItem, ILocationDependentItem {
@@ -29,8 +25,7 @@ namespace TheRealTransitionRando {
         }
 
         public void Place(ProgressionManager pm, ILogicDef location) {
-            foreach(Term locTerm in location.GetTerms())
-                pm.mu.LinkState(locTerm, term);
+            pm.mu.LinkState(pm.lm.GetTermStrict(location.Name), term);
         }
     }
 }

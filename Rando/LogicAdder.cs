@@ -54,14 +54,13 @@ namespace TheRealTransitionRando {
                     if(key != term && lmb.LogicLookup[key].Expr.Print().Contains(term)) {
                         
                         lmb.DoSubst(new(key, term, TransitionCoords.logicReplaceData[term]));
-                        mlog($"\t\tSubstituted logic for {key} with {lmb.LogicLookup[key].Expr.Print()}");
                     }
                 }
             }
 
             foreach(string key in keys) {
-                if(!lmb.Waypoints.Contains(key)) {
-                    lmb.AddWaypoint(new(key, lmb.LogicLookup[key].Expr.Print()));
+                if(!lmb.Waypoints.Contains(key) && !lmb.Transitions.Contains(key)) {
+                    lmb.AddWaypoint(new(key, lmb.LogicLookup[key].ToInfix()));
                 }
             }
         }
