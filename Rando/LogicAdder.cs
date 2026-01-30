@@ -5,6 +5,7 @@ using System.Linq;
 using RandomizerCore;
 using RandomizerCore.Json;
 using RandomizerCore.Logic;
+using RandomizerCore.Logic.StateLogic;
 using RandomizerCore.LogicItems;
 using RandomizerCore.StringLogic;
 using RandomizerCore.StringParsing;
@@ -51,21 +52,24 @@ namespace TheRealTransitionRando {
                 foreach(string term in TransitionCoords.logicReplaceData.Keys) {
                     if(term.Substring(0, 4) == "Town" && key.StartsWith("Deepnest_Spider_Town"))
                         continue;
-                    if(key != term && lmb.LogicLookup[key].Expr.Print().Contains(term)) {
-                        
+                    if(key != term && lmb.LogicLookup[key].ToInfix().Contains(term)) {
                         lmb.DoSubst(new(key, term, TransitionCoords.logicReplaceData[term]));
                     }
                 }
             }
 
             foreach(string key in keys) {
-                if(!lmb.Waypoints.Contains(key) && !lmb.Transitions.Contains(key)) {
+                /*if(!lmb.Waypoints.Contains(key) && !lmb.Transitions.Contains(key)) {
                     lmb.AddWaypoint(new(key, lmb.LogicLookup[key].ToInfix()));
-                }
+                }*/
+                if(key.StartsWith("Transition-") || lmb.Transitions.Contains(key))
+                    continue;
+                lmb.AddWaypoint(new($"TRTR_Waypoint-{key}", lmb.LogicLookup[key].ToInfix()));
+                mlog($"Added waypoint TRTR_Waypoint-{key} : {lmb.LogicLookup[key].ToInfix()}");
             }
         }
 
-        private static void mlog(string msg) {
+        public static void mlog(string msg) {
             Modding.Logger.Log($"[TheRealTransitionRando] - {msg}");
         }
     }
