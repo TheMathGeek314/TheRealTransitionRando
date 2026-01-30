@@ -1,0 +1,3538 @@
+[
+  {
+    "name": "Transition-Abyss_01[left1]",
+    "logic": "*Abyss_01[left1]"
+  },
+  {
+    "name": "Transition-Abyss_01[left2]",
+    "logic": "*Abyss_01[left2]"
+  },
+  {
+    "name": "Transition-Abyss_01[left3]",
+    "logic": "*Abyss_01[left3]"
+  },
+  {
+    "name": "Transition-Abyss_01[right1]",
+    "logic": "*Abyss_01[right1]"
+  },
+  {
+    "name": "Transition-Abyss_01[right2]",
+    "logic": "*Abyss_01[right2]"
+  },
+  {
+    "name": "Transition-Abyss_02[bot1]",
+    "logic": "*Abyss_02[bot1]"
+  },
+  {
+    "name": "Transition-Abyss_02[right1]",
+    "logic": "*Abyss_02[right1]"
+  },
+  {
+    "name": "Transition-Abyss_03[bot1]",
+    "logic": "*Abyss_03[bot1]"
+  },
+  {
+    "name": "Transition-Abyss_03[bot2]",
+    "logic": "*Abyss_03[bot2]"
+  },
+  {
+    "name": "Transition-Abyss_03[top1]",
+    "logic": "*Abyss_03[top1]"
+  },
+  {
+    "name": "Transition-Abyss_03_b[left1]",
+    "logic": "*Abyss_03_b[left1]"
+  },
+  {
+    "name": "Transition-Abyss_03_c[right1]",
+    "logic": "*Abyss_03_c[right1]"
+  },
+  {
+    "name": "Transition-Abyss_03_c[top1]",
+    "logic": "*Abyss_03_c[top1]"
+  },
+  {
+    "name": "Transition-Abyss_04[bot1]",
+    "logic": "*Abyss_04[bot1]"
+  },
+  {
+    "name": "Transition-Abyss_04[left1]",
+    "logic": "*Abyss_04[left1]"
+  },
+  {
+    "name": "Transition-Abyss_04[right1]",
+    "logic": "*Abyss_04[right1]"
+  },
+  {
+    "name": "Transition-Abyss_04[top1]",
+    "logic": "*Abyss_04[top1]"
+  },
+  {
+    "name": "Transition-Abyss_05[left1]",
+    "logic": "*Abyss_05[left1]"
+  },
+  {
+    "name": "Transition-Abyss_05[right1]",
+    "logic": "*Abyss_05[right1]"
+  },
+  {
+    "name": "Transition-Abyss_06_Core[bot1]",
+    "logic": "*Abyss_06_Core[bot1]"
+  },
+  {
+    "name": "Transition-Abyss_06_Core[left1]",
+    "logic": "*Abyss_06_Core[left1]"
+  },
+  {
+    "name": "Transition-Abyss_06_Core[left3]",
+    "logic": "*Abyss_06_Core[left3]"
+  },
+  {
+    "name": "Transition-Abyss_06_Core[right2]",
+    "logic": "*Abyss_06_Core[right2]"
+  },
+  {
+    "name": "Transition-Abyss_06_Core[top1]",
+    "logic": "*Abyss_06_Core[top1]"
+  },
+  {
+    "name": "Transition-Abyss_08[right1]",
+    "logic": "*Abyss_08[right1]"
+  },
+  {
+    "name": "Transition-Abyss_09[left1]",
+    "logic": "*Abyss_09[left1]"
+  },
+  {
+    "name": "Transition-Abyss_09[right1]",
+    "logic": "*Abyss_09[right1]"
+  },
+  {
+    "name": "Transition-Abyss_09[right2]",
+    "logic": "*Abyss_09[right2]"
+  },
+  {
+    "name": "Transition-Abyss_09[right3]",
+    "logic": "*Abyss_09[right3]"
+  },
+  {
+    "name": "Transition-Abyss_10[left1]",
+    "logic": "*Abyss_10[left1]"
+  },
+  {
+    "name": "Transition-Abyss_10[left2]",
+    "logic": "*Abyss_10[left2]"
+  },
+  {
+    "name": "Transition-Abyss_12[right1]",
+    "logic": "*Abyss_12[right1]"
+  },
+  {
+    "name": "Transition-Abyss_15[top1]",
+    "logic": "*Abyss_15[top1]"
+  },
+  {
+    "name": "Transition-Abyss_16[left1]",
+    "logic": "*Abyss_16[left1]"
+  },
+  {
+    "name": "Transition-Abyss_16[right1]",
+    "logic": "*Abyss_16[right1]"
+  },
+  {
+    "name": "Transition-Abyss_17[top1]",
+    "logic": "*Abyss_17[top1]"
+  },
+  {
+    "name": "Transition-Abyss_18[left1]",
+    "logic": "*Abyss_18[left1]"
+  },
+  {
+    "name": "Transition-Abyss_18[right1]",
+    "logic": "*Abyss_18[right1]"
+  },
+  {
+    "name": "Transition-Abyss_19[bot1]",
+    "logic": "*Abyss_19[bot1]"
+  },
+  {
+    "name": "Transition-Abyss_19[bot2]",
+    "logic": "*Abyss_19[bot2]"
+  },
+  {
+    "name": "Transition-Abyss_19[left1]",
+    "logic": "*Abyss_19[left1]"
+  },
+  {
+    "name": "Transition-Abyss_19[right1]",
+    "logic": "*Abyss_19[right1]"
+  },
+  {
+    "name": "Transition-Abyss_20[top1]",
+    "logic": "*Abyss_20[top1]"
+  },
+  {
+    "name": "Transition-Abyss_20[top2]",
+    "logic": "*Abyss_20[top2]"
+  },
+  {
+    "name": "Transition-Abyss_21[right1]",
+    "logic": "*Abyss_21[right1]"
+  },
+  {
+    "name": "Transition-Abyss_22[left1]",
+    "logic": "*Abyss_22[left1]"
+  },
+  {
+    "name": "Transition-Abyss_Lighthouse_room[left1]",
+    "logic": "*Abyss_Lighthouse_room[left1]"
+  },
+  {
+    "name": "Transition-Cliffs_01[right1]",
+    "logic": "*Cliffs_01[right1]"
+  },
+  {
+    "name": "Transition-Cliffs_01[right2]",
+    "logic": "*Cliffs_01[right2]"
+  },
+  {
+    "name": "Transition-Cliffs_01[right3]",
+    "logic": "*Cliffs_01[right3]"
+  },
+  {
+    "name": "Transition-Cliffs_01[right4]",
+    "logic": "*Cliffs_01[right4]"
+  },
+  {
+    "name": "Transition-Cliffs_02[bot1]",
+    "logic": "*Cliffs_02[bot1]"
+  },
+  {
+    "name": "Transition-Cliffs_02[bot2]",
+    "logic": "*Cliffs_02[bot2]"
+  },
+  {
+    "name": "Transition-Cliffs_02[door1]",
+    "logic": "*Cliffs_02[door1]"
+  },
+  {
+    "name": "Transition-Cliffs_02[left1]",
+    "logic": "*Cliffs_02[left1]"
+  },
+  {
+    "name": "Transition-Cliffs_02[left2]",
+    "logic": "*Cliffs_02[left2]"
+  },
+  {
+    "name": "Transition-Cliffs_02[right1]",
+    "logic": "*Cliffs_02[right1]"
+  },
+  {
+    "name": "Transition-Cliffs_03[right1]",
+    "logic": "*Cliffs_03[right1]"
+  },
+  {
+    "name": "Transition-Cliffs_04[left1]",
+    "logic": "*Cliffs_04[left1]"
+  },
+  {
+    "name": "Transition-Cliffs_04[right1]",
+    "logic": "*Cliffs_04[right1]"
+  },
+  {
+    "name": "Transition-Cliffs_05[left1]",
+    "logic": "*Cliffs_05[left1]"
+  },
+  {
+    "name": "Transition-Cliffs_06[left1]",
+    "logic": "*Cliffs_06[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_01[left1]",
+    "logic": "*Crossroads_01[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_01[right1]",
+    "logic": "*Crossroads_01[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_01[top1]",
+    "logic": "*Crossroads_01[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_02[door1]",
+    "logic": "*Crossroads_02[door1]"
+  },
+  {
+    "name": "Transition-Crossroads_02[left1]",
+    "logic": "*Crossroads_02[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_02[right1]",
+    "logic": "*Crossroads_02[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_03[bot1]",
+    "logic": "*Crossroads_03[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_03[left1]",
+    "logic": "*Crossroads_03[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_03[left2]",
+    "logic": "*Crossroads_03[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_03[right1]",
+    "logic": "*Crossroads_03[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_03[right2]",
+    "logic": "*Crossroads_03[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_03[top1]",
+    "logic": "*Crossroads_03[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_04[door_charmshop]",
+    "logic": "*Crossroads_04[door_charmshop]"
+  },
+  {
+    "name": "Transition-Crossroads_04[door_Mender_House]",
+    "logic": "*Crossroads_04[door_Mender_House]"
+  },
+  {
+    "name": "Transition-Crossroads_04[door1]",
+    "logic": "*Crossroads_04[door1]"
+  },
+  {
+    "name": "Transition-Crossroads_04[left1]",
+    "logic": "*Crossroads_04[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_04[right1]",
+    "logic": "*Crossroads_04[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_04[top1]",
+    "logic": "*Crossroads_04[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_05[left1]",
+    "logic": "*Crossroads_05[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_05[right1]",
+    "logic": "*Crossroads_05[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_06[door1]",
+    "logic": "*Crossroads_06[door1]"
+  },
+  {
+    "name": "Transition-Crossroads_06[left1]",
+    "logic": "*Crossroads_06[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_06[right1]",
+    "logic": "*Crossroads_06[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_07[bot1]",
+    "logic": "*Crossroads_07[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_07[left1]",
+    "logic": "*Crossroads_07[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_07[left2]",
+    "logic": "*Crossroads_07[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_07[left3]",
+    "logic": "*Crossroads_07[left3]"
+  },
+  {
+    "name": "Transition-Crossroads_07[right1]",
+    "logic": "*Crossroads_07[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_07[right2]",
+    "logic": "*Crossroads_07[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_08[left1]",
+    "logic": "*Crossroads_08[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_08[left2]",
+    "logic": "*Crossroads_08[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_08[right1]",
+    "logic": "*Crossroads_08[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_08[right2]",
+    "logic": "*Crossroads_08[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_09[left1]",
+    "logic": "*Crossroads_09[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_09[right1]",
+    "logic": "*Crossroads_09[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_10[left1]",
+    "logic": "*Crossroads_10[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_10[right1]",
+    "logic": "*Crossroads_10[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_11_alt[left1]",
+    "logic": "*Crossroads_11_alt[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_11_alt[right1]",
+    "logic": "*Crossroads_11_alt[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_12[left1]",
+    "logic": "*Crossroads_12[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_12[right1]",
+    "logic": "*Crossroads_12[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_13[left1]",
+    "logic": "*Crossroads_13[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_13[right1]",
+    "logic": "*Crossroads_13[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_14[left1]",
+    "logic": "*Crossroads_14[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_14[left2]",
+    "logic": "*Crossroads_14[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_14[right1]",
+    "logic": "*Crossroads_14[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_14[right2]",
+    "logic": "*Crossroads_14[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_15[left1]",
+    "logic": "*Crossroads_15[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_15[right1]",
+    "logic": "*Crossroads_15[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_16[bot1]",
+    "logic": "*Crossroads_16[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_16[left1]",
+    "logic": "*Crossroads_16[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_16[right1]",
+    "logic": "*Crossroads_16[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_18[bot1]",
+    "logic": "*Crossroads_18[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_18[right1]",
+    "logic": "*Crossroads_18[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_18[right2]",
+    "logic": "*Crossroads_18[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_19[left1]",
+    "logic": "*Crossroads_19[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_19[left2]",
+    "logic": "*Crossroads_19[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_19[right1]",
+    "logic": "*Crossroads_19[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_19[top1]",
+    "logic": "*Crossroads_19[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_21[left1]",
+    "logic": "*Crossroads_21[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_21[right1]",
+    "logic": "*Crossroads_21[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_21[top1]",
+    "logic": "*Crossroads_21[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_22[bot1]",
+    "logic": "*Crossroads_22[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_25[left1]",
+    "logic": "*Crossroads_25[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_25[right1]",
+    "logic": "*Crossroads_25[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_27[bot1]",
+    "logic": "*Crossroads_27[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_27[left1]",
+    "logic": "*Crossroads_27[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_27[left2]",
+    "logic": "*Crossroads_27[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_27[right1]",
+    "logic": "*Crossroads_27[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_30[left1]",
+    "logic": "*Crossroads_30[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_31[right1]",
+    "logic": "*Crossroads_31[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_33[left1]",
+    "logic": "*Crossroads_33[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_33[left2]",
+    "logic": "*Crossroads_33[left2]"
+  },
+  {
+    "name": "Transition-Crossroads_33[right1]",
+    "logic": "*Crossroads_33[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_33[right2]",
+    "logic": "*Crossroads_33[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_33[top1]",
+    "logic": "*Crossroads_33[top1]"
+  },
+  {
+    "name": "Transition-Crossroads_35[bot1]",
+    "logic": "*Crossroads_35[bot1]"
+  },
+  {
+    "name": "Transition-Crossroads_35[right1]",
+    "logic": "*Crossroads_35[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_36[right1]",
+    "logic": "*Crossroads_36[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_36[right2]",
+    "logic": "*Crossroads_36[right2]"
+  },
+  {
+    "name": "Transition-Crossroads_37[right1]",
+    "logic": "*Crossroads_37[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_38[right1]",
+    "logic": "*Crossroads_38[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_39[left1]",
+    "logic": "*Crossroads_39[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_39[right1]",
+    "logic": "*Crossroads_39[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_40[left1]",
+    "logic": "*Crossroads_40[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_40[right1]",
+    "logic": "*Crossroads_40[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_42[left1]",
+    "logic": "*Crossroads_42[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_42[right1]",
+    "logic": "*Crossroads_42[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_43[left1]",
+    "logic": "*Crossroads_43[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_43[right1]",
+    "logic": "*Crossroads_43[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_45[left1]",
+    "logic": "*Crossroads_45[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_45[right1]",
+    "logic": "*Crossroads_45[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_46[left1]",
+    "logic": "*Crossroads_46[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_46b[right1]",
+    "logic": "*Crossroads_46b[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_47[right1]",
+    "logic": "*Crossroads_47[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_48[left1]",
+    "logic": "*Crossroads_48[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_49[left1]",
+    "logic": "*Crossroads_49[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_49[right1]",
+    "logic": "*Crossroads_49[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_49b[right1]",
+    "logic": "*Crossroads_49b[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_50[left1]",
+    "logic": "*Crossroads_50[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_50[right1]",
+    "logic": "*Crossroads_50[right1]"
+  },
+  {
+    "name": "Transition-Crossroads_52[left1]",
+    "logic": "*Crossroads_52[left1]"
+  },
+  {
+    "name": "Transition-Crossroads_ShamanTemple[left1]",
+    "logic": "*Crossroads_ShamanTemple[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_01[bot1]",
+    "logic": "*Deepnest_01[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_01[bot2]",
+    "logic": "*Deepnest_01[bot2]"
+  },
+  {
+    "name": "Transition-Deepnest_01[left1]",
+    "logic": "*Deepnest_01[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_01[right1]",
+    "logic": "*Deepnest_01[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_01b[bot1]",
+    "logic": "*Deepnest_01b[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_01b[right1]",
+    "logic": "*Deepnest_01b[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_01b[right2]",
+    "logic": "*Deepnest_01b[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_01b[top1]",
+    "logic": "*Deepnest_01b[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_02[left1]",
+    "logic": "*Deepnest_02[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_02[left2]",
+    "logic": "*Deepnest_02[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_02[right1]",
+    "logic": "*Deepnest_02[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_03[left1]",
+    "logic": "*Deepnest_03[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_03[left2]",
+    "logic": "*Deepnest_03[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_03[right1]",
+    "logic": "*Deepnest_03[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_03[top1]",
+    "logic": "*Deepnest_03[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_09[left1]",
+    "logic": "*Deepnest_09[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_10[door1]",
+    "logic": "*Deepnest_10[door1]"
+  },
+  {
+    "name": "Transition-Deepnest_10[door2]",
+    "logic": "*Deepnest_10[door2]"
+  },
+  {
+    "name": "Transition-Deepnest_10[right1]",
+    "logic": "*Deepnest_10[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_10[right2]",
+    "logic": "*Deepnest_10[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_10[right3]",
+    "logic": "*Deepnest_10[right3]"
+  },
+  {
+    "name": "Transition-Deepnest_14[bot1]",
+    "logic": "*Deepnest_14[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_14[bot2]",
+    "logic": "*Deepnest_14[bot2]"
+  },
+  {
+    "name": "Transition-Deepnest_14[left1]",
+    "logic": "*Deepnest_14[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_14[right1]",
+    "logic": "*Deepnest_14[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_16[bot1]",
+    "logic": "*Deepnest_16[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_16[left1]",
+    "logic": "*Deepnest_16[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_17[bot1]",
+    "logic": "*Deepnest_17[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_17[left1]",
+    "logic": "*Deepnest_17[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_17[right1]",
+    "logic": "*Deepnest_17[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_17[top1]",
+    "logic": "*Deepnest_17[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_26[bot1]",
+    "logic": "*Deepnest_26[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_26[left1]",
+    "logic": "*Deepnest_26[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_26[left2]",
+    "logic": "*Deepnest_26[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_26[right1]",
+    "logic": "*Deepnest_26[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_26b[right1]",
+    "logic": "*Deepnest_26b[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_26b[right2]",
+    "logic": "*Deepnest_26b[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_30[left1]",
+    "logic": "*Deepnest_30[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_30[right1]",
+    "logic": "*Deepnest_30[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_30[top1]",
+    "logic": "*Deepnest_30[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_31[right1]",
+    "logic": "*Deepnest_31[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_31[right2]",
+    "logic": "*Deepnest_31[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_32[left1]",
+    "logic": "*Deepnest_32[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_33[bot1]",
+    "logic": "*Deepnest_33[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_33[top1]",
+    "logic": "*Deepnest_33[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_33[top2]",
+    "logic": "*Deepnest_33[top2]"
+  },
+  {
+    "name": "Transition-Deepnest_34[left1]",
+    "logic": "*Deepnest_34[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_34[right1]",
+    "logic": "*Deepnest_34[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_34[top1]",
+    "logic": "*Deepnest_34[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_35[bot1]",
+    "logic": "*Deepnest_35[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_35[left1]",
+    "logic": "*Deepnest_35[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_35[top1]",
+    "logic": "*Deepnest_35[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_36[left1]",
+    "logic": "*Deepnest_36[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_37[bot1]",
+    "logic": "*Deepnest_37[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_37[left1]",
+    "logic": "*Deepnest_37[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_37[right1]",
+    "logic": "*Deepnest_37[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_37[top1]",
+    "logic": "*Deepnest_37[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_38[bot1]",
+    "logic": "*Deepnest_38[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_39[door1]",
+    "logic": "*Deepnest_39[door1]"
+  },
+  {
+    "name": "Transition-Deepnest_39[left1]",
+    "logic": "*Deepnest_39[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_39[right1]",
+    "logic": "*Deepnest_39[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_39[top1]",
+    "logic": "*Deepnest_39[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_40[right1]",
+    "logic": "*Deepnest_40[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_41[left1]",
+    "logic": "*Deepnest_41[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_41[left2]",
+    "logic": "*Deepnest_41[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_41[right1]",
+    "logic": "*Deepnest_41[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_42[bot1]",
+    "logic": "*Deepnest_42[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_42[left1]",
+    "logic": "*Deepnest_42[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_42[top1]",
+    "logic": "*Deepnest_42[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_43[bot1]",
+    "logic": "*Deepnest_43[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_43[left1]",
+    "logic": "*Deepnest_43[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_43[right1]",
+    "logic": "*Deepnest_43[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_44[top1]",
+    "logic": "*Deepnest_44[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_45_v02[left1]",
+    "logic": "*Deepnest_45_v02[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_01[bot1]",
+    "logic": "*Deepnest_East_01[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_01[right1]",
+    "logic": "*Deepnest_East_01[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_01[top1]",
+    "logic": "*Deepnest_East_01[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_02[bot1]",
+    "logic": "*Deepnest_East_02[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_02[bot2]",
+    "logic": "*Deepnest_East_02[bot2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_02[right1]",
+    "logic": "*Deepnest_East_02[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_02[top1]",
+    "logic": "*Deepnest_East_02[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_03[left1]",
+    "logic": "*Deepnest_East_03[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_03[left2]",
+    "logic": "*Deepnest_East_03[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_03[right1]",
+    "logic": "*Deepnest_East_03[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_03[right2]",
+    "logic": "*Deepnest_East_03[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_03[top1]",
+    "logic": "*Deepnest_East_03[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_04[left1]",
+    "logic": "*Deepnest_East_04[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_04[left2]",
+    "logic": "*Deepnest_East_04[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_04[right1]",
+    "logic": "*Deepnest_East_04[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_04[right2]",
+    "logic": "*Deepnest_East_04[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_06[bot1]",
+    "logic": "*Deepnest_East_06[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_06[door1]",
+    "logic": "*Deepnest_East_06[door1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_06[left1]",
+    "logic": "*Deepnest_East_06[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_06[right1]",
+    "logic": "*Deepnest_East_06[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_06[top1]",
+    "logic": "*Deepnest_East_06[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_07[bot1]",
+    "logic": "*Deepnest_East_07[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_07[bot2]",
+    "logic": "*Deepnest_East_07[bot2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_07[left1]",
+    "logic": "*Deepnest_East_07[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_07[left2]",
+    "logic": "*Deepnest_East_07[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_07[right1]",
+    "logic": "*Deepnest_East_07[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_08[right1]",
+    "logic": "*Deepnest_East_08[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_08[top1]",
+    "logic": "*Deepnest_East_08[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_09[bot1]",
+    "logic": "*Deepnest_East_09[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_09[left1]",
+    "logic": "*Deepnest_East_09[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_09[right1]",
+    "logic": "*Deepnest_East_09[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_10[left1]",
+    "logic": "*Deepnest_East_10[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_11[bot1]",
+    "logic": "*Deepnest_East_11[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_11[left1]",
+    "logic": "*Deepnest_East_11[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_11[right1]",
+    "logic": "*Deepnest_East_11[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_11[top1]",
+    "logic": "*Deepnest_East_11[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_12[left1]",
+    "logic": "*Deepnest_East_12[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_12[right1]",
+    "logic": "*Deepnest_East_12[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_13[bot1]",
+    "logic": "*Deepnest_East_13[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_14[door1]",
+    "logic": "*Deepnest_East_14[door1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_14[left1]",
+    "logic": "*Deepnest_East_14[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_14[top2]",
+    "logic": "*Deepnest_East_14[top2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_14b[right1]",
+    "logic": "*Deepnest_East_14b[right1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_14b[top1]",
+    "logic": "*Deepnest_East_14b[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_15[left1]",
+    "logic": "*Deepnest_East_15[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_16[bot1]",
+    "logic": "*Deepnest_East_16[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_16[left1]",
+    "logic": "*Deepnest_East_16[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_17[left1]",
+    "logic": "*Deepnest_East_17[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_18[bot1]",
+    "logic": "*Deepnest_East_18[bot1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_18[right2]",
+    "logic": "*Deepnest_East_18[right2]"
+  },
+  {
+    "name": "Transition-Deepnest_East_18[top1]",
+    "logic": "*Deepnest_East_18[top1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_Hornet[left1]",
+    "logic": "*Deepnest_East_Hornet[left1]"
+  },
+  {
+    "name": "Transition-Deepnest_East_Hornet[left2]",
+    "logic": "*Deepnest_East_Hornet[left2]"
+  },
+  {
+    "name": "Transition-Deepnest_Spider_Town[left1]",
+    "logic": "*Deepnest_Spider_Town[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_01[left1]",
+    "logic": "*Fungus1_01[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_01[right1]",
+    "logic": "*Fungus1_01[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_01b[left1]",
+    "logic": "*Fungus1_01b[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_01b[right1]",
+    "logic": "*Fungus1_01b[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_02[left1]",
+    "logic": "*Fungus1_02[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_02[right1]",
+    "logic": "*Fungus1_02[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_02[right2]",
+    "logic": "*Fungus1_02[right2]"
+  },
+  {
+    "name": "Transition-Fungus1_03[bot1]",
+    "logic": "*Fungus1_03[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_03[left1]",
+    "logic": "*Fungus1_03[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_03[right1]",
+    "logic": "*Fungus1_03[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_04[left1]",
+    "logic": "*Fungus1_04[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_04[right1]",
+    "logic": "*Fungus1_04[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_05[bot1]",
+    "logic": "*Fungus1_05[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_05[right1]",
+    "logic": "*Fungus1_05[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_05[top1]",
+    "logic": "*Fungus1_05[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_06[bot1]",
+    "logic": "*Fungus1_06[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_06[left1]",
+    "logic": "*Fungus1_06[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_07[left1]",
+    "logic": "*Fungus1_07[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_07[right1]",
+    "logic": "*Fungus1_07[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_07[top1]",
+    "logic": "*Fungus1_07[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_08[left1]",
+    "logic": "*Fungus1_08[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_09[left1]",
+    "logic": "*Fungus1_09[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_09[right1]",
+    "logic": "*Fungus1_09[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_10[left1]",
+    "logic": "*Fungus1_10[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_10[right1]",
+    "logic": "*Fungus1_10[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_10[top1]",
+    "logic": "*Fungus1_10[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_11[bot1]",
+    "logic": "*Fungus1_11[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_11[left1]",
+    "logic": "*Fungus1_11[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_11[right1]",
+    "logic": "*Fungus1_11[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_11[right2]",
+    "logic": "*Fungus1_11[right2]"
+  },
+  {
+    "name": "Transition-Fungus1_11[top1]",
+    "logic": "*Fungus1_11[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_12[left1]",
+    "logic": "*Fungus1_12[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_12[right1]",
+    "logic": "*Fungus1_12[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_13[left1]",
+    "logic": "*Fungus1_13[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_13[right1]",
+    "logic": "*Fungus1_13[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_14[left1]",
+    "logic": "*Fungus1_14[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_15[door1]",
+    "logic": "*Fungus1_15[door1]"
+  },
+  {
+    "name": "Transition-Fungus1_15[right1]",
+    "logic": "*Fungus1_15[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_16_alt[right1]",
+    "logic": "*Fungus1_16_alt[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_17[left1]",
+    "logic": "*Fungus1_17[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_17[right1]",
+    "logic": "*Fungus1_17[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_19[bot1]",
+    "logic": "*Fungus1_19[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_19[left1]",
+    "logic": "*Fungus1_19[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_19[right1]",
+    "logic": "*Fungus1_19[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_20_v02[bot1]",
+    "logic": "*Fungus1_20_v02[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_20_v02[bot2]",
+    "logic": "*Fungus1_20_v02[bot2]"
+  },
+  {
+    "name": "Transition-Fungus1_20_v02[right1]",
+    "logic": "*Fungus1_20_v02[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_21[bot1]",
+    "logic": "*Fungus1_21[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_21[left1]",
+    "logic": "*Fungus1_21[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_21[right1]",
+    "logic": "*Fungus1_21[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_21[top1]",
+    "logic": "*Fungus1_21[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_22[bot1]",
+    "logic": "*Fungus1_22[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_22[left1]",
+    "logic": "*Fungus1_22[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_22[top1]",
+    "logic": "*Fungus1_22[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_23[left1]",
+    "logic": "*Fungus1_23[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_23[right1]",
+    "logic": "*Fungus1_23[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_24[left1]",
+    "logic": "*Fungus1_24[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_25[left1]",
+    "logic": "*Fungus1_25[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_25[right1]",
+    "logic": "*Fungus1_25[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_26[door_SlugShrine]",
+    "logic": "*Fungus1_26[door_SlugShrine]"
+  },
+  {
+    "name": "Transition-Fungus1_26[left1]",
+    "logic": "*Fungus1_26[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_26[right1]",
+    "logic": "*Fungus1_26[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_28[left1]",
+    "logic": "*Fungus1_28[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_28[left2]",
+    "logic": "*Fungus1_28[left2]"
+  },
+  {
+    "name": "Transition-Fungus1_29[left1]",
+    "logic": "*Fungus1_29[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_29[right1]",
+    "logic": "*Fungus1_29[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_30[left1]",
+    "logic": "*Fungus1_30[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_30[right1]",
+    "logic": "*Fungus1_30[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_30[top1]",
+    "logic": "*Fungus1_30[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_30[top3]",
+    "logic": "*Fungus1_30[top3]"
+  },
+  {
+    "name": "Transition-Fungus1_31[bot1]",
+    "logic": "*Fungus1_31[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_31[right1]",
+    "logic": "*Fungus1_31[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_31[top1]",
+    "logic": "*Fungus1_31[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_32[bot1]",
+    "logic": "*Fungus1_32[bot1]"
+  },
+  {
+    "name": "Transition-Fungus1_32[left1]",
+    "logic": "*Fungus1_32[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_32[top1]",
+    "logic": "*Fungus1_32[top1]"
+  },
+  {
+    "name": "Transition-Fungus1_34[door1]",
+    "logic": "*Fungus1_34[door1]"
+  },
+  {
+    "name": "Transition-Fungus1_34[left1]",
+    "logic": "*Fungus1_34[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_35[left1]",
+    "logic": "*Fungus1_35[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_35[right1]",
+    "logic": "*Fungus1_35[right1]"
+  },
+  {
+    "name": "Transition-Fungus1_36[left1]",
+    "logic": "*Fungus1_36[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_37[left1]",
+    "logic": "*Fungus1_37[left1]"
+  },
+  {
+    "name": "Transition-Fungus1_Slug[right1]",
+    "logic": "*Fungus1_Slug[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_01[left1]",
+    "logic": "*Fungus2_01[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_01[left2]",
+    "logic": "*Fungus2_01[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_01[left3]",
+    "logic": "*Fungus2_01[left3]"
+  },
+  {
+    "name": "Transition-Fungus2_01[right1]",
+    "logic": "*Fungus2_01[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_02[right1]",
+    "logic": "*Fungus2_02[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_03[bot1]",
+    "logic": "*Fungus2_03[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_03[left1]",
+    "logic": "*Fungus2_03[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_03[right1]",
+    "logic": "*Fungus2_03[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_04[left1]",
+    "logic": "*Fungus2_04[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_04[right1]",
+    "logic": "*Fungus2_04[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_04[right2]",
+    "logic": "*Fungus2_04[right2]"
+  },
+  {
+    "name": "Transition-Fungus2_04[top1]",
+    "logic": "*Fungus2_04[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_05[bot1]",
+    "logic": "*Fungus2_05[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_05[right1]",
+    "logic": "*Fungus2_05[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_06[left1]",
+    "logic": "*Fungus2_06[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_06[left2]",
+    "logic": "*Fungus2_06[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_06[right1]",
+    "logic": "*Fungus2_06[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_06[right2]",
+    "logic": "*Fungus2_06[right2]"
+  },
+  {
+    "name": "Transition-Fungus2_06[top1]",
+    "logic": "*Fungus2_06[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_07[left1]",
+    "logic": "*Fungus2_07[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_07[right1]",
+    "logic": "*Fungus2_07[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_08[left1]",
+    "logic": "*Fungus2_08[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_08[left2]",
+    "logic": "*Fungus2_08[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_08[right1]",
+    "logic": "*Fungus2_08[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_09[left1]",
+    "logic": "*Fungus2_09[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_09[right1]",
+    "logic": "*Fungus2_09[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_10[bot1]",
+    "logic": "*Fungus2_10[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_10[right1]",
+    "logic": "*Fungus2_10[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_10[right2]",
+    "logic": "*Fungus2_10[right2]"
+  },
+  {
+    "name": "Transition-Fungus2_11[left1]",
+    "logic": "*Fungus2_11[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_11[left2]",
+    "logic": "*Fungus2_11[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_11[right1]",
+    "logic": "*Fungus2_11[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_11[top1]",
+    "logic": "*Fungus2_11[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_12[bot1]",
+    "logic": "*Fungus2_12[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_12[left1]",
+    "logic": "*Fungus2_12[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_13[left2]",
+    "logic": "*Fungus2_13[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_13[left3]",
+    "logic": "*Fungus2_13[left3]"
+  },
+  {
+    "name": "Transition-Fungus2_13[top1]",
+    "logic": "*Fungus2_13[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_14[bot3]",
+    "logic": "*Fungus2_14[bot3]"
+  },
+  {
+    "name": "Transition-Fungus2_14[right1]",
+    "logic": "*Fungus2_14[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_14[top1]",
+    "logic": "*Fungus2_14[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_15[left1]",
+    "logic": "*Fungus2_15[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_15[right1]",
+    "logic": "*Fungus2_15[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_15[top3]",
+    "logic": "*Fungus2_15[top3]"
+  },
+  {
+    "name": "Transition-Fungus2_17[bot1]",
+    "logic": "*Fungus2_17[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_17[left1]",
+    "logic": "*Fungus2_17[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_17[right1]",
+    "logic": "*Fungus2_17[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_18[bot1]",
+    "logic": "*Fungus2_18[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_18[right1]",
+    "logic": "*Fungus2_18[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_18[top1]",
+    "logic": "*Fungus2_18[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_19[left1]",
+    "logic": "*Fungus2_19[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_19[top1]",
+    "logic": "*Fungus2_19[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_20[left1]",
+    "logic": "*Fungus2_20[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_20[right1]",
+    "logic": "*Fungus2_20[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_21[left1]",
+    "logic": "*Fungus2_21[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_21[right1]",
+    "logic": "*Fungus2_21[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_23[right1]",
+    "logic": "*Fungus2_23[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_23[right2]",
+    "logic": "*Fungus2_23[right2]"
+  },
+  {
+    "name": "Transition-Fungus2_25[right1]",
+    "logic": "*Fungus2_25[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_25[top1]",
+    "logic": "*Fungus2_25[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_26[left1]",
+    "logic": "*Fungus2_26[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_28[left1]",
+    "logic": "*Fungus2_28[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_28[left2]",
+    "logic": "*Fungus2_28[left2]"
+  },
+  {
+    "name": "Transition-Fungus2_29[bot1]",
+    "logic": "*Fungus2_29[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_29[right1]",
+    "logic": "*Fungus2_29[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_30[bot1]",
+    "logic": "*Fungus2_30[bot1]"
+  },
+  {
+    "name": "Transition-Fungus2_30[top1]",
+    "logic": "*Fungus2_30[top1]"
+  },
+  {
+    "name": "Transition-Fungus2_31[left1]",
+    "logic": "*Fungus2_31[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_32[left1]",
+    "logic": "*Fungus2_32[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_33[left1]",
+    "logic": "*Fungus2_33[left1]"
+  },
+  {
+    "name": "Transition-Fungus2_33[right1]",
+    "logic": "*Fungus2_33[right1]"
+  },
+  {
+    "name": "Transition-Fungus2_34[right1]",
+    "logic": "*Fungus2_34[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_01[left1]",
+    "logic": "*Fungus3_01[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_01[right1]",
+    "logic": "*Fungus3_01[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_01[right2]",
+    "logic": "*Fungus3_01[right2]"
+  },
+  {
+    "name": "Transition-Fungus3_01[top1]",
+    "logic": "*Fungus3_01[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_02[left1]",
+    "logic": "*Fungus3_02[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_02[left2]",
+    "logic": "*Fungus3_02[left2]"
+  },
+  {
+    "name": "Transition-Fungus3_02[left3]",
+    "logic": "*Fungus3_02[left3]"
+  },
+  {
+    "name": "Transition-Fungus3_02[right1]",
+    "logic": "*Fungus3_02[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_02[right2]",
+    "logic": "*Fungus3_02[right2]"
+  },
+  {
+    "name": "Transition-Fungus3_03[left1]",
+    "logic": "*Fungus3_03[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_03[right1]",
+    "logic": "*Fungus3_03[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_04[left1]",
+    "logic": "*Fungus3_04[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_04[left2]",
+    "logic": "*Fungus3_04[left2]"
+  },
+  {
+    "name": "Transition-Fungus3_04[right1]",
+    "logic": "*Fungus3_04[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_04[right2]",
+    "logic": "*Fungus3_04[right2]"
+  },
+  {
+    "name": "Transition-Fungus3_05[left1]",
+    "logic": "*Fungus3_05[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_05[right1]",
+    "logic": "*Fungus3_05[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_05[right2]",
+    "logic": "*Fungus3_05[right2]"
+  },
+  {
+    "name": "Transition-Fungus3_08[left1]",
+    "logic": "*Fungus3_08[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_08[right1]",
+    "logic": "*Fungus3_08[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_08[top1]",
+    "logic": "*Fungus3_08[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_10[bot1]",
+    "logic": "*Fungus3_10[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_10[top1]",
+    "logic": "*Fungus3_10[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_11[left1]",
+    "logic": "*Fungus3_11[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_11[left2]",
+    "logic": "*Fungus3_11[left2]"
+  },
+  {
+    "name": "Transition-Fungus3_11[right1]",
+    "logic": "*Fungus3_11[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_13[bot1]",
+    "logic": "*Fungus3_13[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_13[left1]",
+    "logic": "*Fungus3_13[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_13[left2]",
+    "logic": "*Fungus3_13[left2]"
+  },
+  {
+    "name": "Transition-Fungus3_13[left3]",
+    "logic": "*Fungus3_13[left3]"
+  },
+  {
+    "name": "Transition-Fungus3_13[right1]",
+    "logic": "*Fungus3_13[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_21[right1]",
+    "logic": "*Fungus3_21[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_21[top1]",
+    "logic": "*Fungus3_21[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_22[bot1]",
+    "logic": "*Fungus3_22[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_22[left1]",
+    "logic": "*Fungus3_22[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_22[right1]",
+    "logic": "*Fungus3_22[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_23[left1]",
+    "logic": "*Fungus3_23[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_23[right1]",
+    "logic": "*Fungus3_23[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_24[left1]",
+    "logic": "*Fungus3_24[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_24[right1]",
+    "logic": "*Fungus3_24[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_24[top1]",
+    "logic": "*Fungus3_24[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_25[left1]",
+    "logic": "*Fungus3_25[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_25[right1]",
+    "logic": "*Fungus3_25[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_25b[left1]",
+    "logic": "*Fungus3_25b[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_25b[right1]",
+    "logic": "*Fungus3_25b[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_26[left1]",
+    "logic": "*Fungus3_26[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_26[left2]",
+    "logic": "*Fungus3_26[left2]"
+  },
+  {
+    "name": "Transition-Fungus3_26[left3]",
+    "logic": "*Fungus3_26[left3]"
+  },
+  {
+    "name": "Transition-Fungus3_26[right1]",
+    "logic": "*Fungus3_26[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_26[top1]",
+    "logic": "*Fungus3_26[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_27[left1]",
+    "logic": "*Fungus3_27[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_27[right1]",
+    "logic": "*Fungus3_27[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_28[right1]",
+    "logic": "*Fungus3_28[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_30[bot1]",
+    "logic": "*Fungus3_30[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_34[left1]",
+    "logic": "*Fungus3_34[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_34[right1]",
+    "logic": "*Fungus3_34[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_34[top1]",
+    "logic": "*Fungus3_34[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_35[right1]",
+    "logic": "*Fungus3_35[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_39[left1]",
+    "logic": "*Fungus3_39[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_39[right1]",
+    "logic": "*Fungus3_39[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_40[right1]",
+    "logic": "*Fungus3_40[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_40[top1]",
+    "logic": "*Fungus3_40[top1]"
+  },
+  {
+    "name": "Transition-Fungus3_44[bot1]",
+    "logic": "*Fungus3_44[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_44[door1]",
+    "logic": "*Fungus3_44[door1]"
+  },
+  {
+    "name": "Transition-Fungus3_44[right1]",
+    "logic": "*Fungus3_44[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_47[door1]",
+    "logic": "*Fungus3_47[door1]"
+  },
+  {
+    "name": "Transition-Fungus3_47[left1]",
+    "logic": "*Fungus3_47[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_47[right1]",
+    "logic": "*Fungus3_47[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_48[bot1]",
+    "logic": "*Fungus3_48[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_48[door1]",
+    "logic": "*Fungus3_48[door1]"
+  },
+  {
+    "name": "Transition-Fungus3_48[right1]",
+    "logic": "*Fungus3_48[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_48[right2]",
+    "logic": "*Fungus3_48[right2]"
+  },
+  {
+    "name": "Transition-Fungus3_49[right1]",
+    "logic": "*Fungus3_49[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_50[right1]",
+    "logic": "*Fungus3_50[right1]"
+  },
+  {
+    "name": "Transition-Fungus3_archive[bot1]",
+    "logic": "*Fungus3_archive[bot1]"
+  },
+  {
+    "name": "Transition-Fungus3_archive[left1]",
+    "logic": "*Fungus3_archive[left1]"
+  },
+  {
+    "name": "Transition-Fungus3_archive_02[top1]",
+    "logic": "*Fungus3_archive_02[top1]"
+  },
+  {
+    "name": "Transition-GG_Lurker[left1]",
+    "logic": "*GG_Lurker[left1]"
+  },
+  {
+    "name": "Transition-GG_Pipeway[left1]",
+    "logic": "*GG_Pipeway[left1]"
+  },
+  {
+    "name": "Transition-GG_Pipeway[right1]",
+    "logic": "*GG_Pipeway[right1]"
+  },
+  {
+    "name": "Transition-GG_Waterways[door1]",
+    "logic": "*GG_Waterways[door1]"
+  },
+  {
+    "name": "Transition-GG_Waterways[right1]",
+    "logic": "*GG_Waterways[right1]"
+  },
+  {
+    "name": "Transition-Grimm_Divine[left1]",
+    "logic": "*Grimm_Divine[left1]"
+  },
+  {
+    "name": "Transition-Grimm_Main_Tent[left1]",
+    "logic": "*Grimm_Main_Tent[left1]"
+  },
+  {
+    "name": "Transition-Hive_01[left1]",
+    "logic": "*Hive_01[left1]"
+  },
+  {
+    "name": "Transition-Hive_01[right1]",
+    "logic": "*Hive_01[right1]"
+  },
+  {
+    "name": "Transition-Hive_01[right2]",
+    "logic": "*Hive_01[right2]"
+  },
+  {
+    "name": "Transition-Hive_02[left1]",
+    "logic": "*Hive_02[left1]"
+  },
+  {
+    "name": "Transition-Hive_02[left2]",
+    "logic": "*Hive_02[left2]"
+  },
+  {
+    "name": "Transition-Hive_02[left3]",
+    "logic": "*Hive_02[left3]"
+  },
+  {
+    "name": "Transition-Hive_03[bot1]",
+    "logic": "*Hive_03[bot1]"
+  },
+  {
+    "name": "Transition-Hive_03[right1]",
+    "logic": "*Hive_03[right1]"
+  },
+  {
+    "name": "Transition-Hive_03[top1]",
+    "logic": "*Hive_03[top1]"
+  },
+  {
+    "name": "Transition-Hive_03_c[left1]",
+    "logic": "*Hive_03_c[left1]"
+  },
+  {
+    "name": "Transition-Hive_03_c[right2]",
+    "logic": "*Hive_03_c[right2]"
+  },
+  {
+    "name": "Transition-Hive_03_c[right3]",
+    "logic": "*Hive_03_c[right3]"
+  },
+  {
+    "name": "Transition-Hive_03_c[top1]",
+    "logic": "*Hive_03_c[top1]"
+  },
+  {
+    "name": "Transition-Hive_04[left1]",
+    "logic": "*Hive_04[left1]"
+  },
+  {
+    "name": "Transition-Hive_04[left2]",
+    "logic": "*Hive_04[left2]"
+  },
+  {
+    "name": "Transition-Hive_04[right1]",
+    "logic": "*Hive_04[right1]"
+  },
+  {
+    "name": "Transition-Hive_05[left1]",
+    "logic": "*Hive_05[left1]"
+  },
+  {
+    "name": "Transition-Mines_01[bot1]",
+    "logic": "*Mines_01[bot1]"
+  },
+  {
+    "name": "Transition-Mines_01[left1]",
+    "logic": "*Mines_01[left1]"
+  },
+  {
+    "name": "Transition-Mines_02[left1]",
+    "logic": "*Mines_02[left1]"
+  },
+  {
+    "name": "Transition-Mines_02[right1]",
+    "logic": "*Mines_02[right1]"
+  },
+  {
+    "name": "Transition-Mines_02[top1]",
+    "logic": "*Mines_02[top1]"
+  },
+  {
+    "name": "Transition-Mines_02[top2]",
+    "logic": "*Mines_02[top2]"
+  },
+  {
+    "name": "Transition-Mines_03[bot1]",
+    "logic": "*Mines_03[bot1]"
+  },
+  {
+    "name": "Transition-Mines_03[right1]",
+    "logic": "*Mines_03[right1]"
+  },
+  {
+    "name": "Transition-Mines_03[top1]",
+    "logic": "*Mines_03[top1]"
+  },
+  {
+    "name": "Transition-Mines_04[left1]",
+    "logic": "*Mines_04[left1]"
+  },
+  {
+    "name": "Transition-Mines_04[left2]",
+    "logic": "*Mines_04[left2]"
+  },
+  {
+    "name": "Transition-Mines_04[left3]",
+    "logic": "*Mines_04[left3]"
+  },
+  {
+    "name": "Transition-Mines_04[right1]",
+    "logic": "*Mines_04[right1]"
+  },
+  {
+    "name": "Transition-Mines_04[top1]",
+    "logic": "*Mines_04[top1]"
+  },
+  {
+    "name": "Transition-Mines_05[bot1]",
+    "logic": "*Mines_05[bot1]"
+  },
+  {
+    "name": "Transition-Mines_05[left1]",
+    "logic": "*Mines_05[left1]"
+  },
+  {
+    "name": "Transition-Mines_05[left2]",
+    "logic": "*Mines_05[left2]"
+  },
+  {
+    "name": "Transition-Mines_05[right1]",
+    "logic": "*Mines_05[right1]"
+  },
+  {
+    "name": "Transition-Mines_05[top1]",
+    "logic": "*Mines_05[top1]"
+  },
+  {
+    "name": "Transition-Mines_06[left1]",
+    "logic": "*Mines_06[left1]"
+  },
+  {
+    "name": "Transition-Mines_06[right1]",
+    "logic": "*Mines_06[right1]"
+  },
+  {
+    "name": "Transition-Mines_07[left1]",
+    "logic": "*Mines_07[left1]"
+  },
+  {
+    "name": "Transition-Mines_07[right1]",
+    "logic": "*Mines_07[right1]"
+  },
+  {
+    "name": "Transition-Mines_10[bot1]",
+    "logic": "*Mines_10[bot1]"
+  },
+  {
+    "name": "Transition-Mines_10[left1]",
+    "logic": "*Mines_10[left1]"
+  },
+  {
+    "name": "Transition-Mines_10[right1]",
+    "logic": "*Mines_10[right1]"
+  },
+  {
+    "name": "Transition-Mines_11[bot1]",
+    "logic": "*Mines_11[bot1]"
+  },
+  {
+    "name": "Transition-Mines_11[right1]",
+    "logic": "*Mines_11[right1]"
+  },
+  {
+    "name": "Transition-Mines_11[top1]",
+    "logic": "*Mines_11[top1]"
+  },
+  {
+    "name": "Transition-Mines_13[bot1]",
+    "logic": "*Mines_13[bot1]"
+  },
+  {
+    "name": "Transition-Mines_13[right1]",
+    "logic": "*Mines_13[right1]"
+  },
+  {
+    "name": "Transition-Mines_16[top1]",
+    "logic": "*Mines_16[top1]"
+  },
+  {
+    "name": "Transition-Mines_17[left1]",
+    "logic": "*Mines_17[left1]"
+  },
+  {
+    "name": "Transition-Mines_17[right1]",
+    "logic": "*Mines_17[right1]"
+  },
+  {
+    "name": "Transition-Mines_18[left1]",
+    "logic": "*Mines_18[left1]"
+  },
+  {
+    "name": "Transition-Mines_18[right1]",
+    "logic": "*Mines_18[right1]"
+  },
+  {
+    "name": "Transition-Mines_18[top1]",
+    "logic": "*Mines_18[top1]"
+  },
+  {
+    "name": "Transition-Mines_19[left1]",
+    "logic": "*Mines_19[left1]"
+  },
+  {
+    "name": "Transition-Mines_19[right1]",
+    "logic": "*Mines_19[right1]"
+  },
+  {
+    "name": "Transition-Mines_20[bot1]",
+    "logic": "*Mines_20[bot1]"
+  },
+  {
+    "name": "Transition-Mines_20[left1]",
+    "logic": "*Mines_20[left1]"
+  },
+  {
+    "name": "Transition-Mines_20[left2]",
+    "logic": "*Mines_20[left2]"
+  },
+  {
+    "name": "Transition-Mines_20[left3]",
+    "logic": "*Mines_20[left3]"
+  },
+  {
+    "name": "Transition-Mines_20[right1]",
+    "logic": "*Mines_20[right1]"
+  },
+  {
+    "name": "Transition-Mines_20[right2]",
+    "logic": "*Mines_20[right2]"
+  },
+  {
+    "name": "Transition-Mines_23[left1]",
+    "logic": "*Mines_23[left1]"
+  },
+  {
+    "name": "Transition-Mines_23[right1]",
+    "logic": "*Mines_23[right1]"
+  },
+  {
+    "name": "Transition-Mines_23[right2]",
+    "logic": "*Mines_23[right2]"
+  },
+  {
+    "name": "Transition-Mines_24[left1]",
+    "logic": "*Mines_24[left1]"
+  },
+  {
+    "name": "Transition-Mines_25[left1]",
+    "logic": "*Mines_25[left1]"
+  },
+  {
+    "name": "Transition-Mines_25[top1]",
+    "logic": "*Mines_25[top1]"
+  },
+  {
+    "name": "Transition-Mines_28[bot1]",
+    "logic": "*Mines_28[bot1]"
+  },
+  {
+    "name": "Transition-Mines_28[door1]",
+    "logic": "*Mines_28[door1]"
+  },
+  {
+    "name": "Transition-Mines_28[left1]",
+    "logic": "*Mines_28[left1]"
+  },
+  {
+    "name": "Transition-Mines_29[left1]",
+    "logic": "*Mines_29[left1]"
+  },
+  {
+    "name": "Transition-Mines_29[right1]",
+    "logic": "*Mines_29[right1]"
+  },
+  {
+    "name": "Transition-Mines_29[right2]",
+    "logic": "*Mines_29[right2]"
+  },
+  {
+    "name": "Transition-Mines_30[left1]",
+    "logic": "*Mines_30[left1]"
+  },
+  {
+    "name": "Transition-Mines_30[right1]",
+    "logic": "*Mines_30[right1]"
+  },
+  {
+    "name": "Transition-Mines_31[left1]",
+    "logic": "*Mines_31[left1]"
+  },
+  {
+    "name": "Transition-Mines_32[bot1]",
+    "logic": "*Mines_32[bot1]"
+  },
+  {
+    "name": "Transition-Mines_33[left1]",
+    "logic": "*Mines_33[left1]"
+  },
+  {
+    "name": "Transition-Mines_33[right1]",
+    "logic": "*Mines_33[right1]"
+  },
+  {
+    "name": "Transition-Mines_34[bot1]",
+    "logic": "*Mines_34[bot1]"
+  },
+  {
+    "name": "Transition-Mines_34[bot2]",
+    "logic": "*Mines_34[bot2]"
+  },
+  {
+    "name": "Transition-Mines_34[left1]",
+    "logic": "*Mines_34[left1]"
+  },
+  {
+    "name": "Transition-Mines_35[left1]",
+    "logic": "*Mines_35[left1]"
+  },
+  {
+    "name": "Transition-Mines_36[right1]",
+    "logic": "*Mines_36[right1]"
+  },
+  {
+    "name": "Transition-Mines_37[bot1]",
+    "logic": "*Mines_37[bot1]"
+  },
+  {
+    "name": "Transition-Mines_37[top1]",
+    "logic": "*Mines_37[top1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_02[bot1]",
+    "logic": "*RestingGrounds_02[bot1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_02[left1]",
+    "logic": "*RestingGrounds_02[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_02[right1]",
+    "logic": "*RestingGrounds_02[right1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_04[left1]",
+    "logic": "*RestingGrounds_04[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_04[right1]",
+    "logic": "*RestingGrounds_04[right1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[bot1]",
+    "logic": "*RestingGrounds_05[bot1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[left1]",
+    "logic": "*RestingGrounds_05[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[left2]",
+    "logic": "*RestingGrounds_05[left2]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[left3]",
+    "logic": "*RestingGrounds_05[left3]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[right1]",
+    "logic": "*RestingGrounds_05[right1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_05[right2]",
+    "logic": "*RestingGrounds_05[right2]"
+  },
+  {
+    "name": "Transition-RestingGrounds_06[left1]",
+    "logic": "*RestingGrounds_06[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_06[right1]",
+    "logic": "*RestingGrounds_06[right1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_06[top1]",
+    "logic": "*RestingGrounds_06[top1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_07[right1]",
+    "logic": "*RestingGrounds_07[right1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_08[left1]",
+    "logic": "*RestingGrounds_08[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_09[left1]",
+    "logic": "*RestingGrounds_09[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_10[left1]",
+    "logic": "*RestingGrounds_10[left1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_10[top1]",
+    "logic": "*RestingGrounds_10[top1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_10[top2]",
+    "logic": "*RestingGrounds_10[top2]"
+  },
+  {
+    "name": "Transition-RestingGrounds_12[bot1]",
+    "logic": "*RestingGrounds_12[bot1]"
+  },
+  {
+    "name": "Transition-RestingGrounds_12[door_Mansion]",
+    "logic": "*RestingGrounds_12[door_Mansion]"
+  },
+  {
+    "name": "Transition-RestingGrounds_17[right1]",
+    "logic": "*RestingGrounds_17[right1]"
+  },
+  {
+    "name": "Transition-Room_Bretta[right1]",
+    "logic": "*Room_Bretta[right1]"
+  },
+  {
+    "name": "Transition-Room_Charm_Shop[left1]",
+    "logic": "*Room_Charm_Shop[left1]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_01[bot1]",
+    "logic": "*Room_Colosseum_01[bot1]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_01[left1]",
+    "logic": "*Room_Colosseum_01[left1]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_02[top1]",
+    "logic": "*Room_Colosseum_02[top1]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_02[top2]",
+    "logic": "*Room_Colosseum_02[top2]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_Spectate[bot1]",
+    "logic": "*Room_Colosseum_Spectate[bot1]"
+  },
+  {
+    "name": "Transition-Room_Colosseum_Spectate[right1]",
+    "logic": "*Room_Colosseum_Spectate[right1]"
+  },
+  {
+    "name": "Transition-Room_Fungus_Shaman[left1]",
+    "logic": "*Room_Fungus_Shaman[left1]"
+  },
+  {
+    "name": "Transition-Room_GG_Shortcut[left1]",
+    "logic": "*Room_GG_Shortcut[left1]"
+  },
+  {
+    "name": "Transition-Room_GG_Shortcut[top1]",
+    "logic": "*Room_GG_Shortcut[top1]"
+  },
+  {
+    "name": "Transition-Room_Mansion[left1]",
+    "logic": "*Room_Mansion[left1]"
+  },
+  {
+    "name": "Transition-Room_mapper[left1]",
+    "logic": "*Room_mapper[left1]"
+  },
+  {
+    "name": "Transition-Room_Mask_Maker[right1]",
+    "logic": "*Room_Mask_Maker[right1]"
+  },
+  {
+    "name": "Transition-Room_Mender_House[left1]",
+    "logic": "*Room_Mender_House[left1]"
+  },
+  {
+    "name": "Transition-Room_nailmaster[left1]",
+    "logic": "*Room_nailmaster[left1]"
+  },
+  {
+    "name": "Transition-Room_nailmaster_02[left1]",
+    "logic": "*Room_nailmaster_02[left1]"
+  },
+  {
+    "name": "Transition-Room_nailmaster_03[left1]",
+    "logic": "*Room_nailmaster_03[left1]"
+  },
+  {
+    "name": "Transition-Room_nailsmith[left1]",
+    "logic": "*Room_nailsmith[left1]"
+  },
+  {
+    "name": "Transition-Room_Ouiji[left1]",
+    "logic": "*Room_Ouiji[left1]"
+  },
+  {
+    "name": "Transition-Room_Queen[left1]",
+    "logic": "*Room_Queen[left1]"
+  },
+  {
+    "name": "Transition-Room_ruinhouse[left1]",
+    "logic": "*Room_ruinhouse[left1]"
+  },
+  {
+    "name": "Transition-Room_shop[left1]",
+    "logic": "*Room_shop[left1]"
+  },
+  {
+    "name": "Transition-Room_Slug_Shrine[left1]",
+    "logic": "*Room_Slug_Shrine[left1]"
+  },
+  {
+    "name": "Transition-Room_spider_small[left1]",
+    "logic": "*Room_spider_small[left1]"
+  },
+  {
+    "name": "Transition-Room_temple[left1]",
+    "logic": "*Room_temple[left1]"
+  },
+  {
+    "name": "Transition-Room_Town_Stag_Station[left1]",
+    "logic": "*Room_Town_Stag_Station[left1]"
+  },
+  {
+    "name": "Transition-Room_Wyrm[right1]",
+    "logic": "*Room_Wyrm[right1]"
+  },
+  {
+    "name": "Transition-Ruins_Bathhouse[door1]",
+    "logic": "*Ruins_Bathhouse[door1]"
+  },
+  {
+    "name": "Transition-Ruins_Bathhouse[right1]",
+    "logic": "*Ruins_Bathhouse[right1]"
+  },
+  {
+    "name": "Transition-Ruins_Elevator[left1]",
+    "logic": "*Ruins_Elevator[left1]"
+  },
+  {
+    "name": "Transition-Ruins_Elevator[left2]",
+    "logic": "*Ruins_Elevator[left2]"
+  },
+  {
+    "name": "Transition-Ruins_House_01[left1]",
+    "logic": "*Ruins_House_01[left1]"
+  },
+  {
+    "name": "Transition-Ruins_House_02[left1]",
+    "logic": "*Ruins_House_02[left1]"
+  },
+  {
+    "name": "Transition-Ruins_House_03[left1]",
+    "logic": "*Ruins_House_03[left1]"
+  },
+  {
+    "name": "Transition-Ruins_House_03[left2]",
+    "logic": "*Ruins_House_03[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_01[bot1]",
+    "logic": "*Ruins1_01[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_01[left1]",
+    "logic": "*Ruins1_01[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_01[top1]",
+    "logic": "*Ruins1_01[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_02[bot1]",
+    "logic": "*Ruins1_02[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_02[top1]",
+    "logic": "*Ruins1_02[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_03[left1]",
+    "logic": "*Ruins1_03[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_03[right1]",
+    "logic": "*Ruins1_03[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_03[right2]",
+    "logic": "*Ruins1_03[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_03[top1]",
+    "logic": "*Ruins1_03[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_04[bot1]",
+    "logic": "*Ruins1_04[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_04[door1]",
+    "logic": "*Ruins1_04[door1]"
+  },
+  {
+    "name": "Transition-Ruins1_04[right1]",
+    "logic": "*Ruins1_04[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_05[bot1]",
+    "logic": "*Ruins1_05[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_05[bot2]",
+    "logic": "*Ruins1_05[bot2]"
+  },
+  {
+    "name": "Transition-Ruins1_05[bot3]",
+    "logic": "*Ruins1_05[bot3]"
+  },
+  {
+    "name": "Transition-Ruins1_05[right1]",
+    "logic": "*Ruins1_05[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_05[right2]",
+    "logic": "*Ruins1_05[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_05[top1]",
+    "logic": "*Ruins1_05[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_05b[bot1]",
+    "logic": "*Ruins1_05b[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_05b[left1]",
+    "logic": "*Ruins1_05b[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_05b[right1]",
+    "logic": "*Ruins1_05b[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_05b[top1]",
+    "logic": "*Ruins1_05b[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_05c[bot1]",
+    "logic": "*Ruins1_05c[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_05c[left2]",
+    "logic": "*Ruins1_05c[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_05c[top1]",
+    "logic": "*Ruins1_05c[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_05c[top2]",
+    "logic": "*Ruins1_05c[top2]"
+  },
+  {
+    "name": "Transition-Ruins1_05c[top3]",
+    "logic": "*Ruins1_05c[top3]"
+  },
+  {
+    "name": "Transition-Ruins1_06[left1]",
+    "logic": "*Ruins1_06[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_06[right1]",
+    "logic": "*Ruins1_06[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_09[left1]",
+    "logic": "*Ruins1_09[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_09[top1]",
+    "logic": "*Ruins1_09[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_17[bot1]",
+    "logic": "*Ruins1_17[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_17[right1]",
+    "logic": "*Ruins1_17[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_17[top1]",
+    "logic": "*Ruins1_17[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_18[left1]",
+    "logic": "*Ruins1_18[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_18[right1]",
+    "logic": "*Ruins1_18[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_18[right2]",
+    "logic": "*Ruins1_18[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_23[bot1]",
+    "logic": "*Ruins1_23[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_23[left1]",
+    "logic": "*Ruins1_23[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_23[right1]",
+    "logic": "*Ruins1_23[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_23[right2]",
+    "logic": "*Ruins1_23[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_23[top1]",
+    "logic": "*Ruins1_23[top1]"
+  },
+  {
+    "name": "Transition-Ruins1_24[left1]",
+    "logic": "*Ruins1_24[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_24[left2]",
+    "logic": "*Ruins1_24[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_24[right1]",
+    "logic": "*Ruins1_24[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_24[right2]",
+    "logic": "*Ruins1_24[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_25[left1]",
+    "logic": "*Ruins1_25[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_25[left2]",
+    "logic": "*Ruins1_25[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_25[left3]",
+    "logic": "*Ruins1_25[left3]"
+  },
+  {
+    "name": "Transition-Ruins1_27[left1]",
+    "logic": "*Ruins1_27[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_27[right1]",
+    "logic": "*Ruins1_27[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_28[bot1]",
+    "logic": "*Ruins1_28[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_28[left1]",
+    "logic": "*Ruins1_28[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_28[right1]",
+    "logic": "*Ruins1_28[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_29[left1]",
+    "logic": "*Ruins1_29[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_30[bot1]",
+    "logic": "*Ruins1_30[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_30[left1]",
+    "logic": "*Ruins1_30[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_30[left2]",
+    "logic": "*Ruins1_30[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_30[right1]",
+    "logic": "*Ruins1_30[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_31[bot1]",
+    "logic": "*Ruins1_31[bot1]"
+  },
+  {
+    "name": "Transition-Ruins1_31[left1]",
+    "logic": "*Ruins1_31[left1]"
+  },
+  {
+    "name": "Transition-Ruins1_31[left2]",
+    "logic": "*Ruins1_31[left2]"
+  },
+  {
+    "name": "Transition-Ruins1_31[left3]",
+    "logic": "*Ruins1_31[left3]"
+  },
+  {
+    "name": "Transition-Ruins1_31[right1]",
+    "logic": "*Ruins1_31[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_31b[right1]",
+    "logic": "*Ruins1_31b[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_31b[right2]",
+    "logic": "*Ruins1_31b[right2]"
+  },
+  {
+    "name": "Transition-Ruins1_32[right1]",
+    "logic": "*Ruins1_32[right1]"
+  },
+  {
+    "name": "Transition-Ruins1_32[right2]",
+    "logic": "*Ruins1_32[right2]"
+  },
+  {
+    "name": "Transition-Ruins2_01[bot1]",
+    "logic": "*Ruins2_01[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_01[left2]",
+    "logic": "*Ruins2_01[left2]"
+  },
+  {
+    "name": "Transition-Ruins2_01[top1]",
+    "logic": "*Ruins2_01[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_01_b[left1]",
+    "logic": "*Ruins2_01_b[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_01_b[right1]",
+    "logic": "*Ruins2_01_b[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_01_b[top1]",
+    "logic": "*Ruins2_01_b[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_03[bot1]",
+    "logic": "*Ruins2_03[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_03[bot2]",
+    "logic": "*Ruins2_03[bot2]"
+  },
+  {
+    "name": "Transition-Ruins2_03[top1]",
+    "logic": "*Ruins2_03[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_03b[bot1]",
+    "logic": "*Ruins2_03b[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_03b[left1]",
+    "logic": "*Ruins2_03b[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_03b[top1]",
+    "logic": "*Ruins2_03b[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_03b[top2]",
+    "logic": "*Ruins2_03b[top2]"
+  },
+  {
+    "name": "Transition-Ruins2_04[door_Ruin_Elevator]",
+    "logic": "*Ruins2_04[door_Ruin_Elevator]"
+  },
+  {
+    "name": "Transition-Ruins2_04[door_Ruin_House_01]",
+    "logic": "*Ruins2_04[door_Ruin_House_01]"
+  },
+  {
+    "name": "Transition-Ruins2_04[door_Ruin_House_02]",
+    "logic": "*Ruins2_04[door_Ruin_House_02]"
+  },
+  {
+    "name": "Transition-Ruins2_04[door_Ruin_House_03]",
+    "logic": "*Ruins2_04[door_Ruin_House_03]"
+  },
+  {
+    "name": "Transition-Ruins2_04[left1]",
+    "logic": "*Ruins2_04[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_04[left2]",
+    "logic": "*Ruins2_04[left2]"
+  },
+  {
+    "name": "Transition-Ruins2_04[right1]",
+    "logic": "*Ruins2_04[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_04[right2]",
+    "logic": "*Ruins2_04[right2]"
+  },
+  {
+    "name": "Transition-Ruins2_05[bot1]",
+    "logic": "*Ruins2_05[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_05[left1]",
+    "logic": "*Ruins2_05[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_05[top1]",
+    "logic": "*Ruins2_05[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_06[left1]",
+    "logic": "*Ruins2_06[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_06[left2]",
+    "logic": "*Ruins2_06[left2]"
+  },
+  {
+    "name": "Transition-Ruins2_06[right1]",
+    "logic": "*Ruins2_06[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_06[right2]",
+    "logic": "*Ruins2_06[right2]"
+  },
+  {
+    "name": "Transition-Ruins2_06[top1]",
+    "logic": "*Ruins2_06[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_07[left1]",
+    "logic": "*Ruins2_07[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_07[right1]",
+    "logic": "*Ruins2_07[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_07[top1]",
+    "logic": "*Ruins2_07[top1]"
+  },
+  {
+    "name": "Transition-Ruins2_08[left1]",
+    "logic": "*Ruins2_08[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_09[bot1]",
+    "logic": "*Ruins2_09[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_10[left1]",
+    "logic": "*Ruins2_10[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_10[right1]",
+    "logic": "*Ruins2_10[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_10b[left1]",
+    "logic": "*Ruins2_10b[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_10b[right1]",
+    "logic": "*Ruins2_10b[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_10b[right2]",
+    "logic": "*Ruins2_10b[right2]"
+  },
+  {
+    "name": "Transition-Ruins2_11[right1]",
+    "logic": "*Ruins2_11[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_11_b[bot1]",
+    "logic": "*Ruins2_11_b[bot1]"
+  },
+  {
+    "name": "Transition-Ruins2_11_b[left1]",
+    "logic": "*Ruins2_11_b[left1]"
+  },
+  {
+    "name": "Transition-Ruins2_11_b[right1]",
+    "logic": "*Ruins2_11_b[right1]"
+  },
+  {
+    "name": "Transition-Ruins2_Watcher_Room[bot1]",
+    "logic": "*Ruins2_Watcher_Room[bot1]"
+  },
+  {
+    "name": "Transition-Town[bot1]",
+    "logic": "*Town[bot1]"
+  },
+  {
+    "name": "Transition-Town[door_bretta]",
+    "logic": "*Town[door_bretta]"
+  },
+  {
+    "name": "Transition-Town[door_jiji]",
+    "logic": "*Town[door_jiji]"
+  },
+  {
+    "name": "Transition-Town[door_mapper]",
+    "logic": "*Town[door_mapper]"
+  },
+  {
+    "name": "Transition-Town[door_sly]",
+    "logic": "*Town[door_sly]"
+  },
+  {
+    "name": "Transition-Town[door_station]",
+    "logic": "*Town[door_station]"
+  },
+  {
+    "name": "Transition-Town[left1]",
+    "logic": "*Town[left1]"
+  },
+  {
+    "name": "Transition-Town[right1]",
+    "logic": "*Town[right1]"
+  },
+  {
+    "name": "Transition-Town[room_divine]",
+    "logic": "*Town[room_divine]"
+  },
+  {
+    "name": "Transition-Town[room_grimm]",
+    "logic": "*Town[room_grimm]"
+  },
+  {
+    "name": "Transition-Tutorial_01[right1]",
+    "logic": "*Tutorial_01[right1]"
+  },
+  {
+    "name": "Transition-Tutorial_01[top2]",
+    "logic": "*Tutorial_01[top2]"
+  },
+  {
+    "name": "Transition-Waterways_01[bot1]",
+    "logic": "*Waterways_01[bot1]"
+  },
+  {
+    "name": "Transition-Waterways_01[left1]",
+    "logic": "*Waterways_01[left1]"
+  },
+  {
+    "name": "Transition-Waterways_01[right1]",
+    "logic": "*Waterways_01[right1]"
+  },
+  {
+    "name": "Transition-Waterways_01[top1]",
+    "logic": "*Waterways_01[top1]"
+  },
+  {
+    "name": "Transition-Waterways_02[bot1]",
+    "logic": "*Waterways_02[bot1]"
+  },
+  {
+    "name": "Transition-Waterways_02[bot2]",
+    "logic": "*Waterways_02[bot2]"
+  },
+  {
+    "name": "Transition-Waterways_02[top1]",
+    "logic": "*Waterways_02[top1]"
+  },
+  {
+    "name": "Transition-Waterways_02[top2]",
+    "logic": "*Waterways_02[top2]"
+  },
+  {
+    "name": "Transition-Waterways_02[top3]",
+    "logic": "*Waterways_02[top3]"
+  },
+  {
+    "name": "Transition-Waterways_03[left1]",
+    "logic": "*Waterways_03[left1]"
+  },
+  {
+    "name": "Transition-Waterways_04[bot1]",
+    "logic": "*Waterways_04[bot1]"
+  },
+  {
+    "name": "Transition-Waterways_04[left1]",
+    "logic": "*Waterways_04[left1]"
+  },
+  {
+    "name": "Transition-Waterways_04[left2]",
+    "logic": "*Waterways_04[left2]"
+  },
+  {
+    "name": "Transition-Waterways_04[right1]",
+    "logic": "*Waterways_04[right1]"
+  },
+  {
+    "name": "Transition-Waterways_04b[left1]",
+    "logic": "*Waterways_04b[left1]"
+  },
+  {
+    "name": "Transition-Waterways_04b[right1]",
+    "logic": "*Waterways_04b[right1]"
+  },
+  {
+    "name": "Transition-Waterways_04b[right2]",
+    "logic": "*Waterways_04b[right2]"
+  },
+  {
+    "name": "Transition-Waterways_05[bot1]",
+    "logic": "*Waterways_05[bot1]"
+  },
+  {
+    "name": "Transition-Waterways_05[bot2]",
+    "logic": "*Waterways_05[bot2]"
+  },
+  {
+    "name": "Transition-Waterways_05[right1]",
+    "logic": "*Waterways_05[right1]"
+  },
+  {
+    "name": "Transition-Waterways_06[right1]",
+    "logic": "*Waterways_06[right1]"
+  },
+  {
+    "name": "Transition-Waterways_06[top1]",
+    "logic": "*Waterways_06[top1]"
+  },
+  {
+    "name": "Transition-Waterways_07[door1]",
+    "logic": "*Waterways_07[door1]"
+  },
+  {
+    "name": "Transition-Waterways_07[left1]",
+    "logic": "*Waterways_07[left1]"
+  },
+  {
+    "name": "Transition-Waterways_07[right1]",
+    "logic": "*Waterways_07[right1]"
+  },
+  {
+    "name": "Transition-Waterways_07[right2]",
+    "logic": "*Waterways_07[right2]"
+  },
+  {
+    "name": "Transition-Waterways_07[top1]",
+    "logic": "*Waterways_07[top1]"
+  },
+  {
+    "name": "Transition-Waterways_08[left1]",
+    "logic": "*Waterways_08[left1]"
+  },
+  {
+    "name": "Transition-Waterways_08[left2]",
+    "logic": "*Waterways_08[left2]"
+  },
+  {
+    "name": "Transition-Waterways_08[top1]",
+    "logic": "*Waterways_08[top1]"
+  },
+  {
+    "name": "Transition-Waterways_09[left1]",
+    "logic": "*Waterways_09[left1]"
+  },
+  {
+    "name": "Transition-Waterways_09[right1]",
+    "logic": "*Waterways_09[right1]"
+  },
+  {
+    "name": "Transition-Waterways_12[right1]",
+    "logic": "*Waterways_12[right1]"
+  },
+  {
+    "name": "Transition-Waterways_13[left1]",
+    "logic": "*Waterways_13[left1]"
+  },
+  {
+    "name": "Transition-Waterways_13[left2]",
+    "logic": "*Waterways_13[left2]"
+  },
+  {
+    "name": "Transition-Waterways_14[bot1]",
+    "logic": "*Waterways_14[bot1]"
+  },
+  {
+    "name": "Transition-Waterways_14[bot2]",
+    "logic": "*Waterways_14[bot2]"
+  },
+  {
+    "name": "Transition-Waterways_15[top1]",
+    "logic": "*Waterways_15[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_01[left1]",
+    "logic": "*White_Palace_01[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_01[right1]",
+    "logic": "*White_Palace_01[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_01[top1]",
+    "logic": "*White_Palace_01[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_02[left1]",
+    "logic": "*White_Palace_02[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_03_hub[bot1]",
+    "logic": "*White_Palace_03_hub[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_03_hub[left1]",
+    "logic": "*White_Palace_03_hub[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_03_hub[left2]",
+    "logic": "*White_Palace_03_hub[left2]"
+  },
+  {
+    "name": "Transition-White_Palace_03_hub[right1]",
+    "logic": "*White_Palace_03_hub[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_03_hub[top1]",
+    "logic": "*White_Palace_03_hub[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_04[right2]",
+    "logic": "*White_Palace_04[right2]"
+  },
+  {
+    "name": "Transition-White_Palace_04[top1]",
+    "logic": "*White_Palace_04[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_05[left1]",
+    "logic": "*White_Palace_05[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_05[left2]",
+    "logic": "*White_Palace_05[left2]"
+  },
+  {
+    "name": "Transition-White_Palace_05[right1]",
+    "logic": "*White_Palace_05[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_05[right2]",
+    "logic": "*White_Palace_05[right2]"
+  },
+  {
+    "name": "Transition-White_Palace_06[bot1]",
+    "logic": "*White_Palace_06[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_06[left1]",
+    "logic": "*White_Palace_06[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_06[top1]",
+    "logic": "*White_Palace_06[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_07[bot1]",
+    "logic": "*White_Palace_07[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_07[top1]",
+    "logic": "*White_Palace_07[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_08[left1]",
+    "logic": "*White_Palace_08[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_08[right1]",
+    "logic": "*White_Palace_08[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_09[right1]",
+    "logic": "*White_Palace_09[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_11[door2]",
+    "logic": "*White_Palace_11[door2]"
+  },
+  {
+    "name": "Transition-White_Palace_12[bot1]",
+    "logic": "*White_Palace_12[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_12[right1]",
+    "logic": "*White_Palace_12[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_13[left1]",
+    "logic": "*White_Palace_13[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_13[left2]",
+    "logic": "*White_Palace_13[left2]"
+  },
+  {
+    "name": "Transition-White_Palace_13[left3]",
+    "logic": "*White_Palace_13[left3]"
+  },
+  {
+    "name": "Transition-White_Palace_13[right1]",
+    "logic": "*White_Palace_13[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_14[bot1]",
+    "logic": "*White_Palace_14[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_14[right1]",
+    "logic": "*White_Palace_14[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_15[left1]",
+    "logic": "*White_Palace_15[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_15[right1]",
+    "logic": "*White_Palace_15[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_15[right2]",
+    "logic": "*White_Palace_15[right2]"
+  },
+  {
+    "name": "Transition-White_Palace_16[left1]",
+    "logic": "*White_Palace_16[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_16[left2]",
+    "logic": "*White_Palace_16[left2]"
+  },
+  {
+    "name": "Transition-White_Palace_17[bot1]",
+    "logic": "*White_Palace_17[bot1]"
+  },
+  {
+    "name": "Transition-White_Palace_17[right1]",
+    "logic": "*White_Palace_17[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_18[right1]",
+    "logic": "*White_Palace_18[right1]"
+  },
+  {
+    "name": "Transition-White_Palace_18[top1]",
+    "logic": "*White_Palace_18[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_19[left1]",
+    "logic": "*White_Palace_19[left1]"
+  },
+  {
+    "name": "Transition-White_Palace_19[top1]",
+    "logic": "*White_Palace_19[top1]"
+  },
+  {
+    "name": "Transition-White_Palace_20[bot1]",
+    "logic": "*White_Palace_20[bot1]"
+  }
+]

@@ -1,0 +1,8842 @@
+[
+  {
+    "myScene": "Abyss_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 133,
+    "isDoor": false,
+    "targetScene": "Waterways_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_01",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 51,
+    "isDoor": false,
+    "targetScene": "Waterways_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_01",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Abyss_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_01",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 161,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_01",
+    "objectName": "right2",
+    "x": 30.5,
+    "y": 51,
+    "isDoor": false,
+    "targetScene": "Waterways_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_02",
+    "objectName": "bot1",
+    "x": 9,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_02",
+    "objectName": "right1",
+    "x": 170.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Abyss_01",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03",
+    "objectName": "bot1",
+    "x": 14,
+    "y": 0,
+    "isDoor": false,
+    "targetScene": "Abyss_17",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03",
+    "objectName": "bot2",
+    "x": 62.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Abyss_04",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03",
+    "objectName": "top1",
+    "x": 47,
+    "y": 22.5,
+    "isDoor": false,
+    "targetScene": "Abyss_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03_b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Deepnest_37",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03_c",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Hive_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_03_c",
+    "objectName": "top1",
+    "x": 140,
+    "y": 25.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_04",
+    "objectName": "bot1",
+    "x": 59,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_06_Core",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Abyss_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_04",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Abyss_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_04",
+    "objectName": "top1",
+    "x": 56,
+    "y": 90.5,
+    "isDoor": false,
+    "targetScene": "Abyss_03",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Abyss_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_05",
+    "objectName": "right1",
+    "x": 200.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Abyss_22",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_06_Core",
+    "objectName": "bot1",
+    "x": 27,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_15",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_06_Core",
+    "objectName": "left1",
+    "x": 0.5,
+    "y": 140,
+    "isDoor": false,
+    "targetScene": "Abyss_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_06_Core",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Abyss_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_06_Core",
+    "objectName": "right2",
+    "x": 100.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Abyss_16",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_06_Core",
+    "objectName": "top1",
+    "x": 90,
+    "y": 270.5,
+    "isDoor": false,
+    "targetScene": "Abyss_04",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_08",
+    "objectName": "right1",
+    "x": 110,
+    "y": 92,
+    "isDoor": false,
+    "targetScene": "Abyss_06_Core",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 26,
+    "isDoor": false,
+    "targetScene": "Abyss_16",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_09",
+    "objectName": "right1",
+    "x": 260.5,
+    "y": 26,
+    "isDoor": false,
+    "targetScene": "Abyss_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_09",
+    "objectName": "right2",
+    "x": 81.5,
+    "y": 91,
+    "isDoor": false,
+    "targetScene": "Abyss_Lighthouse_room",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_09",
+    "objectName": "right3",
+    "x": 260.5,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Abyss_10",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Abyss_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_10",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Abyss_09",
+    "entryPoint": "right3",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_12",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Abyss_06_Core",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_15",
+    "objectName": "top1",
+    "x": 11,
+    "y": 110.5,
+    "isDoor": false,
+    "targetScene": "Abyss_06_Core",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_16",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Abyss_06_Core",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_16",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Abyss_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_17",
+    "objectName": "top1",
+    "x": 163,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Abyss_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_18",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Abyss_19",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_18",
+    "objectName": "right1",
+    "x": 200.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Abyss_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_19",
+    "objectName": "bot1",
+    "x": 84,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_20",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_19",
+    "objectName": "bot2",
+    "x": 118.5,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_20",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_19",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 28.5,
+    "isDoor": false,
+    "targetScene": "Abyss_21",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_19",
+    "objectName": "right1",
+    "x": 160.5,
+    "y": 32,
+    "isDoor": false,
+    "targetScene": "Abyss_18",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_20",
+    "objectName": "top1",
+    "x": 83,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Abyss_19",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_20",
+    "objectName": "top2",
+    "x": 118.5,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Abyss_19",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_21",
+    "objectName": "right1",
+    "x": 170.5,
+    "y": 247,
+    "isDoor": false,
+    "targetScene": "Abyss_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_22",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Abyss_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Abyss_Lighthouse_room",
+    "objectName": "left1",
+    "x": 8,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Abyss_09",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_01",
+    "objectName": "right1",
+    "x": 140.5,
+    "y": 144,
+    "isDoor": false,
+    "targetScene": "Cliffs_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_01",
+    "objectName": "right2",
+    "x": 140.5,
+    "y": 92,
+    "isDoor": false,
+    "targetScene": "Cliffs_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_01",
+    "objectName": "right3",
+    "x": 140.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus1_28",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_01",
+    "objectName": "right4",
+    "x": 140.5,
+    "y": 32,
+    "isDoor": false,
+    "targetScene": "Cliffs_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "bot1",
+    "x": 188,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Tutorial_01",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "bot2",
+    "x": 221.5,
+    "y": -2,
+    "isDoor": false,
+    "targetScene": "Tutorial_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "door1",
+    "x": 122.54,
+    "y": 5.64,
+    "isDoor": true,
+    "targetScene": "Room_nailmaster",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 25,
+    "isDoor": false,
+    "targetScene": "Cliffs_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "left2",
+    "x": 3,
+    "y": 54,
+    "isDoor": false,
+    "targetScene": "Cliffs_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_02",
+    "objectName": "right1",
+    "x": 241.5,
+    "y": 49.5,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_03",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 58,
+    "isDoor": false,
+    "targetScene": "Cliffs_02",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 44,
+    "isDoor": false,
+    "targetScene": "Cliffs_01",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_04",
+    "objectName": "right1",
+    "x": 85.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Cliffs_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Cliffs_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Cliffs_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Cliffs_01",
+    "entryPoint": "right4",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_01",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Crossroads_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_01",
+    "objectName": "top1",
+    "x": 52.5,
+    "y": 25.5,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_02",
+    "objectName": "door1",
+    "x": 46.47,
+    "y": 3.77,
+    "isDoor": true,
+    "targetScene": "Room_temple",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_02",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_39",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "bot1",
+    "x": 15,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_19",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "left1",
+    "x": 0.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "Crossroads_21",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Crossroads_47",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 35,
+    "isDoor": false,
+    "targetScene": "Crossroads_15",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "right2",
+    "x": 30.5,
+    "y": 60,
+    "isDoor": false,
+    "targetScene": "Mines_33",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_03",
+    "objectName": "top1",
+    "x": 14,
+    "y": 72.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_16",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "door_charmshop",
+    "x": 144.06,
+    "y": 10.74,
+    "isDoor": true,
+    "targetScene": "Room_Charm_Shop",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "door_Mender_House",
+    "x": 57.1,
+    "y": 2.66744,
+    "isDoor": true,
+    "targetScene": "Room_Mender_House",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "door1",
+    "x": 85.05,
+    "y": 2.82,
+    "isDoor": true,
+    "targetScene": "Room_ruinhouse",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Crossroads_19",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "right1",
+    "x": 160.5,
+    "y": 25,
+    "isDoor": false,
+    "targetScene": "Crossroads_50",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_04",
+    "objectName": "top1",
+    "x": 76,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_27",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_05",
+    "objectName": "right1",
+    "x": 75,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Crossroads_40",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_06",
+    "objectName": "door1",
+    "x": 28.41,
+    "y": 29.66,
+    "isDoor": true,
+    "targetScene": "Crossroads_ShamanTemple",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Crossroads_33",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_06",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Crossroads_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "bot1",
+    "x": 20,
+    "y": 0.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_33",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "left1",
+    "x": 2.5,
+    "y": 83,
+    "isDoor": false,
+    "targetScene": "Crossroads_38",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 40.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_11_alt",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Crossroads_25",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "right1",
+    "x": 43.5,
+    "y": 83,
+    "isDoor": false,
+    "targetScene": "Crossroads_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_07",
+    "objectName": "right2",
+    "x": 43.5,
+    "y": 44,
+    "isDoor": false,
+    "targetScene": "Crossroads_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 22,
+    "isDoor": false,
+    "targetScene": "Crossroads_33",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_08",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Crossroads_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_08",
+    "objectName": "right1",
+    "x": 51.5,
+    "y": 24,
+    "isDoor": false,
+    "targetScene": "Crossroads_30",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_08",
+    "objectName": "right2",
+    "x": 52.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_13",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_36",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_09",
+    "objectName": "right1",
+    "x": 86.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_33",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_10",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_21",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_11_alt",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Fungus1_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_11_alt",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_12",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Crossroads_35",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_12",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Crossroads_33",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_13",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Crossroads_08",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_13",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Crossroads_42",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_14",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "Crossroads_39",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_14",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Crossroads_16",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_14",
+    "objectName": "right1",
+    "x": 33.5,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_48",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_14",
+    "objectName": "right2",
+    "x": 33.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_45",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_15",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_15",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_27",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_16",
+    "objectName": "bot1",
+    "x": 58,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_16",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Crossroads_40",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_16",
+    "objectName": "right1",
+    "x": 76.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Crossroads_14",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_18",
+    "objectName": "bot1",
+    "x": 21,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_18",
+    "objectName": "right1",
+    "x": 41.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Crossroads_08",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_18",
+    "objectName": "right2",
+    "x": 41.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_52",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_19",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 35,
+    "isDoor": false,
+    "targetScene": "Crossroads_42",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_19",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_43",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_19",
+    "objectName": "right1",
+    "x": 50.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_19",
+    "objectName": "top1",
+    "x": 18,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_21",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Crossroads_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_21",
+    "objectName": "right1",
+    "x": 100,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_21",
+    "objectName": "top1",
+    "x": 9,
+    "y": 29.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_22",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_22",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_21",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_25",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Crossroads_36",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_25",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_27",
+    "objectName": "bot1",
+    "x": 15,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_27",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 66,
+    "isDoor": false,
+    "targetScene": "Crossroads_15",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_27",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 39,
+    "isDoor": false,
+    "targetScene": "Crossroads_31",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_27",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Crossroads_46",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_30",
+    "objectName": "left1",
+    "x": 1.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Crossroads_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_31",
+    "objectName": "right1",
+    "x": 69.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_27",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_33",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Crossroads_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_33",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Crossroads_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_33",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 35,
+    "isDoor": false,
+    "targetScene": "Crossroads_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_33",
+    "objectName": "right2",
+    "x": 45.5,
+    "y": 10.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_33",
+    "objectName": "top1",
+    "x": 21,
+    "y": 49.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_35",
+    "objectName": "bot1",
+    "x": 64,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_26",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_35",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Crossroads_12",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_36",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 45,
+    "isDoor": false,
+    "targetScene": "Crossroads_25",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_36",
+    "objectName": "right2",
+    "x": 60.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_37",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_49",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_38",
+    "objectName": "right1",
+    "x": 68.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_39",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_39",
+    "objectName": "right1",
+    "x": 88.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_14",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_40",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_40",
+    "objectName": "right1",
+    "x": 88.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_16",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_42",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_13",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_42",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_43",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Crossroads_49",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_43",
+    "objectName": "right1",
+    "x": 88.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_19",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_45",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_14",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_45",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Mines_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_46",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Crossroads_27",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_46b",
+    "objectName": "right1",
+    "x": 55.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_47",
+    "objectName": "right1",
+    "x": 47.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_48",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Crossroads_14",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_49",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 161,
+    "isDoor": false,
+    "targetScene": "Crossroads_37",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_49",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 161,
+    "isDoor": false,
+    "targetScene": "Crossroads_43",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_49b",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins1_28",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_50",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 45,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_50",
+    "objectName": "right1",
+    "x": 260.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_52",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 61,
+    "isDoor": false,
+    "targetScene": "Crossroads_18",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Crossroads_ShamanTemple",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_06",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01",
+    "objectName": "bot1",
+    "x": 9,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_01b",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01",
+    "objectName": "bot2",
+    "x": 32,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_01b",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01",
+    "objectName": "left1",
+    "x": 1,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Fungus3_39",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Fungus2_20",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01b",
+    "objectName": "bot1",
+    "x": 25,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_17",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01b",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 66,
+    "isDoor": false,
+    "targetScene": "Deepnest_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01b",
+    "objectName": "right2",
+    "x": 60.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Deepnest_02",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_01b",
+    "objectName": "top1",
+    "x": 9,
+    "y": 83.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 67,
+    "isDoor": false,
+    "targetScene": "Deepnest_01b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_02",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 36,
+    "isDoor": false,
+    "targetScene": "Deepnest_01b",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_02",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 45,
+    "isDoor": false,
+    "targetScene": "Deepnest_36",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Deepnest_34",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_03",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Deepnest_31",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_03",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Deepnest_30",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_03",
+    "objectName": "top1",
+    "x": 48,
+    "y": 113.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_33",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Deepnest_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_10",
+    "objectName": "door1",
+    "x": 32.87,
+    "y": 117.51,
+    "isDoor": true,
+    "targetScene": "Deepnest_Spider_Town",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_10",
+    "objectName": "door2",
+    "x": 19.82,
+    "y": 94.49,
+    "isDoor": true,
+    "targetScene": "Room_spider_small",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_10",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 139,
+    "isDoor": false,
+    "targetScene": "Deepnest_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_10",
+    "objectName": "right2",
+    "x": 75.5,
+    "y": 89,
+    "isDoor": false,
+    "targetScene": "Deepnest_41",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_10",
+    "objectName": "right3",
+    "x": 75.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Deepnest_41",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_14",
+    "objectName": "bot1",
+    "x": 14,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_33",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_14",
+    "objectName": "bot2",
+    "x": 63,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_33",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_14",
+    "objectName": "left1",
+    "x": 6.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Deepnest_26",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_14",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Deepnest_17",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_16",
+    "objectName": "bot1",
+    "x": 73,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_25",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_16",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_17",
+    "objectName": "bot1",
+    "x": 14,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_30",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_17",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_14",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_17",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_16",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_17",
+    "objectName": "top1",
+    "x": 16,
+    "y": 62.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_01b",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26",
+    "objectName": "bot1",
+    "x": 224,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_35",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26",
+    "objectName": "left1",
+    "x": 121,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Deepnest_26b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26",
+    "objectName": "left2",
+    "x": 121,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_26b",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26",
+    "objectName": "right1",
+    "x": 246,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Deepnest_14",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26b",
+    "objectName": "right1",
+    "x": 128.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Deepnest_26",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_26b",
+    "objectName": "right2",
+    "x": 128.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_26",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_30",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Deepnest_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_30",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Deepnest_37",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_30",
+    "objectName": "top1",
+    "x": 20,
+    "y": 159.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_17",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_31",
+    "objectName": "right1",
+    "x": 125.5,
+    "y": 53,
+    "isDoor": false,
+    "targetScene": "Deepnest_03",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_31",
+    "objectName": "right2",
+    "x": 125.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_32",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_32",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_31",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_33",
+    "objectName": "bot1",
+    "x": 73,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_33",
+    "objectName": "top1",
+    "x": 14,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_14",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_33",
+    "objectName": "top2",
+    "x": 73,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_14",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_34",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Deepnest_39",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_34",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Deepnest_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_34",
+    "objectName": "top1",
+    "x": 98,
+    "y": 50.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_35",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_35",
+    "objectName": "bot1",
+    "x": 17,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_34",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_35",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 53,
+    "isDoor": false,
+    "targetScene": "Deepnest_40",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_35",
+    "objectName": "top1",
+    "x": 35,
+    "y": 110.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_26",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_36",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Deepnest_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_37",
+    "objectName": "bot1",
+    "x": 44,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_44",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_37",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Deepnest_30",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_37",
+    "objectName": "right1",
+    "x": 82.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Abyss_03_b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_37",
+    "objectName": "top1",
+    "x": 19,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_38",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_38",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_37",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_39",
+    "objectName": "door1",
+    "x": 195.93,
+    "y": 38.72,
+    "isDoor": true,
+    "targetScene": "Deepnest_45_v02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_39",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Deepnest_41",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_39",
+    "objectName": "right1",
+    "x": 210.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_34",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_39",
+    "objectName": "top1",
+    "x": 73,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_42",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_40",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Deepnest_35",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_41",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 91,
+    "isDoor": false,
+    "targetScene": "Deepnest_10",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_41",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Deepnest_10",
+    "entryPoint": "right3",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_41",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 88,
+    "isDoor": false,
+    "targetScene": "Deepnest_39",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_42",
+    "objectName": "bot1",
+    "x": 26,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_39",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_42",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 124,
+    "isDoor": false,
+    "targetScene": "Room_Mask_Maker",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_42",
+    "objectName": "top1",
+    "x": 7,
+    "y": 146.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_43",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_43",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_42",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_43",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 116,
+    "isDoor": false,
+    "targetScene": "Fungus3_50",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_43",
+    "objectName": "right1",
+    "x": 40.5,
+    "y": 116,
+    "isDoor": false,
+    "targetScene": "Fungus3_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_44",
+    "objectName": "top1",
+    "x": 39,
+    "y": 60.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_37",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_45_v02",
+    "objectName": "left1",
+    "x": 18.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Deepnest_39",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_01",
+    "objectName": "bot1",
+    "x": 36,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Abyss_03_c",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_01",
+    "objectName": "right1",
+    "x": 49.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Hive_03_c",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_01",
+    "objectName": "top1",
+    "x": 23,
+    "y": 85.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_02",
+    "objectName": "bot1",
+    "x": 12,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_02",
+    "objectName": "bot2",
+    "x": 71,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Hive_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_02",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_02",
+    "objectName": "top1",
+    "x": 16,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Waterways_14",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 101,
+    "isDoor": false,
+    "targetScene": "Ruins2_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_03",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_03",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 132,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_03",
+    "objectName": "right2",
+    "x": 80.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_03",
+    "objectName": "top1",
+    "x": 9,
+    "y": 150.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_07",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_04",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 94,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_04",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_11",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_04",
+    "objectName": "right2",
+    "x": 45.5,
+    "y": 127,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_15",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_06",
+    "objectName": "bot1",
+    "x": 219.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_14b",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_06",
+    "objectName": "door1",
+    "x": 329.22,
+    "y": 14.71,
+    "isDoor": true,
+    "targetScene": "Room_nailmaster_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_06",
+    "objectName": "right1",
+    "x": 351.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_16",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_06",
+    "objectName": "top1",
+    "x": 134,
+    "y": 43.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_18",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_07",
+    "objectName": "bot1",
+    "x": 6,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_07",
+    "objectName": "bot2",
+    "x": 37,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 171,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_07",
+    "objectName": "left2",
+    "x": 1.5,
+    "y": 32,
+    "isDoor": false,
+    "targetScene": "Ruins2_11_b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_07",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 65,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_08",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_08",
+    "objectName": "top1",
+    "x": 6,
+    "y": 40.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_09",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_09",
+    "objectName": "bot1",
+    "x": 85,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_08",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Ruins2_10b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_09",
+    "objectName": "right1",
+    "x": 171.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_18",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_11",
+    "objectName": "bot1",
+    "x": 37,
+    "y": 38.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_18",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_11",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 87,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_11",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 120,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_12",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_11",
+    "objectName": "top1",
+    "x": 78,
+    "y": 130.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_13",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_12",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_12",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_Hornet",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_13",
+    "objectName": "bot1",
+    "x": 19.5,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_11",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_14",
+    "objectName": "door1",
+    "x": 136.68,
+    "y": 6.86,
+    "isDoor": true,
+    "targetScene": "Deepnest_East_17",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_14",
+    "objectName": "left1",
+    "x": 49,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_14b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_14",
+    "objectName": "top2",
+    "x": 150,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_16",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_14b",
+    "objectName": "right1",
+    "x": 61,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_14",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_14b",
+    "objectName": "top1",
+    "x": 9,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_06",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_15",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_04",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_16",
+    "objectName": "bot1",
+    "x": 42,
+    "y": 1.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_14",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_16",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_17",
+    "objectName": "left1",
+    "x": 19,
+    "y": 294,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_14",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_18",
+    "objectName": "bot1",
+    "x": 65,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_18",
+    "objectName": "right2",
+    "x": 110.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_18",
+    "objectName": "top1",
+    "x": 37,
+    "y": 41.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_11",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_Hornet",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 83,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_East_Hornet",
+    "objectName": "left2",
+    "x": 16,
+    "y": 7.5,
+    "isDoor": false,
+    "targetScene": "Room_Wyrm",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Deepnest_Spider_Town",
+    "objectName": "left1",
+    "x": 5.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Deepnest_10",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_01b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_01",
+    "objectName": "right1",
+    "x": 170.5,
+    "y": 9.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_11_alt",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_01b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_01b",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Fungus1_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_02",
+    "objectName": "right1",
+    "x": 46.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Fungus1_01b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_02",
+    "objectName": "right2",
+    "x": 46.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus1_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_03",
+    "objectName": "bot1",
+    "x": 45,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_05",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 30,
+    "isDoor": false,
+    "targetScene": "Fungus1_31",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_03",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Fungus1_17",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus1_25",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_04",
+    "objectName": "right1",
+    "x": 95.5,
+    "y": 33,
+    "isDoor": false,
+    "targetScene": "Fungus1_21",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_05",
+    "objectName": "bot1",
+    "x": 15,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_10",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_05",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus1_14",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_05",
+    "objectName": "top1",
+    "x": 22,
+    "y": 85.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_06",
+    "objectName": "bot1",
+    "x": 103,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_07",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Fungus1_02",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_19",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_07",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 44,
+    "isDoor": false,
+    "targetScene": "Fungus1_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_07",
+    "objectName": "top1",
+    "x": 36,
+    "y": 58.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_06",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 39,
+    "isDoor": false,
+    "targetScene": "Fungus1_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus1_15",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_09",
+    "objectName": "right1",
+    "x": 250.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_30",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_30",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_10",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus1_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_10",
+    "objectName": "top1",
+    "x": 44,
+    "y": 25.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_11",
+    "objectName": "bot1",
+    "x": 35,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_11",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 33,
+    "isDoor": false,
+    "targetScene": "Fungus1_29",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_11",
+    "objectName": "right1",
+    "x": 55.5,
+    "y": 40,
+    "isDoor": false,
+    "targetScene": "Fungus1_34",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_11",
+    "objectName": "right2",
+    "x": 55.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Fungus1_37",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_11",
+    "objectName": "top1",
+    "x": 41,
+    "y": 69,
+    "isDoor": false,
+    "targetScene": "Fungus1_19",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_12",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus1_13",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_12",
+    "objectName": "right1",
+    "x": 32.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Fungus1_29",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_13",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Fungus3_22",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_13",
+    "objectName": "right1",
+    "x": 220.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Fungus1_12",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_14",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus1_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_15",
+    "objectName": "door1",
+    "x": 36.95,
+    "y": 33.75,
+    "isDoor": true,
+    "targetScene": "Room_nailmaster_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_15",
+    "objectName": "right1",
+    "x": 57.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus1_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_16_alt",
+    "objectName": "right1",
+    "x": 47.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_22",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_17",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Fungus1_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_17",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_19",
+    "objectName": "bot1",
+    "x": 67,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_11",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_19",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_19",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_20_v02",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_21",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_20_v02",
+    "objectName": "bot2",
+    "x": 163,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_32",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_20_v02",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus1_28",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_21",
+    "objectName": "bot1",
+    "x": 21,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_22",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_21",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_21",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus1_32",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_21",
+    "objectName": "top1",
+    "x": 9,
+    "y": 50.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_20_v02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_22",
+    "objectName": "bot1",
+    "x": 30,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_30",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_22",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 104,
+    "isDoor": false,
+    "targetScene": "Fungus1_16_alt",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_22",
+    "objectName": "top1",
+    "x": 8,
+    "y": 120.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_21",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_23",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus3_48",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_23",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus3_13",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_24",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus3_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_25",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_26",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_25",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus1_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_26",
+    "objectName": "door_SlugShrine",
+    "x": 77.98,
+    "y": 14.76,
+    "isDoor": true,
+    "targetScene": "Room_Slug_Shrine",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_26",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 22,
+    "isDoor": false,
+    "targetScene": "Fungus1_Slug",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_26",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 19.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_25",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_28",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Cliffs_01",
+    "entryPoint": "right3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_28",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Fungus1_20_v02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_29",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus1_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_29",
+    "objectName": "right1",
+    "x": 85.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus1_11",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_30",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus1_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_30",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus1_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_30",
+    "objectName": "top1",
+    "x": 28,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_22",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_30",
+    "objectName": "top3",
+    "x": 94,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_31",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_31",
+    "objectName": "bot1",
+    "x": 21,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_30",
+    "entryPoint": "top3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_31",
+    "objectName": "right1",
+    "x": 36.5,
+    "y": 116,
+    "isDoor": false,
+    "targetScene": "Fungus1_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_31",
+    "objectName": "top1",
+    "x": 14,
+    "y": 133.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_32",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_32",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_31",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_32",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus1_21",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_32",
+    "objectName": "top1",
+    "x": 68,
+    "y": 40.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_20_v02",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_34",
+    "objectName": "door1",
+    "x": 103.16,
+    "y": 3.73,
+    "isDoor": true,
+    "targetScene": "Fungus1_35",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_34",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus1_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_35",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus1_34",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_35",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Fungus1_36",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_36",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus1_35",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_37",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_11",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus1_Slug",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 102,
+    "isDoor": false,
+    "targetScene": "Fungus1_26",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Fungus3_02",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_01",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus2_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_01",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Fungus2_34",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_01",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Fungus2_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_02",
+    "objectName": "right1",
+    "x": 47.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus2_01",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_03",
+    "objectName": "bot1",
+    "x": 57,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_18",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus2_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_03",
+    "objectName": "right1",
+    "x": 130.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Fungus2_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Fungus2_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_04",
+    "objectName": "right1",
+    "x": 36.5,
+    "y": 72,
+    "isDoor": false,
+    "targetScene": "Fungus2_28",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_04",
+    "objectName": "right2",
+    "x": 36.5,
+    "y": 55,
+    "isDoor": false,
+    "targetScene": "Fungus2_28",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_04",
+    "objectName": "top1",
+    "x": 29,
+    "y": 76.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_05",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_04",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_05",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus2_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_06",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Fungus2_33",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_06",
+    "objectName": "right1",
+    "x": 36.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Fungus2_26",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_06",
+    "objectName": "right2",
+    "x": 36.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_06",
+    "objectName": "top1",
+    "x": 13,
+    "y": 160.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_18",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus2_06",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_07",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus2_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 60,
+    "isDoor": false,
+    "targetScene": "Fungus2_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_08",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus2_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_08",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus2_32",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus2_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_09",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Fungus2_08",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_10",
+    "objectName": "bot1",
+    "x": 6,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_11",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_10",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 61,
+    "isDoor": false,
+    "targetScene": "Fungus2_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_10",
+    "objectName": "right2",
+    "x": 70.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_21",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_11",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Fungus2_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_11",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus2_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_11",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus2_12",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_11",
+    "objectName": "top1",
+    "x": 7,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_10",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_12",
+    "objectName": "bot1",
+    "x": 91,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_13",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_12",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus2_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_13",
+    "objectName": "left2",
+    "x": 1.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Fungus2_14",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_13",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus2_23",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_13",
+    "objectName": "top1",
+    "x": 24,
+    "y": 116.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_12",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_14",
+    "objectName": "bot3",
+    "x": 60,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_15",
+    "entryPoint": "top3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_14",
+    "objectName": "right1",
+    "x": 175.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_13",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_14",
+    "objectName": "top1",
+    "x": 35,
+    "y": 41.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_17",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_15",
+    "objectName": "left1",
+    "x": 7,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_25",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_15",
+    "objectName": "right1",
+    "x": 61.5,
+    "y": 88,
+    "isDoor": false,
+    "targetScene": "Fungus2_31",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_15",
+    "objectName": "top3",
+    "x": 38,
+    "y": 120.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_14",
+    "entryPoint": "bot3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_17",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_14",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_17",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "Fungus2_29",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_17",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Fungus2_11",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_18",
+    "objectName": "bot1",
+    "x": 6,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_19",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_18",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus2_11",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_18",
+    "objectName": "top1",
+    "x": 40,
+    "y": 60.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_19",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Fungus2_20",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_19",
+    "objectName": "top1",
+    "x": 50,
+    "y": 25.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_18",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_20",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 31,
+    "isDoor": false,
+    "targetScene": "Deepnest_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_20",
+    "objectName": "right1",
+    "x": 63.5,
+    "y": 31,
+    "isDoor": false,
+    "targetScene": "Fungus2_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_21",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus2_10",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_21",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Ruins1_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_23",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 63,
+    "isDoor": false,
+    "targetScene": "Fungus2_13",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_23",
+    "objectName": "right2",
+    "x": 90.5,
+    "y": 27,
+    "isDoor": false,
+    "targetScene": "Waterways_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_25",
+    "objectName": "right1",
+    "x": 168.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus2_15",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_25",
+    "objectName": "top1",
+    "x": 12,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_16",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_26",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus2_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_28",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Fungus2_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_28",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus2_04",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_29",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_30",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_29",
+    "objectName": "right1",
+    "x": 94.5,
+    "y": 32,
+    "isDoor": false,
+    "targetScene": "Fungus2_17",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_30",
+    "objectName": "bot1",
+    "x": 17.5,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_25",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_30",
+    "objectName": "top1",
+    "x": 20,
+    "y": 140.5,
+    "isDoor": false,
+    "targetScene": "Fungus2_29",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_31",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus2_15",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_32",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus2_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_33",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 63,
+    "isDoor": false,
+    "targetScene": "Fungus3_26",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_33",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus2_06",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus2_34",
+    "objectName": "right1",
+    "x": 47.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus2_01",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 38,
+    "isDoor": false,
+    "targetScene": "Fungus3_24",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_01",
+    "objectName": "right1",
+    "x": 33.5,
+    "y": 67,
+    "isDoor": false,
+    "targetScene": "Fungus3_25",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_01",
+    "objectName": "right2",
+    "x": 33.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus3_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_01",
+    "objectName": "top1",
+    "x": 20,
+    "y": 80.5,
+    "isDoor": false,
+    "targetScene": "Fungus1_11",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 95,
+    "isDoor": false,
+    "targetScene": "Fungus3_01",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_02",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 64,
+    "isDoor": false,
+    "targetScene": "Fungus3_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_02",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Fungus3_35",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_02",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 95,
+    "isDoor": false,
+    "targetScene": "Fungus3_47",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_02",
+    "objectName": "right2",
+    "x": 31.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus2_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Fungus3_34",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_03",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Fungus3_02",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 84,
+    "isDoor": false,
+    "targetScene": "Fungus3_21",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_04",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 67,
+    "isDoor": false,
+    "targetScene": "Fungus3_13",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_04",
+    "objectName": "right1",
+    "x": 40.5,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Fungus3_34",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_04",
+    "objectName": "right2",
+    "x": 40.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus3_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Fungus3_04",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_05",
+    "objectName": "right1",
+    "x": 73.5,
+    "y": 60,
+    "isDoor": false,
+    "targetScene": "Fungus1_24",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_05",
+    "objectName": "right2",
+    "x": 73.5,
+    "y": 30,
+    "isDoor": false,
+    "targetScene": "Fungus3_11",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Deepnest_43",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_08",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus3_11",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_08",
+    "objectName": "top1",
+    "x": 6,
+    "y": 25.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_10",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_10",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_08",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_10",
+    "objectName": "top1",
+    "x": 49,
+    "y": 44.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_13",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_11",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Fungus3_05",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_11",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus3_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_11",
+    "objectName": "right1",
+    "x": 52.5,
+    "y": 15,
+    "isDoor": false,
+    "targetScene": "Fungus3_39",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_13",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_10",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_13",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 60,
+    "isDoor": false,
+    "targetScene": "Fungus1_23",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_13",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus3_40",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_13",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 36,
+    "isDoor": false,
+    "targetScene": "Fungus3_49",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_13",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 64,
+    "isDoor": false,
+    "targetScene": "Fungus3_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_21",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus3_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_21",
+    "objectName": "top1",
+    "x": 9,
+    "y": 26,
+    "isDoor": false,
+    "targetScene": "Fungus3_22",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_22",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_21",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_22",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus3_23",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_22",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 84,
+    "isDoor": false,
+    "targetScene": "Fungus1_13",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_23",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Fungus3_48",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_23",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus3_22",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_24",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus3_44",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_24",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Fungus3_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_24",
+    "objectName": "top1",
+    "x": 30,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_30",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_25",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Fungus3_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_25",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Fungus3_25b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_25b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Fungus3_25",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_25b",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Fungus3_26",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_26",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Fungus3_28",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_26",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 38,
+    "isDoor": false,
+    "targetScene": "Fungus3_25b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_26",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus3_27",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_26",
+    "objectName": "right1",
+    "x": 31.5,
+    "y": 67,
+    "isDoor": false,
+    "targetScene": "Fungus2_33",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_26",
+    "objectName": "top1",
+    "x": 21,
+    "y": 105.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_35",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_27",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Fungus3_47",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_27",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Fungus3_26",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_28",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Fungus3_26",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_30",
+    "objectName": "bot1",
+    "x": 32,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_24",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_34",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Fungus3_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_34",
+    "objectName": "right1",
+    "x": 160.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus3_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_34",
+    "objectName": "top1",
+    "x": 80,
+    "y": 26.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_44",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_35",
+    "objectName": "right1",
+    "x": 65.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Fungus3_02",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_39",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Fungus3_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_39",
+    "objectName": "right1",
+    "x": 109.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Deepnest_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_40",
+    "objectName": "right1",
+    "x": 187.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Fungus3_13",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_40",
+    "objectName": "top1",
+    "x": 19,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_48",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_44",
+    "objectName": "bot1",
+    "x": 53,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_34",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_44",
+    "objectName": "door1",
+    "x": 21.74,
+    "y": 37.82,
+    "isDoor": true,
+    "targetScene": "Room_Fungus_Shaman",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_44",
+    "objectName": "right1",
+    "x": 95.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Fungus3_24",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_47",
+    "objectName": "door1",
+    "x": 43.45,
+    "y": 6.77,
+    "isDoor": true,
+    "targetScene": "Fungus3_archive",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_47",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Fungus3_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_47",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Fungus3_27",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_48",
+    "objectName": "bot1",
+    "x": 62,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_40",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_48",
+    "objectName": "door1",
+    "x": 38.021,
+    "y": 93.644,
+    "isDoor": true,
+    "targetScene": "Room_Queen",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_48",
+    "objectName": "right1",
+    "x": 95.5,
+    "y": 95,
+    "isDoor": false,
+    "targetScene": "Fungus3_23",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_48",
+    "objectName": "right2",
+    "x": 95.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Fungus1_23",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_49",
+    "objectName": "right1",
+    "x": 87.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Fungus3_13",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_50",
+    "objectName": "right1",
+    "x": 40.5,
+    "y": 116,
+    "isDoor": false,
+    "targetScene": "Deepnest_43",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_archive",
+    "objectName": "bot1",
+    "x": 68,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_archive_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_archive",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus3_47",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Fungus3_archive_02",
+    "objectName": "top1",
+    "x": 51,
+    "y": 195.5,
+    "isDoor": false,
+    "targetScene": "Fungus3_archive",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "GG_Lurker",
+    "objectName": "left1",
+    "x": 66.5,
+    "y": 109,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_Spectate",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "GG_Pipeway",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 33,
+    "isDoor": false,
+    "targetScene": "GG_Waterways",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "GG_Pipeway",
+    "objectName": "right1",
+    "x": 149,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Waterways_08",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "GG_Waterways",
+    "objectName": "door1",
+    "x": 139.71,
+    "y": 55.8,
+    "isDoor": true,
+    "targetScene": "Room_GG_Shortcut",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "GG_Waterways",
+    "objectName": "right1",
+    "x": 164.5,
+    "y": 88,
+    "isDoor": false,
+    "targetScene": "GG_Pipeway",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Grimm_Divine",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "room_divine",
+    "delay": 0
+  },
+  {
+    "myScene": "Grimm_Main_Tent",
+    "objectName": "left1",
+    "x": 11,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "room_grimm",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 39,
+    "isDoor": false,
+    "targetScene": "Abyss_03_c",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_01",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 51,
+    "isDoor": false,
+    "targetScene": "Hive_02",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_01",
+    "objectName": "right2",
+    "x": 120.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Hive_02",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_02",
+    "objectName": "left1",
+    "x": 93.5,
+    "y": 74,
+    "isDoor": false,
+    "targetScene": "Hive_03_c",
+    "entryPoint": "right3",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_02",
+    "objectName": "left2",
+    "x": 93.5,
+    "y": 51,
+    "isDoor": false,
+    "targetScene": "Hive_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_02",
+    "objectName": "left3",
+    "x": 93.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Hive_01",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03",
+    "objectName": "bot1",
+    "x": 77,
+    "y": 109,
+    "isDoor": false,
+    "targetScene": "Hive_03_c",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03",
+    "objectName": "right1",
+    "x": 140.5,
+    "y": 144,
+    "isDoor": false,
+    "targetScene": "Hive_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03",
+    "objectName": "top1",
+    "x": 41,
+    "y": 150.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_02",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03_c",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 101,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03_c",
+    "objectName": "right2",
+    "x": 140.5,
+    "y": 96,
+    "isDoor": false,
+    "targetScene": "Hive_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03_c",
+    "objectName": "right3",
+    "x": 140.5,
+    "y": 73,
+    "isDoor": false,
+    "targetScene": "Hive_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_03_c",
+    "objectName": "top1",
+    "x": 77,
+    "y": 110.5,
+    "isDoor": false,
+    "targetScene": "Hive_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_04",
+    "objectName": "left1",
+    "x": 101.5,
+    "y": 144,
+    "isDoor": false,
+    "targetScene": "Hive_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_04",
+    "objectName": "left2",
+    "x": 100.5,
+    "y": 96,
+    "isDoor": false,
+    "targetScene": "Hive_03_c",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_04",
+    "objectName": "right1",
+    "x": 220.5,
+    "y": 104,
+    "isDoor": false,
+    "targetScene": "Hive_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Hive_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Hive_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_01",
+    "objectName": "bot1",
+    "x": 14,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Crossroads_45",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Mines_33",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_02",
+    "objectName": "right1",
+    "x": 160.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Mines_29",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_02",
+    "objectName": "top1",
+    "x": 20,
+    "y": 36.5,
+    "isDoor": false,
+    "targetScene": "Mines_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_02",
+    "objectName": "top2",
+    "x": 119,
+    "y": 36.5,
+    "isDoor": false,
+    "targetScene": "Mines_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_03",
+    "objectName": "bot1",
+    "x": 16,
+    "y": 0,
+    "isDoor": false,
+    "targetScene": "Mines_02",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_03",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Mines_17",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_03",
+    "objectName": "top1",
+    "x": 12,
+    "y": 80.5,
+    "isDoor": false,
+    "targetScene": "Mines_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 67,
+    "isDoor": false,
+    "targetScene": "Mines_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_04",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 45,
+    "isDoor": false,
+    "targetScene": "Mines_29",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_04",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Mines_29",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_04",
+    "objectName": "right1",
+    "x": 36.5,
+    "y": 56,
+    "isDoor": false,
+    "targetScene": "Mines_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_04",
+    "objectName": "top1",
+    "x": 22,
+    "y": 85.5,
+    "isDoor": false,
+    "targetScene": "Mines_37",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_05",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 69,
+    "isDoor": false,
+    "targetScene": "Mines_30",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_05",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 22,
+    "isDoor": false,
+    "targetScene": "Mines_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_05",
+    "objectName": "right1",
+    "x": 35.5,
+    "y": 33,
+    "isDoor": false,
+    "targetScene": "Mines_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_05",
+    "objectName": "top1",
+    "x": 15,
+    "y": 74.5,
+    "isDoor": false,
+    "targetScene": "Mines_11",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Mines_36",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_06",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Mines_05",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Mines_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_07",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Mines_28",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_10",
+    "objectName": "bot1",
+    "x": 32,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_16",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_10",
+    "objectName": "right1",
+    "x": 187.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Mines_30",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_11",
+    "objectName": "bot1",
+    "x": 13,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_05",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_11",
+    "objectName": "right1",
+    "x": 43.5,
+    "y": 22,
+    "isDoor": false,
+    "targetScene": "Mines_18",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_11",
+    "objectName": "top1",
+    "x": 17,
+    "y": 65.5,
+    "isDoor": false,
+    "targetScene": "Mines_13",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_13",
+    "objectName": "bot1",
+    "x": 31,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_11",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_13",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 16,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_16",
+    "objectName": "top1",
+    "x": 22,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Mines_10",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_17",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Mines_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_17",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Mines_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_18",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Mines_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_18",
+    "objectName": "right1",
+    "x": 65.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_18",
+    "objectName": "top1",
+    "x": 56,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "Mines_32",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_19",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Mines_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_19",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "bot1",
+    "x": 39,
+    "y": 59.5,
+    "isDoor": false,
+    "targetScene": "Mines_37",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 187,
+    "isDoor": false,
+    "targetScene": "Mines_13",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 120,
+    "isDoor": false,
+    "targetScene": "Mines_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 64,
+    "isDoor": false,
+    "targetScene": "Mines_19",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "right1",
+    "x": 75.5,
+    "y": 196,
+    "isDoor": false,
+    "targetScene": "Mines_23",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "right2",
+    "x": 75.5,
+    "y": 64,
+    "isDoor": false,
+    "targetScene": "Mines_31",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_23",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_23",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 28,
+    "isDoor": false,
+    "targetScene": "Mines_25",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_23",
+    "objectName": "right2",
+    "x": 180.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Mines_24",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_24",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Mines_23",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_25",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Mines_23",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_25",
+    "objectName": "top1",
+    "x": 6,
+    "y": 130.5,
+    "isDoor": false,
+    "targetScene": "Mines_34",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_28",
+    "objectName": "bot1",
+    "x": 20,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_28",
+    "objectName": "door1",
+    "x": 81.2,
+    "y": 47.56,
+    "isDoor": true,
+    "targetScene": "Mines_35",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_28",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Mines_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_29",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Mines_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_29",
+    "objectName": "right1",
+    "x": 45.5,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Mines_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_29",
+    "objectName": "right2",
+    "x": 45.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "Mines_04",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_30",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Mines_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_30",
+    "objectName": "right1",
+    "x": 180.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Mines_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_31",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_32",
+    "objectName": "bot1",
+    "x": 56,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_18",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_33",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_03",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_33",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Mines_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_34",
+    "objectName": "bot1",
+    "x": 166,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_25",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_34",
+    "objectName": "bot2",
+    "x": 15.5,
+    "y": -2,
+    "isDoor": false,
+    "targetScene": "Mines_23",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_34",
+    "objectName": "left1",
+    "x": -3.5,
+    "y": 40,
+    "isDoor": false,
+    "targetScene": "Mines_13",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_35",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Mines_28",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_36",
+    "objectName": "right1",
+    "x": 43.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Mines_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_37",
+    "objectName": "bot1",
+    "x": 32,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Mines_04",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Mines_37",
+    "objectName": "top1",
+    "x": 38,
+    "y": 65.5,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_02",
+    "objectName": "bot1",
+    "x": 98,
+    "y": 1.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Crossroads_46b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_02",
+    "objectName": "right1",
+    "x": 129.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_02",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_04",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "bot1",
+    "x": 34.5,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_10",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "left2",
+    "x": 2,
+    "y": 79,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "left3",
+    "x": 1.5,
+    "y": 55,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "right1",
+    "x": 33.5,
+    "y": 77,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_05",
+    "objectName": "right2",
+    "x": 45.5,
+    "y": 55,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Crossroads_50",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_06",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Ruins2_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_06",
+    "objectName": "top1",
+    "x": 8,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_07",
+    "objectName": "right1",
+    "x": 45,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_08",
+    "objectName": "left1",
+    "x": 13.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_09",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Ruins2_10",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_10",
+    "objectName": "top1",
+    "x": 72.5,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_10",
+    "objectName": "top2",
+    "x": 130.5,
+    "y": 30.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_12",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_12",
+    "objectName": "bot1",
+    "x": 20.5,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_10",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_12",
+    "objectName": "door_Mansion",
+    "x": 62.95,
+    "y": 2.74,
+    "isDoor": true,
+    "targetScene": "Room_Mansion",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "RestingGrounds_17",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_05",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Bretta",
+    "objectName": "right1",
+    "x": 24.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "door_bretta",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Charm_Shop",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "door_charmshop",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_01",
+    "objectName": "bot1",
+    "x": 44,
+    "y": 3,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_01",
+    "objectName": "left1",
+    "x": 13.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_02",
+    "objectName": "top1",
+    "x": 43.5,
+    "y": 56,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_02",
+    "objectName": "top2",
+    "x": 135.5,
+    "y": 56,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_Spectate",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_Spectate",
+    "objectName": "bot1",
+    "x": 135,
+    "y": 2.5,
+    "isDoor": false,
+    "targetScene": "Room_Colosseum_02",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Colosseum_Spectate",
+    "objectName": "right1",
+    "x": 176,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "GG_Lurker",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Fungus_Shaman",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Fungus3_44",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_GG_Shortcut",
+    "objectName": "left1",
+    "x": 28.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "GG_Waterways",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_GG_Shortcut",
+    "objectName": "top1",
+    "x": 4.5,
+    "y": 108.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_04",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Mansion",
+    "objectName": "left1",
+    "x": 11,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_12",
+    "entryPoint": "door_Mansion",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_mapper",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "door_mapper",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Mask_Maker",
+    "objectName": "right1",
+    "x": 60.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Deepnest_42",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Mender_House",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "door_Mender_House",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_nailmaster",
+    "objectName": "left1",
+    "x": 11,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Cliffs_02",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_nailmaster_02",
+    "objectName": "left1",
+    "x": 10,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Fungus1_15",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_nailmaster_03",
+    "objectName": "left1",
+    "x": 10,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_06",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_nailsmith",
+    "objectName": "left1",
+    "x": 8.5,
+    "y": 5.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_04",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Ouiji",
+    "objectName": "left1",
+    "x": 10,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "door_jiji",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Queen",
+    "objectName": "left1",
+    "x": 4.5,
+    "y": 45,
+    "isDoor": false,
+    "targetScene": "Fungus3_48",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_ruinhouse",
+    "objectName": "left1",
+    "x": 9.5,
+    "y": 7.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_04",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_shop",
+    "objectName": "left1",
+    "x": 9.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "door_sly",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Slug_Shrine",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus1_26",
+    "entryPoint": "door_SlugShrine",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_spider_small",
+    "objectName": "left1",
+    "x": 12.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Deepnest_10",
+    "entryPoint": "door2",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_temple",
+    "objectName": "left1",
+    "x": 2,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Crossroads_02",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Town_Stag_Station",
+    "objectName": "left1",
+    "x": 23,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "door_station",
+    "delay": 0
+  },
+  {
+    "myScene": "Room_Wyrm",
+    "objectName": "right1",
+    "x": 108.5,
+    "y": 12,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_Hornet",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_Bathhouse",
+    "objectName": "door1",
+    "x": 11.75,
+    "y": 3.71,
+    "isDoor": true,
+    "targetScene": "Ruins_Elevator",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_Bathhouse",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 33,
+    "isDoor": false,
+    "targetScene": "Ruins2_10b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_Elevator",
+    "objectName": "left1",
+    "x": 10.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "door_Ruin_Elevator",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_Elevator",
+    "objectName": "left2",
+    "x": 21,
+    "y": 141,
+    "isDoor": false,
+    "targetScene": "Ruins_Bathhouse",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_House_01",
+    "objectName": "left1",
+    "x": 10.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "door_Ruin_House_01",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_House_02",
+    "objectName": "left1",
+    "x": 10.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "door_Ruin_House_02",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_House_03",
+    "objectName": "left1",
+    "x": 10.5,
+    "y": 52,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "door_Ruin_House_03",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins_House_03",
+    "objectName": "left2",
+    "x": 38,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Waterways_07",
+    "entryPoint": "door1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_01",
+    "objectName": "bot1",
+    "x": 95,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Fungus2_21",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_01",
+    "objectName": "top1",
+    "x": 52,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_17",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_02",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_02",
+    "objectName": "top1",
+    "x": 11,
+    "y": 76.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_03",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Ruins1_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_03",
+    "objectName": "right1",
+    "x": 148.5,
+    "y": 43,
+    "isDoor": false,
+    "targetScene": "Ruins1_05c",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_03",
+    "objectName": "right2",
+    "x": 150.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Ruins1_05b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_03",
+    "objectName": "top1",
+    "x": 28,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_04",
+    "objectName": "bot1",
+    "x": 15,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Room_GG_Shortcut",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_04",
+    "objectName": "door1",
+    "x": 38.42376,
+    "y": 35.69,
+    "isDoor": true,
+    "targetScene": "Room_nailsmith",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_04",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Ruins1_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "bot1",
+    "x": 20,
+    "y": 102.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05c",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "bot2",
+    "x": 32,
+    "y": 102.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05c",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "bot3",
+    "x": 55,
+    "y": 102.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05c",
+    "entryPoint": "top3",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "right1",
+    "x": 63.5,
+    "y": 153.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "right2",
+    "x": 65.5,
+    "y": 109,
+    "isDoor": false,
+    "targetScene": "Ruins1_18",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05",
+    "objectName": "top1",
+    "x": 9,
+    "y": 167.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_31",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05b",
+    "objectName": "bot1",
+    "x": 32,
+    "y": 3,
+    "isDoor": false,
+    "targetScene": "Waterways_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Ruins1_03",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05b",
+    "objectName": "right1",
+    "x": 65.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Ruins1_27",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05b",
+    "objectName": "top1",
+    "x": 29,
+    "y": 35.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05c",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05c",
+    "objectName": "bot1",
+    "x": 29,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05b",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05c",
+    "objectName": "left2",
+    "x": 1,
+    "y": 39,
+    "isDoor": false,
+    "targetScene": "Ruins1_03",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05c",
+    "objectName": "top1",
+    "x": 20,
+    "y": 113.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05c",
+    "objectName": "top2",
+    "x": 32,
+    "y": 113.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_05c",
+    "objectName": "top3",
+    "x": 54,
+    "y": 113.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "bot3",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Ruins1_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_06",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Ruins1_31",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_09",
+    "objectName": "left1",
+    "x": 1,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_09",
+    "objectName": "top1",
+    "x": 31,
+    "y": 29.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_23",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_17",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_17",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_17",
+    "objectName": "top1",
+    "x": 7,
+    "y": 70.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_28",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_18",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_18",
+    "objectName": "right1",
+    "x": 90.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Ruins2_03b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_18",
+    "objectName": "right2",
+    "x": 90.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Ruins2_01",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_23",
+    "objectName": "bot1",
+    "x": 38,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_09",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_23",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_31",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_23",
+    "objectName": "right1",
+    "x": 50.5,
+    "y": 75,
+    "isDoor": false,
+    "targetScene": "Ruins1_25",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_23",
+    "objectName": "right2",
+    "x": 50.5,
+    "y": 29,
+    "isDoor": false,
+    "targetScene": "Ruins1_25",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_23",
+    "objectName": "top1",
+    "x": 34,
+    "y": 86.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_30",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_24",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Ruins1_32",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_24",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_32",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_24",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 43,
+    "isDoor": false,
+    "targetScene": "Ruins1_30",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_24",
+    "objectName": "right2",
+    "x": 70.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Ruins1_30",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_25",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 99.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_30",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_25",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Ruins1_23",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_25",
+    "objectName": "left3",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_23",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_27",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Ruins1_05b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_27",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins2_01_b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_28",
+    "objectName": "bot1",
+    "x": 78,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_17",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_28",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Crossroads_49b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_28",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "Ruins1_29",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_29",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins1_28",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_30",
+    "objectName": "bot1",
+    "x": 58,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_23",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_30",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Ruins1_24",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_30",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_24",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_30",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Ruins1_25",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31",
+    "objectName": "bot1",
+    "x": 7,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins1_05",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Ruins1_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31",
+    "objectName": "left2",
+    "x": 43,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Ruins1_31b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31",
+    "objectName": "left3",
+    "x": 43,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Ruins1_31b",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31",
+    "objectName": "right1",
+    "x": 65.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Ruins1_23",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31b",
+    "objectName": "right1",
+    "x": 52.5,
+    "y": 59,
+    "isDoor": false,
+    "targetScene": "Ruins1_31",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_31b",
+    "objectName": "right2",
+    "x": 58.5,
+    "y": 40,
+    "isDoor": false,
+    "targetScene": "Ruins1_31",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_32",
+    "objectName": "right1",
+    "x": 52.5,
+    "y": 66,
+    "isDoor": false,
+    "targetScene": "Ruins1_24",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins1_32",
+    "objectName": "right2",
+    "x": 52.5,
+    "y": 50,
+    "isDoor": false,
+    "targetScene": "Ruins1_24",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01",
+    "objectName": "bot1",
+    "x": 6,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_01_b",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 85,
+    "isDoor": false,
+    "targetScene": "Ruins1_18",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01",
+    "objectName": "top1",
+    "x": 70,
+    "y": 90.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_03b",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01_b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins1_27",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01_b",
+    "objectName": "right1",
+    "x": 78.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_01_b",
+    "objectName": "top1",
+    "x": 6,
+    "y": 48.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03",
+    "objectName": "bot1",
+    "x": 19,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_03b",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03",
+    "objectName": "bot2",
+    "x": 72,
+    "y": 32.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_03b",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03",
+    "objectName": "top1",
+    "x": 52,
+    "y": 124.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_Watcher_Room",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03b",
+    "objectName": "bot1",
+    "x": 71,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins1_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03b",
+    "objectName": "top1",
+    "x": 12,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Ruins2_03",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_03b",
+    "objectName": "top2",
+    "x": 72,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Ruins2_03",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "door_Ruin_Elevator",
+    "x": 68.70495,
+    "y": 32.68663,
+    "isDoor": true,
+    "targetScene": "Ruins_Elevator",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "door_Ruin_House_01",
+    "x": 122.26,
+    "y": 24.68,
+    "isDoor": true,
+    "targetScene": "Ruins_House_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "door_Ruin_House_02",
+    "x": 83.7,
+    "y": 39.63,
+    "isDoor": true,
+    "targetScene": "Ruins_House_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "door_Ruin_House_03",
+    "x": 80.34,
+    "y": 6.62,
+    "isDoor": true,
+    "targetScene": "Ruins_House_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "left1",
+    "x": 1.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Ruins2_01_b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 4,
+    "isDoor": false,
+    "targetScene": "Abyss_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 51,
+    "isDoor": false,
+    "targetScene": "Ruins2_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "right2",
+    "x": 150.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "Ruins2_06",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_05",
+    "objectName": "bot1",
+    "x": 9,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_05",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 57,
+    "isDoor": false,
+    "targetScene": "Ruins2_10b",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_05",
+    "objectName": "top1",
+    "x": 10,
+    "y": 84.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_09",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_06",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_06",
+    "objectName": "right1",
+    "x": 55.5,
+    "y": 32,
+    "isDoor": false,
+    "targetScene": "Ruins2_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_06",
+    "objectName": "right2",
+    "x": 55.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Ruins2_07",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_06",
+    "objectName": "top1",
+    "x": 22.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Ruins2_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins2_06",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_07",
+    "objectName": "right1",
+    "x": 130.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_07",
+    "objectName": "top1",
+    "x": 102,
+    "y": 20.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_11_b",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Ruins2_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_09",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_05",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_10",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 161,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_06",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_10",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 161,
+    "isDoor": false,
+    "targetScene": "RestingGrounds_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_10b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 93,
+    "isDoor": false,
+    "targetScene": "Ruins_Bathhouse",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_10b",
+    "objectName": "right1",
+    "x": 30.5,
+    "y": 140,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_09",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_10b",
+    "objectName": "right2",
+    "x": 30.5,
+    "y": 11,
+    "isDoor": false,
+    "targetScene": "Ruins2_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_11",
+    "objectName": "right1",
+    "x": 48.5,
+    "y": 61,
+    "isDoor": false,
+    "targetScene": "Ruins2_11_b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_11_b",
+    "objectName": "bot1",
+    "x": 55,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_07",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_11_b",
+    "objectName": "left1",
+    "x": 43.5,
+    "y": 61,
+    "isDoor": false,
+    "targetScene": "Ruins2_11",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_11_b",
+    "objectName": "right1",
+    "x": 78.5,
+    "y": 61,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_07",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Ruins2_Watcher_Room",
+    "objectName": "bot1",
+    "x": 53,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_03",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "bot1",
+    "x": 185,
+    "y": -1.5,
+    "isDoor": false,
+    "targetScene": "Crossroads_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "door_bretta",
+    "x": 165.621,
+    "y": 10.87395,
+    "isDoor": true,
+    "targetScene": "Room_Bretta",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "door_jiji",
+    "x": 252,
+    "y": 7.75,
+    "isDoor": true,
+    "targetScene": "Room_Ouiji",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "door_mapper",
+    "x": 154.7986,
+    "y": 10.71355,
+    "isDoor": true,
+    "targetScene": "Room_mapper",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "door_sly",
+    "x": 120.8584,
+    "y": 10.64479,
+    "isDoor": true,
+    "targetScene": "Room_shop",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "door_station",
+    "x": 142.5016,
+    "y": 10.64521,
+    "isDoor": true,
+    "targetScene": "Room_Town_Stag_Station",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "left1",
+    "x": 1.5,
+    "y": 49,
+    "isDoor": false,
+    "targetScene": "Tutorial_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "right1",
+    "x": 263.5,
+    "y": 53,
+    "isDoor": false,
+    "targetScene": "Mines_10",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "room_divine",
+    "x": 72.14317,
+    "y": 10.8265,
+    "isDoor": true,
+    "targetScene": "Grimm_Divine",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Town",
+    "objectName": "room_grimm",
+    "x": 82.75712,
+    "y": 10.8265,
+    "isDoor": true,
+    "targetScene": "Grimm_Main_Tent",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Tutorial_01",
+    "objectName": "right1",
+    "x": 193.5,
+    "y": 68,
+    "isDoor": false,
+    "targetScene": "Town",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Tutorial_01",
+    "objectName": "top2",
+    "x": 11,
+    "y": 80.5,
+    "isDoor": false,
+    "targetScene": "Cliffs_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_01",
+    "objectName": "bot1",
+    "x": 54,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_01",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 14,
+    "isDoor": false,
+    "targetScene": "Waterways_04",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_01",
+    "objectName": "right1",
+    "x": 152.5,
+    "y": 41,
+    "isDoor": false,
+    "targetScene": "Waterways_03",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_01",
+    "objectName": "top1",
+    "x": 77,
+    "y": 47,
+    "isDoor": false,
+    "targetScene": "Ruins1_05b",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_02",
+    "objectName": "bot1",
+    "x": 9,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_08",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_02",
+    "objectName": "bot2",
+    "x": 220,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_02",
+    "objectName": "top1",
+    "x": 65,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Waterways_01",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_02",
+    "objectName": "top2",
+    "x": 171,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Waterways_05",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_02",
+    "objectName": "top3",
+    "x": 10,
+    "y": 45.5,
+    "isDoor": false,
+    "targetScene": "Waterways_04",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_03",
+    "objectName": "left1",
+    "x": 44,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "Waterways_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04",
+    "objectName": "bot1",
+    "x": 146,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_02",
+    "entryPoint": "top3",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "Waterways_04b",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Waterways_04b",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04",
+    "objectName": "right1",
+    "x": 154.5,
+    "y": 37,
+    "isDoor": false,
+    "targetScene": "Waterways_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 23,
+    "isDoor": false,
+    "targetScene": "Waterways_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04b",
+    "objectName": "right1",
+    "x": 130.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "Waterways_04",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_04b",
+    "objectName": "right2",
+    "x": 130.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "Waterways_04",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_05",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_02",
+    "entryPoint": "top2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_05",
+    "objectName": "bot2",
+    "x": 104,
+    "y": 3,
+    "isDoor": false,
+    "targetScene": "Waterways_15",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_05",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Abyss_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_06",
+    "objectName": "right1",
+    "x": 140.5,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "Abyss_01",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_06",
+    "objectName": "top1",
+    "x": 93,
+    "y": 50.5,
+    "isDoor": false,
+    "targetScene": "Waterways_02",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_07",
+    "objectName": "door1",
+    "x": 81.11,
+    "y": 86.68,
+    "isDoor": true,
+    "targetScene": "Ruins_House_03",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_07",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "Abyss_01",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_07",
+    "objectName": "right1",
+    "x": 110.5,
+    "y": 50,
+    "isDoor": false,
+    "targetScene": "Waterways_13",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_07",
+    "objectName": "right2",
+    "x": 110.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Waterways_13",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_07",
+    "objectName": "top1",
+    "x": 11,
+    "y": 100.5,
+    "isDoor": false,
+    "targetScene": "Waterways_14",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Waterways_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_08",
+    "objectName": "left2",
+    "x": 0,
+    "y": 55,
+    "isDoor": false,
+    "targetScene": "GG_Pipeway",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_08",
+    "objectName": "top1",
+    "x": 25,
+    "y": 60.5,
+    "isDoor": false,
+    "targetScene": "Waterways_02",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_09",
+    "objectName": "left1",
+    "x": 1,
+    "y": 7,
+    "isDoor": false,
+    "targetScene": "Fungus2_23",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_09",
+    "objectName": "right1",
+    "x": 50.5,
+    "y": 20,
+    "isDoor": false,
+    "targetScene": "Waterways_04b",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_12",
+    "objectName": "right1",
+    "x": 80.5,
+    "y": 6,
+    "isDoor": false,
+    "targetScene": "Waterways_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_13",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 48,
+    "isDoor": false,
+    "targetScene": "Waterways_07",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_13",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 17,
+    "isDoor": false,
+    "targetScene": "Waterways_07",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_14",
+    "objectName": "bot1",
+    "x": 8,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Waterways_07",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_14",
+    "objectName": "bot2",
+    "x": 249,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "Deepnest_East_02",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "Waterways_15",
+    "objectName": "top1",
+    "x": 39,
+    "y": 25,
+    "isDoor": false,
+    "targetScene": "Waterways_05",
+    "entryPoint": "bot2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_01",
+    "objectName": "left1",
+    "x": 0,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "White_Palace_11",
+    "entryPoint": "door2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_01",
+    "objectName": "right1",
+    "x": 200.5,
+    "y": 24,
+    "isDoor": false,
+    "targetScene": "White_Palace_02",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_01",
+    "objectName": "top1",
+    "x": 107,
+    "y": 140,
+    "isDoor": false,
+    "targetScene": "White_Palace_03_hub",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_02",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 24,
+    "isDoor": false,
+    "targetScene": "White_Palace_01",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_03_hub",
+    "objectName": "bot1",
+    "x": 10,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_01",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_03_hub",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 98,
+    "isDoor": false,
+    "targetScene": "White_Palace_14",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_03_hub",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 35,
+    "isDoor": false,
+    "targetScene": "White_Palace_04",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_03_hub",
+    "objectName": "right1",
+    "x": 100.5,
+    "y": 64,
+    "isDoor": false,
+    "targetScene": "White_Palace_15",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_03_hub",
+    "objectName": "top1",
+    "x": 54,
+    "y": 140.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_06",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_04",
+    "objectName": "right2",
+    "x": 200.5,
+    "y": 24,
+    "isDoor": false,
+    "targetScene": "White_Palace_03_hub",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_04",
+    "objectName": "top1",
+    "x": 19,
+    "y": 78.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_14",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_05",
+    "objectName": "left1",
+    "x": 50.5,
+    "y": 115,
+    "isDoor": false,
+    "targetScene": "White_Palace_15",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_05",
+    "objectName": "left2",
+    "x": 48.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "White_Palace_15",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_05",
+    "objectName": "right1",
+    "x": 156.5,
+    "y": 115,
+    "isDoor": false,
+    "targetScene": "White_Palace_16",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_05",
+    "objectName": "right2",
+    "x": 156.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "White_Palace_16",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_06",
+    "objectName": "bot1",
+    "x": 19,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_03_hub",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_06",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 8,
+    "isDoor": false,
+    "targetScene": "White_Palace_18",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_06",
+    "objectName": "top1",
+    "x": 19,
+    "y": 75.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_07",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_07",
+    "objectName": "bot1",
+    "x": 51,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_06",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_07",
+    "objectName": "top1",
+    "x": 31,
+    "y": 140.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_12",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_08",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "White_Palace_13",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_08",
+    "objectName": "right1",
+    "x": 154,
+    "y": 21,
+    "isDoor": false,
+    "targetScene": "White_Palace_13",
+    "entryPoint": "left3",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_09",
+    "objectName": "right1",
+    "x": 150.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "White_Palace_13",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_11",
+    "objectName": "door2",
+    "x": 128.81,
+    "y": 16.8,
+    "isDoor": true,
+    "targetScene": "White_Palace_01",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_12",
+    "objectName": "bot1",
+    "x": 34,
+    "y": 132,
+    "isDoor": false,
+    "targetScene": "White_Palace_07",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_12",
+    "objectName": "right1",
+    "x": 74.5,
+    "y": 136,
+    "isDoor": false,
+    "targetScene": "White_Palace_13",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_13",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 231,
+    "isDoor": false,
+    "targetScene": "White_Palace_09",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_13",
+    "objectName": "left2",
+    "x": -0.5,
+    "y": 136,
+    "isDoor": false,
+    "targetScene": "White_Palace_12",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_13",
+    "objectName": "left3",
+    "x": 98.5,
+    "y": 215,
+    "isDoor": false,
+    "targetScene": "White_Palace_08",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_13",
+    "objectName": "right1",
+    "x": 175.5,
+    "y": 151,
+    "isDoor": false,
+    "targetScene": "White_Palace_08",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_14",
+    "objectName": "bot1",
+    "x": 17,
+    "y": 68.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_04",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_14",
+    "objectName": "right1",
+    "x": 200.5,
+    "y": 81,
+    "isDoor": false,
+    "targetScene": "White_Palace_03_hub",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_15",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "White_Palace_03_hub",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_15",
+    "objectName": "right1",
+    "x": 70.5,
+    "y": 115,
+    "isDoor": false,
+    "targetScene": "White_Palace_05",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_15",
+    "objectName": "right2",
+    "x": 70.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "White_Palace_05",
+    "entryPoint": "left2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_16",
+    "objectName": "left1",
+    "x": 135.5,
+    "y": 115,
+    "isDoor": false,
+    "targetScene": "White_Palace_05",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_16",
+    "objectName": "left2",
+    "x": 134.5,
+    "y": 19,
+    "isDoor": false,
+    "targetScene": "White_Palace_05",
+    "entryPoint": "right2",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_17",
+    "objectName": "bot1",
+    "x": 80,
+    "y": -0.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_18",
+    "entryPoint": "top1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_17",
+    "objectName": "right1",
+    "x": 120.5,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "White_Palace_19",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_18",
+    "objectName": "right1",
+    "x": 300.5,
+    "y": 13,
+    "isDoor": false,
+    "targetScene": "White_Palace_06",
+    "entryPoint": "left1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_18",
+    "objectName": "top1",
+    "x": 78,
+    "y": 44.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_17",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_19",
+    "objectName": "left1",
+    "x": 87,
+    "y": 34,
+    "isDoor": false,
+    "targetScene": "White_Palace_17",
+    "entryPoint": "right1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_19",
+    "objectName": "top1",
+    "x": 18,
+    "y": 168.5,
+    "isDoor": false,
+    "targetScene": "White_Palace_20",
+    "entryPoint": "bot1",
+    "delay": 0
+  },
+  {
+    "myScene": "White_Palace_20",
+    "objectName": "bot1",
+    "x": 10,
+    "y": 154,
+    "isDoor": false,
+    "targetScene": "White_Palace_19",
+    "entryPoint": "top1",
+    "delay": 0
+  }
+]
