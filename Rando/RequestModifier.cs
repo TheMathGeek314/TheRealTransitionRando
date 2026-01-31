@@ -1,10 +1,14 @@
 ﻿using ItemChanger;
 using RandomizerCore.Exceptions;
+using RandomizerCore.Logic;
 using RandomizerCore.Randomization;
 using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
+using RandomizerMod.Settings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using rStartDef = RandomizerMod.RandomizerData.StartDef;
 
 namespace TheRealTransitionRando {
     public class RequestModifier {
@@ -13,6 +17,7 @@ namespace TheRealTransitionRando {
             RequestBuilder.OnUpdate.Subscribe(-499, SetupItems);
             RequestBuilder.OnUpdate.Subscribe(101, RestrictPlacements);
             RequestBuilder.OnUpdate.Subscribe(-499.5f, DefinePools);
+            RequestBuilder.OnSelectStart.Subscribe(0, StartStuff);
         }
 
         public static void ApplyTransitionDefs(RequestBuilder rb) {
@@ -53,6 +58,7 @@ namespace TheRealTransitionRando {
                         MajorItem = false,
                         PriceCap = 1
                     };
+                    info.randoItemCreator = factory => new TrtrRandoItem() { item = rb.lm.ItemLookup[name] };
                 });
                 rb.AddItemByName(name);
             }
@@ -91,6 +97,12 @@ namespace TheRealTransitionRando {
                 gb = default;
                 return false;
             }
+        }
+
+        private static bool StartStuff(Random rng, GenerationSettings gs, SettingsPM pm, out rStartDef def) {
+            bool output = BuiltinRequests.SelectStart(rng, gs, pm, out rStartDef def2);
+            def = def2 with { Transition = "Transition-" + def2.Transition };
+            return output;
         }
     }
 }

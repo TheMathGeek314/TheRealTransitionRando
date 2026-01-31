@@ -1,16 +1,13 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using RandomizerCore;
 using RandomizerCore.Logic;
-using RandomizerCore.Logic.StateLogic;
 
 namespace TheRealTransitionRando {
-    public record LogicRealTransition: LogicItem, ILocationDependentItem {
-        public string name;
+    public record TrtrLogicItem: LogicItem, ILocationDependentItem {
         public readonly Term term;
 
-        public LogicRealTransition(string name, TermValue tv): base(name) {
-            Name = this.name = name;
+        public TrtrLogicItem(string name, TermValue tv): base(name) {
+            Name = name;
             term = tv.Term;
         }
 
@@ -27,7 +24,7 @@ namespace TheRealTransitionRando {
 
         public void Place(ProgressionManager pm, ILogicDef location) {
             string prefixedName = $"TRTR_Waypoint-{location.Name}";
-            LogicAdder.mlog($"calling LinkState({prefixedName}, {term.Name})");
+            //LogicAdder.mlog($"calling LinkState({prefixedName}, {term.Name})");
             pm.mu.LinkState(pm.lm.GetTermStrict(prefixedName), term);
         }
     }

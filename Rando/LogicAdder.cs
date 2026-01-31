@@ -38,7 +38,7 @@ namespace TheRealTransitionRando {
 
             foreach(string item in TransitionCoords.itemData.Keys) {
                 //lmb.AddItem(new SingleItem(item, new TermValue(lmb.GetTerm(item), 1)));
-                lmb.AddItem(new LogicRealTransition(item, new TermValue(lmb.GetTerm(item), 1)));
+                lmb.AddItem(new TrtrLogicItem(item, new TermValue(lmb.GetTerm(item), 1)));
             }
         }
 
@@ -52,20 +52,18 @@ namespace TheRealTransitionRando {
                 foreach(string term in TransitionCoords.logicReplaceData.Keys) {
                     if(term.Substring(0, 4) == "Town" && key.StartsWith("Deepnest_Spider_Town"))
                         continue;
-                    if(key != term && lmb.LogicLookup[key].ToInfix().Contains(term)) {
+                    if(/*key != term && */lmb.LogicLookup[key].ToInfix().Contains(term)) {
                         lmb.DoSubst(new(key, term, TransitionCoords.logicReplaceData[term]));
+                        //mlog($"\t\tSubstituted definition of {key}: {lmb.LogicLookup[key].ToInfix()}");
                     }
                 }
             }
 
             foreach(string key in keys) {
-                /*if(!lmb.Waypoints.Contains(key) && !lmb.Transitions.Contains(key)) {
-                    lmb.AddWaypoint(new(key, lmb.LogicLookup[key].ToInfix()));
-                }*/
-                if(key.StartsWith("Transition-") || lmb.Transitions.Contains(key))
+                if(/*key.StartsWith("Transition-") || */lmb.Transitions.Contains(key))
                     continue;
                 lmb.AddWaypoint(new($"TRTR_Waypoint-{key}", lmb.LogicLookup[key].ToInfix()));
-                mlog($"Added waypoint TRTR_Waypoint-{key} : {lmb.LogicLookup[key].ToInfix()}");
+                //mlog($"Added waypoint TRTR_Waypoint-{key} : {lmb.LogicLookup[key].ToInfix()}");
             }
         }
 
