@@ -1,15 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using Modding;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Reflection;
 using UnityEngine;
-using ItemChanger;
-using ItemChanger.Locations;
-using ItemChanger.Internal;
-using Modding;
-using System;
 using HutongGames.PlayMaker.Actions;
+using ItemChanger;
 using ItemChanger.Extensions;
 using ItemChanger.FsmStateActions;
+using ItemChanger.Locations;
+using ItemChanger.Internal;
 
 namespace TheRealTransitionRando {
     public class TransitionLocation: AutoLocation {
@@ -74,7 +73,7 @@ namespace TheRealTransitionRando {
                     tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
                     tp.gameObject.AddComponent<TransitionCollider>();
                 }
-                else {
+                else if(TransitionCoords.locationData.ContainsKey((tp.gameObject.scene.name, tp.gameObject.name))) {
                     tp.gameObject.SetActive(false);
                 }
             }

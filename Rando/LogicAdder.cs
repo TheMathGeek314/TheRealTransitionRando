@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using RandomizerCore;
 using RandomizerCore.Json;
 using RandomizerCore.Logic;
-using RandomizerCore.Logic.StateLogic;
-using RandomizerCore.LogicItems;
-using RandomizerCore.StringLogic;
-using RandomizerCore.StringParsing;
 using RandomizerMod.RC;
 using RandomizerMod.Settings;
 
@@ -26,9 +21,6 @@ namespace TheRealTransitionRando {
             using Stream s = typeof(LogicAdder).Assembly.GetManifestResourceStream("TheRealTransitionRando.Resources.logic.json");
             lmb.DeserializeFile(LogicFileType.Locations, fmt, s);
 
-            /*using Stream st = typeof(LogicAdder).Assembly.GetManifestResourceStream("TheRealTransitionRando.Resources.logicSubstitutions.json");
-            lmb.DeserializeFile(LogicFileType.LogicSubst, fmt, st);*/
-
             DefineTermsAndItems(lmb, fmt);
         }
 
@@ -37,7 +29,6 @@ namespace TheRealTransitionRando {
             lmb.DeserializeFile(LogicFileType.Terms, fmt, t);
 
             foreach(string item in TransitionCoords.itemData.Keys) {
-                //lmb.AddItem(new SingleItem(item, new TermValue(lmb.GetTerm(item), 1)));
                 lmb.AddItem(new TrtrLogicItem(item, new TermValue(lmb.GetTerm(item), 1)));
             }
         }
@@ -52,23 +43,20 @@ namespace TheRealTransitionRando {
                 foreach(string term in TransitionCoords.logicReplaceData.Keys) {
                     if(term.Substring(0, 4) == "Town" && key.StartsWith("Deepnest_Spider_Town"))
                         continue;
-                    if(/*key != term && */lmb.LogicLookup[key].ToInfix().Contains(term)) {
+                    if(lmb.LogicLookup[key].ToInfix().Contains(term)) {
                         lmb.DoSubst(new(key, term, TransitionCoords.logicReplaceData[term]));
-                        //mlog($"\t\tSubstituted definition of {key}: {lmb.LogicLookup[key].ToInfix()}");
                     }
                 }
             }
 
             foreach(string key in keys) {
-                if(/*key.StartsWith("Transition-") || */lmb.Transitions.Contains(key))
+                if(lmb.Transitions.Contains(key) || lmb.Waypoints.Contains(key))
                     continue;
-                lmb.AddWaypoint(new($"TRTR_Waypoint-{key}", lmb.LogicLookup[key].ToInfix()));
-                //mlog($"Added waypoint TRTR_Waypoint-{key} : {lmb.LogicLookup[key].ToInfix()}");
+                lmb.AddWaypoint(new(key, lmb.LogicLookup[key].ToInfix()));
             }
-        }
-
-        public static void mlog(string msg) {
-            Modding.Logger.Log($"[TheRealTransitionRando] - {msg}");
+            foreach(string t in new string[] { "Tutorial_01[top1]", "Town[top1]", "Deepnest_01b[top2]", "Deepnest_East_03[top2]",
+                                                "Fungus2_25[top2]", "RestingGrounds_02[top1]", "Mines_23[top1]", "Mines_13[top1]" })
+                lmb.AddWaypoint(new("Transition-" + t, lmb.LogicLookup[t].ToInfix()));
         }
     }
 }

@@ -27,3 +27,4 @@ namespace TheRealTransitionRando {
 //map mod routing is wrong
 //do any room rando settings need to be applied (or menu settings overridden)
 //are any starts jail
+//redesign door locations as AutoLocation over CoordinateLocation

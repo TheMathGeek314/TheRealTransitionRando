@@ -1,13 +1,12 @@
-﻿using ItemChanger;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using ItemChanger;
 using RandomizerCore.Exceptions;
-using RandomizerCore.Logic;
 using RandomizerCore.Randomization;
 using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
 using RandomizerMod.Settings;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using rStartDef = RandomizerMod.RandomizerData.StartDef;
 
 namespace TheRealTransitionRando {

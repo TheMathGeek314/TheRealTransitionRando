@@ -23,9 +23,7 @@ namespace TheRealTransitionRando {
         }
 
         public void Place(ProgressionManager pm, ILogicDef location) {
-            string prefixedName = $"TRTR_Waypoint-{location.Name}";
-            //LogicAdder.mlog($"calling LinkState({prefixedName}, {term.Name})");
-            pm.mu.LinkState(pm.lm.GetTermStrict(prefixedName), term);
+            pm.mu.LinkState(pm.lm.GetTermStrict(location.Name), term);
         }
     }
 }

@@ -53,7 +53,6 @@
   </Target>
   <ItemGroup>
     <None Remove="Resources\logic.json" />
-    <None Remove="Resources\logicSubstitutions.json" />
     <None Remove="Resources\terms.json" />
     <None Remove="Resources\transitionData.json" />
   </ItemGroup>
@@ -359,8 +358,5 @@
     <None Include=".gitignore" />
     <None Include="ReadMe.md" />
     <None Include="Resources\.gitignore" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\logicSubstitutions.json" />
   </ItemGroup>
 </Project>
