@@ -9,6 +9,7 @@ using ItemChanger.Extensions;
 using ItemChanger.FsmStateActions;
 using ItemChanger.Locations;
 using ItemChanger.Internal;
+using HutongGames.PlayMaker;
 
 namespace TheRealTransitionRando {
     public class TransitionLocation: AutoLocation {
@@ -67,21 +68,20 @@ namespace TheRealTransitionRando {
             while(HeroController.instance.cState.transitioning)
                 await Task.Yield();
             TransitionPoint[] transitions = GameObject.FindObjectsOfType<TransitionPoint>();
-            foreach(TransitionPoint tp in transitions) {//this should be conditional to whether checks exist (palace exits aren't real at the moment)
+            foreach(TransitionPoint tp in transitions) {
                 if(!tp.isADoor) {
                     tp.gameObject.layer = LayerMask.NameToLayer("Terrain");
                     tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
                     tp.gameObject.AddComponent<TransitionCollider>();
-                }
-                else if(TransitionCoords.locationData.ContainsKey((tp.gameObject.scene.name, tp.gameObject.name))) {
-                    tp.gameObject.SetActive(false);
                 }
             }
         }
 
         private static void editFsm(On.PlayMakerFSM.orig_OnEnable orig, PlayMakerFSM self) {
             orig(self);
-            if(self.gameObject.scene.name == "Tutorial_01" && self.FsmName == "Great Door") {
+            string sceneName = self.gameObject.scene.name;
+            string objectName = self.gameObject.name;
+            if(sceneName == "Tutorial_01" && self.FsmName == "Great Door") {
                 self.GetState("Move").GetFirstActionOfType<BeginSceneTransition>().Enabled = false;
                 self.GetState("Move").AddLastAction(new Lambda(() => {
                     GiveInfo giveInfo = new() {
@@ -92,7 +92,26 @@ namespace TheRealTransitionRando {
                     };
                     Ref.Settings.Placements["Transition-Tutorial_01[right1]"].GiveAll(giveInfo);
                 }));
-
+            }
+            if(sceneName == "Crossroads_01" && objectName == "door1")
+                objectName = "top1";
+            if(self.FsmName == "Door Control" && TransitionCoords.locationData.ContainsKey((sceneName, objectName))) {
+                FsmState grantState = self.AddState("Grant Check");
+                FsmState canEnterState = self.GetState("Can Enter?");
+                canEnterState.ClearTransitions();
+                canEnterState.AddTransition("FINISHED", "Grant Check");
+                grantState.AddFirstAction(new Lambda(() => {
+                    if(Ref.Settings.Placements.TryGetValue($"Transition-{sceneName}[{objectName}]", out AbstractPlacement ap)) {
+                        GiveInfo giveInfo = new GiveInfo {
+                            Container = Container.Unknown,
+                            FlingType = FlingType.DirectDeposit,
+                            MessageType = MessageType.Corner,
+                            Transform = self.transform
+                        };
+                        ap.GiveAll(giveInfo);
+                    }
+                }));
+                grantState.AddLastAction(new HidePromptMarker() { storedObject = self.FsmVariables.GetFsmGameObject("Prompt") });
             }
         }
     }
@@ -115,7 +134,9 @@ namespace TheRealTransitionRando {
                 objectName = "top3";
             else if(scene == "Fungus2_25" && objectName.StartsWith("right"))
                 objectName = "right1";
-            isRandod = TransitionCoords.locationData.ContainsKey((scene, objectName));
+            else if(scene == "Crossroads_01" && objectName == "top2")
+                objectName = "top1";
+                isRandod = TransitionCoords.locationData.ContainsKey((scene, objectName));
             if(isRandod)
                 locationName = $"Transition-{scene}[{objectName}]";
         }

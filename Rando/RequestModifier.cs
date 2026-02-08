@@ -99,9 +99,13 @@ namespace TheRealTransitionRando {
         }
 
         private static bool StartStuff(Random rng, GenerationSettings gs, SettingsPM pm, out rStartDef def) {
-            bool output = BuiltinRequests.SelectStart(rng, gs, pm, out rStartDef def2);
+            if(!TheRealTransitionRando.Settings.Enabled) {
+                def = null;
+                return false;
+            }
+            BuiltinRequests.SelectStart(rng, gs, pm, out rStartDef def2);
             def = def2 with { Transition = "Transition-" + def2.Transition };
-            return output;
+            return true;
         }
     }
 }

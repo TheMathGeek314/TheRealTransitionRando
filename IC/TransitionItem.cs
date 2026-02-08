@@ -1,4 +1,6 @@
-﻿using ItemChanger;
+﻿using Modding;
+using System.Collections.Generic;
+using ItemChanger;
 using ItemChanger.Tags;
 using ItemChanger.UIDefs;
 
@@ -16,6 +18,9 @@ namespace TheRealTransitionRando {
         }
 
         public override void GiveImmediate(GiveInfo info) {
+            if(ModHooks.GetMod("ItemSyncMod") is Mod)
+                DontItemSync(this);
+
             TransitionData td = TransitionCoords.itemData[name];
             GameManager.instance.BeginSceneTransition(new GameManager.SceneLoadInfo {
                 SceneName = td.targetScene,
@@ -28,6 +33,17 @@ namespace TheRealTransitionRando {
                 AlwaysUnloadUnusedAssets = false,
                 forceWaitFetch = false
             });
+        }
+
+        private void DontItemSync(TransitionItem item) {
+            List<Tag> nonSyncTags = new();
+            foreach(IInteropTag tag in item.GetTags<IInteropTag>()) {
+                if(tag.Message != "SyncedItemTag") {
+                    nonSyncTags.Add((tag as Tag)!);
+                }
+            }
+            item.RemoveTags<IInteropTag>();
+            item.AddTags(nonSyncTags);
         }
     }
 }

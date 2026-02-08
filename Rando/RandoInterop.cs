@@ -56,23 +56,8 @@ namespace TheRealTransitionRando {
 
             foreach(TransitionData data in TransitionCoords.locationData.Values) {
                 string name = $"Transition-{data.myScene}[{data.objectName}]";
-                if(!data.isDoor) {
-                    TransitionLocation tLoc = new() { name = name, sceneName = data.myScene };
-                    DefineLoc(tLoc, data.myScene, data.x, data.y);
-                }
-                else {
-                    CoordinateLocation cLoc = new() {
-                        name = name,
-                        sceneName = data.myScene,
-                        x = data.x,
-                        y = data.y,
-                        elevation = 0f,
-                        managed = false,
-                        forceShiny = true,
-                        flingType = FlingType.DirectDeposit
-                    };
-                    DefineLoc(cLoc, data.myScene, data.x, data.y);
-                }
+                TransitionLocation tLoc = new() { name = name, sceneName = data.myScene };
+                DefineLoc(tLoc, data.myScene, data.x, data.y);
             }
         }
 

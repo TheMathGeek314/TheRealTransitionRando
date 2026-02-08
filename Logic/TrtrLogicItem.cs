@@ -23,7 +23,7 @@ namespace TheRealTransitionRando {
         }
 
         public void Place(ProgressionManager pm, ILogicDef location) {
-            pm.mu.LinkState(pm.lm.GetTermStrict(location.Name), term);
+            pm.mu.LinkState(pm.lm.GetTermStrict("Trtr_Waypoint-" + location.Name), term);
         }
     }
 }

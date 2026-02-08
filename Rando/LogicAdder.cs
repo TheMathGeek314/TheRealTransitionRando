@@ -49,10 +49,11 @@ namespace TheRealTransitionRando {
                 }
             }
 
+            string waypointPrefix = "Trtr_Waypoint-";
             foreach(string key in keys) {
-                if(lmb.Transitions.Contains(key) || lmb.Waypoints.Contains(key))
+                if(lmb.Transitions.Contains(key))
                     continue;
-                lmb.AddWaypoint(new(key, lmb.LogicLookup[key].ToInfix()));
+                lmb.AddWaypoint(new(waypointPrefix + key, lmb.LogicLookup[key].ToInfix()));
             }
             foreach(string t in new string[] { "Tutorial_01[top1]", "Town[top1]", "Deepnest_01b[top2]", "Deepnest_East_03[top2]",
                                                 "Fungus2_25[top2]", "RestingGrounds_02[top1]", "Mines_23[top1]", "Mines_13[top1]" })

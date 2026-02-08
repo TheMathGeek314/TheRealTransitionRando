@@ -23,8 +23,6 @@ namespace TheRealTransitionRando {
     }
 }
 
-//non-rando'd transitions should exist and behave as vanilla (TransitionLocation)
 //map mod routing is wrong
-//do any room rando settings need to be applied (or menu settings overridden)
+//do any room rando settings/modules need to be applied (or menu settings overridden)
 //are any starts jail
-//redesign door locations as AutoLocation over CoordinateLocation
