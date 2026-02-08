@@ -23,6 +23,8 @@ namespace TheRealTransitionRando {
     }
 }
 
-//map mod routing is wrong
+//map mod routing isn't completely done
+//      doors seem to have problems?
+//      delete vanilla transitions but keep their logic
 //do any room rando settings/modules need to be applied (or menu settings overridden)
 //are any starts jail

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Reflection;
 using UnityEngine;
+using HutongGames.PlayMaker;
 using HutongGames.PlayMaker.Actions;
 using ItemChanger;
 using ItemChanger.Extensions;
 using ItemChanger.FsmStateActions;
 using ItemChanger.Locations;
 using ItemChanger.Internal;
-using HutongGames.PlayMaker;
 
 namespace TheRealTransitionRando {
     public class TransitionLocation: AutoLocation {

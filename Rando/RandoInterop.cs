@@ -3,7 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using ItemChanger;
-using ItemChanger.Locations;
 using ItemChanger.Tags;
 using MenuChanger;
 using MenuChanger.MenuElements;
@@ -21,6 +20,10 @@ namespace TheRealTransitionRando {
 
             if(ModHooks.GetMod("RandoSettingsManager") is Mod) {
                 RSMInterop.Hook();
+            }
+
+            if(ModHooks.GetMod("RandoMapCoreMod") is Mod) {
+                MapCoreInterop.Hook();
             }
         }
 
