@@ -21,7 +21,7 @@ namespace TheRealTransitionRando {
 
         public static void ApplyTransitionDefs(RequestBuilder rb) {
             if(TheRealTransitionRando.Settings.Enabled) {
-                foreach(TransitionData data in TransitionCoords.locationData.Values) {
+                foreach(TransitionData data in TransitionCoords.finalLocationData.Values) {
                     string name = $"Transition-{data.myScene}[{data.objectName}]";
                     rb.AddLocationByName(name);
                     rb.EditLocationRequest(name, info => {
@@ -48,7 +48,7 @@ namespace TheRealTransitionRando {
         private static void SetupItems(RequestBuilder rb) {
             if(!TheRealTransitionRando.Settings.Enabled)
                 return;
-            foreach(TransitionData data in TransitionCoords.itemData.Values) {
+            foreach(TransitionData data in TransitionCoords.finalItemData.Values) {
                 string name = $"Transition-{data.targetScene}[{data.entryPoint}]";
                 rb.EditItemRequest(name, info => {
                     info.getItemDef = () => new ItemDef() {

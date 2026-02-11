@@ -57,7 +57,7 @@ namespace TheRealTransitionRando {
             foreach(TransitionData data in new ParseJson(tranStream).parseFile<TransitionData>())
                 data.translate();
 
-            foreach(TransitionData data in TransitionCoords.locationData.Values) {
+            foreach(TransitionData data in TransitionCoords.locationData.Values.Concat(TransitionCoords.fakeLocationData.Values)) {
                 string name = $"Transition-{data.myScene}[{data.objectName}]";
                 TransitionLocation tLoc = new() { name = name, sceneName = data.myScene };
                 DefineLoc(tLoc, data.myScene, data.x, data.y);
@@ -65,7 +65,7 @@ namespace TheRealTransitionRando {
         }
 
         public static void DefineItems() {
-            foreach(TransitionData data in TransitionCoords.itemData.Values) {
+            foreach(TransitionData data in TransitionCoords.itemData.Values.Concat(TransitionCoords.fakeItemData.Values)) {
                 TransitionItem item = new($"Transition-{data.targetScene}[{data.entryPoint}]");
                 Finder.DefineCustomItem(item);
             }

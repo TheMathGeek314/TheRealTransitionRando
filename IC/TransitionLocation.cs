@@ -1,15 +1,15 @@
 ﻿using Modding;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Reflection;
+using System.Threading.Tasks;
 using UnityEngine;
 using HutongGames.PlayMaker;
 using HutongGames.PlayMaker.Actions;
 using ItemChanger;
 using ItemChanger.Extensions;
 using ItemChanger.FsmStateActions;
-using ItemChanger.Locations;
 using ItemChanger.Internal;
+using ItemChanger.Locations;
 
 namespace TheRealTransitionRando {
     public class TransitionLocation: AutoLocation {
@@ -95,7 +95,7 @@ namespace TheRealTransitionRando {
             }
             if(sceneName == "Crossroads_01" && objectName == "door1")
                 objectName = "top1";
-            if(self.FsmName == "Door Control" && TransitionCoords.locationData.ContainsKey((sceneName, objectName))) {
+            if(self.FsmName == "Door Control" && TransitionCoords.finalLocationData.ContainsKey((sceneName, objectName))) {
                 FsmState grantState = self.AddState("Grant Check");
                 FsmState canEnterState = self.GetState("Can Enter?");
                 canEnterState.ClearTransitions();
@@ -136,7 +136,7 @@ namespace TheRealTransitionRando {
                 objectName = "right1";
             else if(scene == "Crossroads_01" && objectName == "top2")
                 objectName = "top1";
-                isRandod = TransitionCoords.locationData.ContainsKey((scene, objectName));
+            isRandod = TransitionCoords.finalLocationData.ContainsKey((scene, objectName));
             if(isRandod)
                 locationName = $"Transition-{scene}[{objectName}]";
         }

@@ -8838,5 +8838,181 @@
     "targetScene": "White_Palace_19",
     "entryPoint": "top1",
     "delay": 0
+  },
+  {
+    "myScene": "BrettaHouseBubbles",
+    "objectName": "bot1",
+    "x": 102,
+    "y": 0.5,
+    "isDoor": false,
+    "targetScene": "BrettaHouseBumpers",
+    "entryPoint": "top1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseBubbles",
+    "objectName": "left1",
+    "x": 12.5,
+    "y": 95,
+    "isDoor": false,
+    "targetScene": "BrettaHouseBubbles",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseBumpers",
+    "objectName": "right1",
+    "x": 146.5,
+    "y": 5,
+    "isDoor": false,
+    "targetScene": "BrettaHouseSwitches",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseBumpers",
+    "objectName": "top1",
+    "x": 15,
+    "y": 156.5,
+    "isDoor": false,
+    "targetScene": "BrettaHouseBubbles",
+    "entryPoint": "bot1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseSwitches",
+    "objectName": "left1",
+    "x": 0.5,
+    "y": 47,
+    "isDoor": false,
+    "targetScene": "BrettaHouseBumpers",
+    "entryPoint": "right1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseSwitches",
+    "objectName": "right1",
+    "x": 171.5,
+    "y": 4.5,
+    "isDoor": false,
+    "targetScene": "BrettaHouseZippers",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseZippers",
+    "objectName": "left1",
+    "x": 5.5,
+    "y": 273,
+    "isDoor": false,
+    "targetScene": "BrettaHouseSwitches",
+    "entryPoint": "right1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BrettaHouseZippers",
+    "objectName": "right1",
+    "x": 129.5,
+    "y": 7.5,
+    "isDoor": false,
+    "targetScene": "BrettaHouseZippers",
+    "entryPoint": "right1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BugPrince_GemstoneCavern",
+    "objectName": "left1",
+    "x": 0.5,
+    "y": 42,
+    "isDoor": false,
+    "targetScene": "Mines_20",
+    "entryPoint": "right_gemstonecavern",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "BugPrince_Vault",
+    "objectName": "left1",
+    "x": 11.5,
+    "y": 7.5,
+    "isDoor": false,
+    "targetScene": "Ruins2_04",
+    "entryPoint": "door_BugPrince_Vault",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "Mines_20",
+    "objectName": "right_gemstonecavern",
+    "x": 74.5,
+    "y": 150,
+    "isDoor": false,
+    "targetScene": "BugPrince_GemstoneCavern",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "Ruins2_04",
+    "objectName": "door_BugPrince_Vault",
+    "x": 70.8,
+    "y": 19.8,
+    "isDoor": true,
+    "targetScene": "BugPrince_Vault",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "GG_Workshop",
+    "objectName": "left1",
+    "x": 2,
+    "y": 9,
+    "isDoor": false,
+    "targetScene": "GG_Atrium",
+    "entryPoint": "Door_Workshop",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "GG_Atrium",
+    "objectName": "Door_Workshop",
+    "x": 111.33,
+    "y": 13.76,
+    "isDoor": true,
+    "targetScene": "GG_Workshop",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "GG_Blue_Room",
+    "objectName": "left1",
+    "x": 82,
+    "y": 18,
+    "isDoor": false,
+    "targetScene": "GG_Atrium",
+    "entryPoint": "door1_blueRoom",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "GG_Atrium",
+    "objectName": "door1_blueRoom",
+    "x": 89.84,
+    "y": 13.76,
+    "isDoor": true,
+    "targetScene": "GG_Blue_Room",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
   }
 ]

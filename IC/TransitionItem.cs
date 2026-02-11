@@ -21,7 +21,7 @@ namespace TheRealTransitionRando {
             if(ModHooks.GetMod("ItemSyncMod") is Mod)
                 DontItemSync(this);
 
-            TransitionData td = TransitionCoords.itemData[name];
+            TransitionData td = TransitionCoords.finalItemData[name];
             GameManager.instance.BeginSceneTransition(new GameManager.SceneLoadInfo {
                 SceneName = td.targetScene,
                 EntryGateName = td.entryPoint,

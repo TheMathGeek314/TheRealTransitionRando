@@ -10,7 +10,7 @@ using RandomizerMod.Settings;
 namespace TheRealTransitionRando {
     public static class LogicAdder {
         public static void Hook() {
-            RCData.RuntimeLogicOverride.Subscribe(50, ApplyLogic);
+            RCData.RuntimeLogicOverride.Subscribe(float.MaxValue - 1, ApplyLogic);
             RCData.RuntimeLogicOverride.Subscribe(float.MaxValue, ReplaceLogic);
         }
 
@@ -22,6 +22,7 @@ namespace TheRealTransitionRando {
             lmb.DeserializeFile(LogicFileType.Locations, fmt, s);
 
             DefineTermsAndItems(lmb, fmt);
+            CheckFakeData(lmb, fmt);
         }
 
         private static void DefineTermsAndItems(LogicManagerBuilder lmb, JsonLogicFormat fmt) {
@@ -30,6 +31,32 @@ namespace TheRealTransitionRando {
 
             foreach(string item in TransitionCoords.itemData.Keys) {
                 lmb.AddItem(new TrtrLogicItem(item, new TermValue(lmb.GetTerm(item), 1)));
+            }
+        }
+
+        private static void CheckFakeData(LogicManagerBuilder lmb, JsonLogicFormat fmt) {
+            TransitionCoords.finalLocationData.Clear();
+            TransitionCoords.finalItemData.Clear();
+
+            foreach((string, string) key in TransitionCoords.locationData.Keys)
+                TransitionCoords.finalLocationData.Add(key, TransitionCoords.locationData[key]);
+            foreach((string scene, string objName) in TransitionCoords.fakeLocationData.Keys) {
+                string icName = $"{scene}[{objName}]";
+                if(lmb.Transitions.Contains(icName)) {
+                    lmb.AddLogicDef(new("Transition-" + icName, "*" + icName));
+                    TransitionCoords.finalLocationData.Add((scene, objName), TransitionCoords.fakeLocationData[(scene, objName)]);
+                }
+            }
+
+            foreach(string key in TransitionCoords.itemData.Keys)
+                TransitionCoords.finalItemData.Add(key, TransitionCoords.itemData[key]);
+            foreach(string item in TransitionCoords.fakeItemData.Keys) {
+                string icName = item.Split('-')[1];
+                if(lmb.Transitions.Contains(icName)) {
+                    Term itemTerm = lmb.GetOrAddTerm(item, TermType.State);
+                    lmb.AddItem(new TrtrLogicItem(item, new TermValue(itemTerm, 1)));
+                    TransitionCoords.finalItemData.Add(item, TransitionCoords.fakeItemData[item]);
+                }
             }
         }
 
