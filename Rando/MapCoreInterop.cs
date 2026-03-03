@@ -22,7 +22,6 @@ namespace TheRealTransitionRando {
                 Destination = t.item.Split('-')[1],
                 Text = t.location,
                 Logic = new RawLogicDef(t.location, $"{RandomizerMod.RandomizerMod.RS.TrackerData.lm.LogicLookup[t.location].ToInfix()} + {t.item}")
-                //CompassObjects = ???
             });
         }
     }

@@ -1,9 +1,9 @@
-﻿using RandoSettingsManager;
-using RandoSettingsManager.SettingsManagement;
-using RandoSettingsManager.SettingsManagement.Versioning;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using RandoSettingsManager;
+using RandoSettingsManager.SettingsManagement;
+using RandoSettingsManager.SettingsManagement.Versioning;
 
 namespace TheRealTransitionRando {
     internal static class RSMInterop {
@@ -14,21 +14,6 @@ namespace TheRealTransitionRando {
             });
         }
     }
-
-    /*internal class TrtrSettingsProxy: RandoSettingsProxy<GlobalSettings, string> {
-        public override string ModKey => TheRealTransitionRando.instance.GetName();
-
-        public override VersioningPolicy<string> VersioningPolicy { get; } = new EqualityVersioningPolicy<string>(TheRealTransitionRando.instance.GetVersion());
-
-        public override void ReceiveSettings(GlobalSettings settings) {
-            settings ??= new();
-        }
-
-        public override bool TryProvideSettings(out GlobalSettings settings) {
-            settings = TheRealTransitionRando.Settings;
-            return settings.Enabled;
-        }
-    }*/
 
     internal class TrtrSettingsProxy: RandoSettingsProxy<GlobalSettings, Signature> {
         internal Func<GlobalSettings> getter;

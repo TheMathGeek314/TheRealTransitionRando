@@ -6,7 +6,7 @@ using ItemChanger;
 using ItemChanger.Tags;
 using MenuChanger;
 using MenuChanger.MenuElements;
-
+using RandomizerMod.RC;
 
 namespace TheRealTransitionRando {
     internal static class RandoInterop {
@@ -14,6 +14,12 @@ namespace TheRealTransitionRando {
             RandomizerMod.Menu.RandomizerMenuAPI.AddMenuPage(_ => {}, BuildConnectionMenuButton);
             RequestModifier.Hook();
             LogicAdder.Hook();
+
+            RandoController.OnExportCompleted += AddModules;
+
+            if(ModHooks.GetMod("ItemSyncMod") is Mod) {
+                TransitionItem.SetupReflection();
+            }
 
             DefineLocations();
             DefineItems();
@@ -76,6 +82,13 @@ namespace TheRealTransitionRando {
             tag.Message = "RandoSupplementalMetadata";
             tag.Properties["ModSource"] = TheRealTransitionRando.instance.GetName();
             return tag;
+        }
+
+        private static void AddModules(RandoController controller) {
+            if(!TheRealTransitionRando.Settings.Enabled)
+                return;
+            ItemChangerMod.Modules.GetOrAdd<ItemChanger.Modules.RemoveInfectedBlockades>();
+            ItemChangerMod.Modules.GetOrAdd<ItemChanger.Modules.ReversePathOfPainSaw>();
         }
     }
 }

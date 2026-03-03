@@ -82,8 +82,12 @@ namespace TheRealTransitionRando {
             string sceneName = self.gameObject.scene.name;
             string objectName = self.gameObject.name;
             if(sceneName == "Tutorial_01" && self.FsmName == "Great Door") {
-                self.GetState("Move").GetFirstActionOfType<BeginSceneTransition>().Enabled = false;
-                self.GetState("Move").AddLastAction(new Lambda(() => {
+                FsmState breakState = self.GetState("Break");
+                foreach(SendEventByName sendAction in breakState.GetActionsOfType<SendEventByName>()) {
+                    sendAction.Enabled = false;
+                }
+                breakState.GetFirstActionOfType<NextFrameEvent>().Enabled = false;
+                breakState.AddLastAction(new Lambda(() => {
                     GiveInfo giveInfo = new() {
                         Container = Container.Unknown,
                         FlingType = FlingType.DirectDeposit,
@@ -92,10 +96,11 @@ namespace TheRealTransitionRando {
                     };
                     Ref.Settings.Placements["Transition-Tutorial_01[right1]"].GiveAll(giveInfo);
                 }));
+                breakState.RemoveTransitionsOn("RIGHT");
             }
             if(sceneName == "Crossroads_01" && objectName == "door1")
                 objectName = "top1";
-            if(self.FsmName == "Door Control" && TransitionCoords.finalLocationData.ContainsKey((sceneName, objectName))) {
+            if(self.FsmName == "Door Control" && TheRealTransitionRando.localSettings.finalLocationData.ContainsKey($"{sceneName}, {objectName}")) {
                 FsmState grantState = self.AddState("Grant Check");
                 FsmState canEnterState = self.GetState("Can Enter?");
                 canEnterState.ClearTransitions();
@@ -136,7 +141,7 @@ namespace TheRealTransitionRando {
                 objectName = "right1";
             else if(scene == "Crossroads_01" && objectName == "top2")
                 objectName = "top1";
-            isRandod = TransitionCoords.finalLocationData.ContainsKey((scene, objectName));
+            isRandod = TheRealTransitionRando.localSettings.finalLocationData.ContainsKey($"{scene}, {objectName}");
             if(isRandod)
                 locationName = $"Transition-{scene}[{objectName}]";
         }

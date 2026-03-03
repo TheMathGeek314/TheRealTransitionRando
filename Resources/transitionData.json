@@ -9014,5 +9014,27 @@
     "entryPoint": "left1",
     "delay": 0,
     "fakeInterop": true
+  },
+  {
+    "myScene": "Fungus2_08",
+    "objectName": "right_RCD",
+    "x": 30.5,
+    "y": 62,
+    "isDoor": false,
+    "targetScene": "Crossroads_49b",
+    "entryPoint": "left1",
+    "delay": 0,
+    "fakeInterop": true
+  },
+  {
+    "myScene": "Crossroads_49b",
+    "objectName": "left1",
+    "x": -0.5,
+    "y": 10,
+    "isDoor": false,
+    "targetScene": "Fungus2_08",
+    "entryPoint": "right_RCD",
+    "delay": 0,
+    "fakeInterop": true
   }
 ]

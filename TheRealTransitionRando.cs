@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TheRealTransitionRando {
-    public class TheRealTransitionRando: Mod, IGlobalSettings<GlobalSettings> {
+    public class TheRealTransitionRando: Mod, IGlobalSettings<GlobalSettings>, ILocalSettings<LocalSettings> {
         new public string GetName() => "TheRealTransitionRando";
         public override string GetVersion() => "1.0.0.0";
 
         public static GlobalSettings Settings { get; set; } = new();
         public void OnLoadGlobal(GlobalSettings s) => Settings = s;
         public GlobalSettings OnSaveGlobal() => Settings;
+
+        public static LocalSettings localSettings { get; set; } = new();
+        public void OnLoadLocal(LocalSettings s) => localSettings = s;
+        public LocalSettings OnSaveLocal() => localSettings;
 
         internal static TheRealTransitionRando instance;
 
@@ -23,7 +27,6 @@ namespace TheRealTransitionRando {
     }
 }
 
-//map mod routing isn't completely done
-//      delete vanilla transitions but keep their logic
-//do any room rando settings/modules need to be applied (or menu settings overridden)
-//are any starts jail
+//check with vanilla rando and trandoplus
+//incompatibilitize MilliGolf and maybe BugPrince choices
+//write ReadMe

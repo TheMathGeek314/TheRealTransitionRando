@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using RandomizerCore;
 using RandomizerCore.Json;
 using RandomizerCore.Logic;
 using RandomizerMod.RC;
@@ -30,32 +29,32 @@ namespace TheRealTransitionRando {
             lmb.DeserializeFile(LogicFileType.Terms, fmt, t);
 
             foreach(string item in TransitionCoords.itemData.Keys) {
-                lmb.AddItem(new TrtrLogicItem(item, new TermValue(lmb.GetTerm(item), 1)));
+                lmb.AddItem(new TrtrLogicItem(item, lmb.GetTerm(item)));
             }
         }
 
         private static void CheckFakeData(LogicManagerBuilder lmb, JsonLogicFormat fmt) {
-            TransitionCoords.finalLocationData.Clear();
-            TransitionCoords.finalItemData.Clear();
+            TheRealTransitionRando.localSettings.finalLocationData.Clear();
+            TheRealTransitionRando.localSettings.finalItemData.Clear();
 
             foreach((string, string) key in TransitionCoords.locationData.Keys)
-                TransitionCoords.finalLocationData.Add(key, TransitionCoords.locationData[key]);
+                TheRealTransitionRando.localSettings.finalLocationData.Add($"{key.Item1}, {key.Item2}", TransitionCoords.locationData[key]);
             foreach((string scene, string objName) in TransitionCoords.fakeLocationData.Keys) {
                 string icName = $"{scene}[{objName}]";
                 if(lmb.Transitions.Contains(icName)) {
                     lmb.AddLogicDef(new("Transition-" + icName, "*" + icName));
-                    TransitionCoords.finalLocationData.Add((scene, objName), TransitionCoords.fakeLocationData[(scene, objName)]);
+                    TheRealTransitionRando.localSettings.finalLocationData.Add($"{scene}, {objName}", TransitionCoords.fakeLocationData[(scene, objName)]);
                 }
             }
 
             foreach(string key in TransitionCoords.itemData.Keys)
-                TransitionCoords.finalItemData.Add(key, TransitionCoords.itemData[key]);
+                TheRealTransitionRando.localSettings.finalItemData.Add(key, TransitionCoords.itemData[key]);
             foreach(string item in TransitionCoords.fakeItemData.Keys) {
                 string icName = item.Split('-')[1];
                 if(lmb.Transitions.Contains(icName)) {
                     Term itemTerm = lmb.GetOrAddTerm(item, TermType.State);
-                    lmb.AddItem(new TrtrLogicItem(item, new TermValue(itemTerm, 1)));
-                    TransitionCoords.finalItemData.Add(item, TransitionCoords.fakeItemData[item]);
+                    lmb.AddItem(new TrtrLogicItem(item, itemTerm));
+                    TheRealTransitionRando.localSettings.finalItemData.Add(item, TransitionCoords.fakeItemData[item]);
                 }
             }
         }
@@ -83,8 +82,9 @@ namespace TheRealTransitionRando {
                 lmb.AddWaypoint(new(waypointPrefix + key, lmb.LogicLookup[key].ToInfix()));
             }
             foreach(string t in new string[] { "Tutorial_01[top1]", "Town[top1]", "Deepnest_01b[top2]", "Deepnest_East_03[top2]",
-                                                "Fungus2_25[top2]", "RestingGrounds_02[top1]", "Mines_23[top1]", "Mines_13[top1]" })
+                                                "Fungus2_25[top2]", "RestingGrounds_02[top1]", "Mines_23[top1]", "Mines_13[top1]" }) {
                 lmb.AddWaypoint(new("Transition-" + t, lmb.LogicLookup[t].ToInfix()));
+            }
         }
     }
 }

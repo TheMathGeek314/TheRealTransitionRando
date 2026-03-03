@@ -3,14 +3,7 @@ using RandomizerCore;
 using RandomizerCore.Logic;
 
 namespace TheRealTransitionRando {
-    public record TrtrLogicItem: LogicItem, ILocationDependentItem {
-        public readonly Term term;
-
-        public TrtrLogicItem(string name, TermValue tv): base(name) {
-            Name = name;
-            term = tv.Term;
-        }
-
+    public record TrtrLogicItem(string Name, Term term): LogicItem(Name), ILocationDependentItem {
         public override void AddTo(ProgressionManager pm) {
             if(term.Type == TermType.State)
                 pm.GiveMinimumState(term);

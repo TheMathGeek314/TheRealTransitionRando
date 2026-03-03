@@ -4,10 +4,8 @@ namespace TheRealTransitionRando {
     public class TransitionCoords {
         public static Dictionary<(string, string), TransitionData> locationData = new();
         public static Dictionary<(string, string), TransitionData> fakeLocationData = new();
-        public static Dictionary<(string, string), TransitionData> finalLocationData = new();
         public static Dictionary<string, TransitionData> itemData = new();
         public static Dictionary<string, TransitionData> fakeItemData = new();
-        public static Dictionary<string, TransitionData> finalItemData = new();
         public static Dictionary<string, string> logicReplaceData = new();
     }
 
