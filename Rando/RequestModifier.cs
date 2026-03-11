@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using ItemChanger;
 using RandomizerCore.Exceptions;
+using RandomizerCore.Logic;
 using RandomizerCore.Randomization;
 using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
@@ -19,6 +20,7 @@ namespace TheRealTransitionRando {
             RequestBuilder.OnUpdate.Subscribe(-499.5f, DefinePools);
             RequestBuilder.OnSelectStart.Subscribe(0, StartStuff);
             RequestBuilder.OnUpdate.Subscribe(-1001, RemoveTransitions);
+            ProgressionInitializer.OnCreateProgressionInitializer += SetRoomRando;
 
             RequestBuilder.OnUpdate.Subscribe(0, CheckCompatibilities);
         }
@@ -130,6 +132,12 @@ namespace TheRealTransitionRando {
 
         private static void CheckCompatibilities(RequestBuilder _) {
             CompatChecks.Run();
+        }
+
+        private static void SetRoomRando(LogicManager lm, GenerationSettings gs, ProgressionInitializer pi) {
+            if(!TheRealTransitionRando.Settings.Enabled)
+                return;
+            pi.Setters.Add(new(lm.GetTerm("ROOMRANDO"), 1));
         }
     }
 }
