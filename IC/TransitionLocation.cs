@@ -70,9 +70,11 @@ namespace TheRealTransitionRando {
             TransitionPoint[] transitions = GameObject.FindObjectsOfType<TransitionPoint>();
             foreach(TransitionPoint tp in transitions) {
                 if(!tp.isADoor) {
-                    tp.gameObject.layer = LayerMask.NameToLayer("Terrain");
-                    tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
-                    tp.gameObject.AddComponent<TransitionCollider>();
+                    if(Ref.Settings.Placements.ContainsKey($"Transition-{tp.gameObject.scene.name}[{tp.gameObject.name}]")) {
+                        tp.gameObject.layer = LayerMask.NameToLayer("Terrain");
+                        tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+                        tp.gameObject.AddComponent<TransitionCollider>();
+                    }
                 }
             }
         }
