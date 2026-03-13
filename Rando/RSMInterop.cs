@@ -23,12 +23,12 @@ namespace TheRealTransitionRando {
 
         public override VersioningPolicy<Signature> VersioningPolicy => new StructuralVersioningPolicy() { settingsGetter = getter };
 
-        public override bool TryProvideSettings(out GlobalSettings settings) {
+        public override bool TryProvideSettings(out GlobalSettings? settings) {
             settings = getter();
             return settings.Enabled;
         }
 
-        public override void ReceiveSettings(GlobalSettings settings) {
+        public override void ReceiveSettings(GlobalSettings? settings) {
             setter(settings ?? new());
         }
     }
