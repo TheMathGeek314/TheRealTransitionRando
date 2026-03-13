@@ -5,7 +5,7 @@ using UnityEngine;
 namespace TheRealTransitionRando {
     public class TheRealTransitionRando: Mod, IGlobalSettings<GlobalSettings>, ILocalSettings<LocalSettings> {
         new public string GetName() => "TheRealTransitionRando";
-        public override string GetVersion() => "1.0.0.2";
+        public override string GetVersion() => "1.0.1.0";
 
         public static GlobalSettings Settings { get; set; } = new();
         public void OnLoadGlobal(GlobalSettings s) => Settings = s;

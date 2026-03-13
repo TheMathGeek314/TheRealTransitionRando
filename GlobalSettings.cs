@@ -2,7 +2,7 @@
 
 namespace TheRealTransitionRando {
     public class GlobalSettings {
-        public bool Enabled;
+        public bool Enabled = false;
     }
 
     public class LocalSettings {

@@ -6,6 +6,8 @@ using ItemChanger;
 using ItemChanger.Tags;
 using MenuChanger;
 using MenuChanger.MenuElements;
+using RandomizerMod.Logging;
+using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
 
 namespace TheRealTransitionRando {
@@ -16,6 +18,7 @@ namespace TheRealTransitionRando {
             LogicAdder.Hook();
 
             RandoController.OnExportCompleted += AddModules;
+            SettingsLog.AfterLogSettings += LogRandoSettings;
 
             if(ModHooks.GetMod("ItemSyncMod") is Mod) {
                 TransitionItem.SetupReflection();
@@ -89,6 +92,11 @@ namespace TheRealTransitionRando {
                 return;
             ItemChangerMod.Modules.GetOrAdd<ItemChanger.Modules.RemoveInfectedBlockades>();
             ItemChangerMod.Modules.GetOrAdd<ItemChanger.Modules.ReversePathOfPainSaw>();
+        }
+
+        private static void LogRandoSettings(LogArguments args, TextWriter w) {
+            w.WriteLine("Logging TheRealTransitionRando settings:");
+            w.WriteLine(JsonUtil.Serialize(TheRealTransitionRando.Settings));
         }
     }
 }
