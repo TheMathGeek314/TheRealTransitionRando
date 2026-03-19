@@ -45,12 +45,15 @@ namespace TheRealTransitionRando {
         }
 
         private async void GiveAsync() {
-            if(HeroController.instance.cState.spellQuake) {
-                HeroController.instance.gameObject.LocateMyFSM("Spell Control").SendEvent("HERO LANDED");
-                while(HeroController.instance.cState.spellQuake) {
+            HeroController hc = HeroController.instance;
+            if(hc.cState.spellQuake) {
+                hc.gameObject.LocateMyFSM("Spell Control").SendEvent("HERO LANDED");
+                while(hc.cState.spellQuake) {
                     await Task.Yield();
                 }
             }
+            hc.cState.onConveyor = false;
+            hc.cState.onConveyorV = false;
             TransitionData td = TheRealTransitionRando.localSettings.finalItemData[name];
             GameManager.instance.BeginSceneTransition(new GameManager.SceneLoadInfo {
                 SceneName = td.targetScene,
