@@ -88,17 +88,32 @@ namespace TheRealTransitionRando {
         private static void DefinePools(RequestBuilder rb) {
             if(!TheRealTransitionRando.Settings.Enabled)
                 return;
-            ItemGroupBuilder trtrGroup = null;
-            string label = RBConsts.SplitGroupPrefix + "RealTransition";
-            foreach(ItemGroupBuilder igb in rb.EnumerateItemGroups()) {
-                if(igb.label == label) {
-                    trtrGroup = igb;
-                    break;
+            GlobalSettings gs = TheRealTransitionRando.Settings;
+            if(rb.gs.SplitGroupSettings.RandomizeOnStart) {
+                if(gs.Group >= 0 && gs.Group <= 2) {
+                    gs.Group = rb.rng.Next(3);
                 }
             }
-            trtrGroup ??= rb.MainItemStage.AddItemGroup(label);
+            ItemGroupBuilder trtrGroup = null;
+            if(gs.Group > 0) {
+                string label = RBConsts.SplitGroupPrefix + gs.Group;
+                foreach(ItemGroupBuilder igb in rb.EnumerateItemGroups()) {
+                    if(igb.label == label) {
+                        trtrGroup = igb;
+                        break;
+                    }
+                }
+                trtrGroup ??= rb.MainItemStage.AddItemGroup(label);
+            }
+            
             rb.OnGetGroupFor.Subscribe(0.01f, ResolveTrtrGroup);
             bool ResolveTrtrGroup(RequestBuilder rb, string name, RequestBuilder.ElementType type, out GroupBuilder gb) {
+                if(type == RequestBuilder.ElementType.Item || type == RequestBuilder.ElementType.Location) {
+                    if(name.StartsWith("Transition-")) {
+                        gb = trtrGroup;
+                        return true;
+                    }
+                }
                 gb = default;
                 return false;
             }

@@ -4,8 +4,6 @@ using System.Linq;
 using System.Reflection;
 using ItemChanger;
 using ItemChanger.Tags;
-using MenuChanger;
-using MenuChanger.MenuElements;
 using RandomizerMod.Logging;
 using RandomizerMod.RandomizerData;
 using RandomizerMod.RC;
@@ -13,7 +11,7 @@ using RandomizerMod.RC;
 namespace TheRealTransitionRando {
     internal static class RandoInterop {
         public static void Hook() {
-            RandomizerMod.Menu.RandomizerMenuAPI.AddMenuPage(_ => {}, BuildConnectionMenuButton);
+            RandoMenuPage.Hook();
             RequestModifier.Hook();
             LogicAdder.Hook();
 
@@ -34,22 +32,6 @@ namespace TheRealTransitionRando {
             if(ModHooks.GetMod("RandoMapCoreMod") is Mod) {
                 MapCoreInterop.Hook();
             }
-        }
-
-        private static bool BuildConnectionMenuButton(MenuPage landingPage, out SmallButton settingsButton) {
-            SmallButton button = new(landingPage, "TheRealTransitionRando");
-
-            void UpdateButtonColor() {
-                button.Text.color = TheRealTransitionRando.Settings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
-            }
-
-            UpdateButtonColor();
-            button.OnClick += () => {
-                TheRealTransitionRando.Settings.Enabled = !TheRealTransitionRando.Settings.Enabled;
-                UpdateButtonColor();
-            };
-            settingsButton = button;
-            return true;
         }
 
         public static void DefineLocations() {

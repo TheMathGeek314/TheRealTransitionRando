@@ -31,7 +31,7 @@ namespace TheRealTransitionRando {
             On.GameManager.OnNextLevelReady += sceneLoad;
             On.PlayMakerFSM.OnEnable += editFsm;
             if(ModHooks.GetMod("RecentItems") is Mod) {
-                HookRecentItems();
+                RecentItemsInterop.Hook();
             }
         }
 
@@ -39,22 +39,8 @@ namespace TheRealTransitionRando {
             On.GameManager.OnNextLevelReady -= sceneLoad;
             On.PlayMakerFSM.OnEnable -= editFsm;
             if(ModHooks.GetMod("RecentItems") is Mod) {
-                UnhookRecentItems();
+                RecentItemsInterop.Unhook();
             }
-        }
-
-        private static void HookRecentItems() {
-            RecentItemsDisplay.Events.ModifyDisplayItem += DoRecentFilter;
-        }
-
-        private static void UnhookRecentItems() {
-            RecentItemsDisplay.Events.ModifyDisplayItem -= DoRecentFilter;
-        }
-
-        private static void DoRecentFilter(RecentItemsDisplay.ItemDisplayArgs obj) {
-            if(obj != null)
-                if(obj.DisplayName.StartsWith("Transition-"))
-                    obj.IgnoreItem = true;
         }
 
         private static void sceneLoad(On.GameManager.orig_OnNextLevelReady orig, GameManager self) {
@@ -69,14 +55,29 @@ namespace TheRealTransitionRando {
                 await Task.Yield();
             TransitionPoint[] transitions = GameObject.FindObjectsOfType<TransitionPoint>();
             foreach(TransitionPoint tp in transitions) {
-                if(!tp.isADoor) {
-                    if(Ref.Settings.Placements.ContainsKey($"Transition-{tp.gameObject.scene.name}[{tp.gameObject.name}]")) {
-                        tp.gameObject.layer = LayerMask.NameToLayer("Terrain");
-                        tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
-                        tp.gameObject.AddComponent<TransitionCollider>();
-                    }
+                if(tp.isADoor)
+                    continue;
+                string revisedName = getRevisedObjectName(tp.gameObject.scene.name, tp.gameObject.name);
+                if(Ref.Settings.Placements.ContainsKey($"Transition-{tp.gameObject.scene.name}[{revisedName}]")) {
+                    tp.gameObject.layer = LayerMask.NameToLayer("Terrain");
+                    tp.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
+                    tp.gameObject.AddComponent<TransitionCollider>().revisedObjectName = revisedName;
                 }
             }
+        }
+
+        private static string getRevisedObjectName(string scene, string objectName) {
+            if(scene == "Deepnest_14" && objectName.StartsWith("left"))
+                return "left1";
+            else if(scene == "Fungus2_14" && objectName.StartsWith("bot"))
+                return "bot3";
+            else if(scene == "Fungus2_15" && objectName.StartsWith("top"))
+                return "top3";
+            else if(scene == "Fungus2_25" && objectName.StartsWith("right"))
+                return "right1";
+            else if(scene == "Crossroads_01" && objectName == "top2")
+                return "top1";
+            return objectName;
         }
 
         private static void editFsm(On.PlayMakerFSM.orig_OnEnable orig, PlayMakerFSM self) {
@@ -125,27 +126,23 @@ namespace TheRealTransitionRando {
 
     public class TransitionCollider: MonoBehaviour {
         private TransitionPoint tp;
+        public string revisedObjectName;
         private string locationName;
         private bool isRandod;
         private static FieldInfo _activated = typeof(TransitionPoint).GetField("activated", BindingFlags.NonPublic | BindingFlags.Instance);
 
         public TransitionCollider() {
             tp = gameObject.GetComponent<TransitionPoint>();
+            initialize();
+        }
+
+        private async void initialize() {
+            while(revisedObjectName == null)
+                await Task.Yield();
             string scene = gameObject.scene.name;
-            string objectName = gameObject.name;
-            if(scene == "Deepnest_14" && objectName.StartsWith("left"))
-                objectName = "left1";
-            else if(scene == "Fungus2_14" && objectName.StartsWith("bot"))
-                objectName = "bot3";
-            else if(scene == "Fungus2_15" && objectName.StartsWith("top"))
-                objectName = "top3";
-            else if(scene == "Fungus2_25" && objectName.StartsWith("right"))
-                objectName = "right1";
-            else if(scene == "Crossroads_01" && objectName == "top2")
-                objectName = "top1";
-            isRandod = TheRealTransitionRando.localSettings.finalLocationData.ContainsKey($"{scene}, {objectName}");
+            isRandod = TheRealTransitionRando.localSettings.finalLocationData.ContainsKey($"{scene}, {revisedObjectName}");
             if(isRandod)
-                locationName = $"Transition-{scene}[{objectName}]";
+                locationName = $"Transition-{scene}[{revisedObjectName}]";
         }
 
         void OnCollisionEnter2D(Collision2D collision) {
@@ -163,6 +160,22 @@ namespace TheRealTransitionRando {
                     ap.GiveAll(giveInfo);
                 }
             }
+        }
+    }
+
+    internal class RecentItemsInterop {
+        public static void Hook() {
+            RecentItemsDisplay.Events.ModifyDisplayItem += DoRecentFilter;
+        }
+
+        public static void Unhook() {
+            RecentItemsDisplay.Events.ModifyDisplayItem -= DoRecentFilter;
+        }
+
+        private static void DoRecentFilter(RecentItemsDisplay.ItemDisplayArgs obj) {
+            if(obj != null)
+                if(obj.DisplayName.StartsWith("Transition-"))
+                    obj.IgnoreItem = true;
         }
     }
 }
