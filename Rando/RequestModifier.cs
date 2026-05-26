@@ -146,7 +146,8 @@ namespace TheRealTransitionRando {
         }
 
         private static void CheckCompatibilities(RequestBuilder _) {
-            CompatChecks.Run();
+            if(TheRealTransitionRando.Settings.Enabled)
+                CompatChecks.Run();
         }
 
         private static void SetRoomRando(LogicManager lm, GenerationSettings gs, ProgressionInitializer pi) {
