@@ -18,20 +18,20 @@ namespace TheRealTransitionRando {
             RandoController.OnExportCompleted += AddModules;
             SettingsLog.AfterLogSettings += LogRandoSettings;
 
-            if(ModHooks.GetMod("ItemSyncMod") is Mod) {
+            if(ModHooks.GetMod("ItemSyncMod") is Mod)
                 TransitionItem.SetupReflection();
-            }
-
+            
             DefineLocations();
             DefineItems();
 
-            if(ModHooks.GetMod("RandoSettingsManager") is Mod) {
+            if(ModHooks.GetMod("RandoSettingsManager") is Mod)
                 RSMInterop.Hook();
-            }
 
-            if(ModHooks.GetMod("RandoMapCoreMod") is Mod) {
+            if(ModHooks.GetMod("RandoMapCoreMod") is Mod)
                 MapCoreInterop.Hook();
-            }
+
+            if(ModHooks.GetMod("ConnectionSettingsRando") is Mod)
+                CSRInterop.Hook();
         }
 
         public static void DefineLocations() {

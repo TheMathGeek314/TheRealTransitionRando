@@ -71,6 +71,9 @@
     <Reference Include="BugPrince">
       <HintPath>..\_dependencies\BugPrince.dll</HintPath>
     </Reference>
+    <Reference Include="ConnectionSettingsRando">
+      <HintPath>..\_dependencies\ConnectionSettingsRando.dll</HintPath>
+    </Reference>
     <Reference Include="GalaxyCSharp">
       <HintPath>$(HollowKnightRefs)/GalaxyCSharp.dll</HintPath>
     </Reference>

@@ -9,6 +9,7 @@ Unreliable or unavoidable locations (such as Seer, Grubfather, journal entries, 
 
 ## Interop and other mods
 - This should work normally with **RandoSettingsManager**.
+- This should work normally with **ConnectionSettingsRando**.
 - **RandoMapCore** was updated to allow for pathfinder support (thank you Phenomenal).
 - This connection does not interact with base Rando's transition randomizer settings, so rando's settings will not make a difference.
   - **TrandoPlus** settings will likely also not matter, but some configurations may throw errors during generation.
